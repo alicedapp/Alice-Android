@@ -1,0 +1,10 @@
+#Fri Sep 06 11:39:25 AEST 2019
+base.2=/Users/lmcmz/alicex-dev/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.2=classes3.dex
+base.1=/Users/lmcmz/alicex-dev/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.1=classes2.dex
+base.0=/Users/lmcmz/alicex-dev/android/app/build/intermediates/transforms/dexMerger/debug/0
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex
