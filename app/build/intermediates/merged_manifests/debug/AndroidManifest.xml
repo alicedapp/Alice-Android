@@ -15,24 +15,26 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Include required permissions for Google Maps API to run. -->
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <uses-feature
-        android:glEsVersion="0x00020000"
-        android:required="true" /> <!-- Required by older versions of Google Play services to create GCM registration tokens -->
-    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" /> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
     <permission
         android:name="com.alice.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.alice.permission.C2D_MESSAGE" /> <!-- Required, makes sure notifications are delivered on time. -->
+    <uses-permission android:name="com.alice.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Required, makes sure notifications are delivered on time. -->
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <!--
- Required so the device vibrates on receiving a push notification.
-         Vibration settings of the device still apply.
-    -->
-    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <!--
  Use to restore notifications the user hasn't interacted with.
          They could be missed notifications if the user reboots their device if this isn't in place.
@@ -57,11 +59,8 @@
     <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
 
     <uses-feature
-        android:name="android.hardware.camera"
-        android:required="false" />
-    <uses-feature
-        android:name="android.hardware.camera.autofocus"
-        android:required="false" />
+        android:glEsVersion="0x00020000"
+        android:required="true" />
 
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
 
@@ -72,13 +71,14 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
-        android:name="com.alice.MainApplication"
+        android:name="com.alice.application.MainApplication"
         android:allowBackup="false"
         android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
+        android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
         <meta-data
@@ -86,7 +86,7 @@
             android:value="ocr, face, barcode" />
 
         <activity
-            android:name="com.alice.MainActivity"
+            android:name="com.alice.activity.Main1Activity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:label="@string/app_name"
             android:windowSoftInputMode="adjustResize" >
@@ -97,6 +97,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+        <activity android:name="com.alice.RnActivity" />
 
         <meta-data
             android:name="onesignal_app_id"

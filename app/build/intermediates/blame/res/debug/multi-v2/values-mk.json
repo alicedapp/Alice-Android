@@ -1,44 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/lmcmz/alicex-dev/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mk/values-mk.xml",
+            "outputFile": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mk\\values-mk.xml",
             "map": [
                 {
-                    "source": "/Users/lmcmz/.gradle/caches/transforms-2/files-2.1/cf95d03c68c785af2e7170986bfc8a6a/res/values-mk/values.xml",
+                    "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\734736e48fabe500343d842433ebdcb6\\res\\values-mk\\values-mk.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "195",
-                        "endOffsets": "442"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,213,317,425,511,616,735,818,900,997,1096,1193,1293,1400,1499,1600,1696,1793,1884,1971,2077,2184,2285,2392,2503,2607,2763,2861",
+                        "endColumns": "107,103,107,85,104,118,82,81,96,98,96,99,106,98,100,95,96,90,86,105,106,100,106,110,103,155,97,83",
+                        "endOffsets": "208,312,420,506,611,730,813,895,992,1091,1188,1288,1395,1494,1595,1691,1788,1879,1966,2072,2179,2280,2387,2498,2602,2758,2856,2940"
                     },
                     "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "4038",
-                        "endColumns": "195",
-                        "endOffsets": "4229"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,49",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,213,317,425,511,616,735,818,900,997,1096,1193,1293,1400,1499,1600,1696,1793,1884,1971,2077,2184,2285,2392,2503,2607,2763,5798",
+                        "endColumns": "107,103,107,85,104,118,82,81,96,98,96,99,106,98,100,95,96,90,86,105,106,100,106,110,103,155,97,83",
+                        "endOffsets": "208,312,420,506,611,730,813,895,992,1091,1188,1288,1395,1494,1595,1691,1788,1879,1966,2072,2179,2280,2387,2498,2602,2758,2856,5877"
                     }
                 },
                 {
-                    "source": "/Users/lmcmz/.gradle/caches/transforms-2/files-2.1/d62c4403f73fcc9184c85316a81e33d1/res/values-mk/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "190",
-                        "endColumns": "96",
-                        "endOffsets": "286"
-                    },
-                    "to": {
-                        "startLines": "48",
-                        "startColumns": "4",
-                        "startOffsets": "5697",
-                        "endColumns": "100",
-                        "endOffsets": "5793"
-                    }
-                },
-                {
-                    "source": "/Users/lmcmz/.gradle/caches/transforms-2/files-2.1/b369bf3d81ae465d47a9594718e783b3/res/values-mk/values-mk.xml",
+                    "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\d88516f90671f369e8378c47f723f283\\res\\values-mk\\values-mk.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -55,7 +38,24 @@
                     }
                 },
                 {
-                    "source": "/Users/lmcmz/.gradle/caches/transforms-2/files-2.1/d5d4d89fa0238f250e2adeb71c3e98d7/res/values-mk/values.xml",
+                    "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a3ff70f8b0ea0497d606035f7b6de2ce\\res\\values-mk\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "195",
+                        "endOffsets": "442"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "4038",
+                        "endColumns": "195",
+                        "endOffsets": "4229"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\9b07e9a8b4b143143f784eb0beffc543\\res\\values-mk\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -72,7 +72,7 @@
                     }
                 },
                 {
-                    "source": "/Users/lmcmz/.gradle/caches/transforms-2/files-2.1/fadd750a59667a6005e6bf6fc9e41f8e/res/values-mk/values.xml",
+                    "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\69dc5e04515b9f26bf1d89d4b42a14c5\\res\\values-mk\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -89,20 +89,20 @@
                     }
                 },
                 {
-                    "source": "/Users/lmcmz/.gradle/caches/transforms-2/files-2.1/ffbdd92c9fe03e6c585469c8ba5f8103/res/values-mk/values-mk.xml",
+                    "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\2d50dfcbd98e781655397cdf13a80a72\\res\\values-mk\\values.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,213,317,425,511,616,735,818,900,997,1096,1193,1293,1400,1499,1600,1696,1793,1884,1971,2077,2184,2285,2392,2503,2607,2763,2861",
-                        "endColumns": "107,103,107,85,104,118,82,81,96,98,96,99,106,98,100,95,96,90,86,105,106,100,106,110,103,155,97,83",
-                        "endOffsets": "208,312,420,506,611,730,813,895,992,1091,1188,1288,1395,1494,1595,1691,1788,1879,1966,2072,2179,2280,2387,2498,2602,2758,2856,2940"
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "190",
+                        "endColumns": "96",
+                        "endOffsets": "286"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,49",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,213,317,425,511,616,735,818,900,997,1096,1193,1293,1400,1499,1600,1696,1793,1884,1971,2077,2184,2285,2392,2503,2607,2763,5798",
-                        "endColumns": "107,103,107,85,104,118,82,81,96,98,96,99,106,98,100,95,96,90,86,105,106,100,106,110,103,155,97,83",
-                        "endOffsets": "208,312,420,506,611,730,813,895,992,1091,1188,1288,1395,1494,1595,1691,1788,1879,1966,2072,2179,2280,2387,2498,2602,2758,2856,5877"
+                        "startLines": "48",
+                        "startColumns": "4",
+                        "startOffsets": "5697",
+                        "endColumns": "100",
+                        "endOffsets": "5793"
                     }
                 }
             ]

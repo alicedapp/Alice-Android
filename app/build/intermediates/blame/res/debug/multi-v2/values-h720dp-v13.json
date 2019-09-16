@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/lmcmz/alicex-dev/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/lmcmz/.gradle/caches/transforms-2/files-2.1/ffbdd92c9fe03e6c585469c8ba5f8103/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\734736e48fabe500343d842433ebdcb6\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

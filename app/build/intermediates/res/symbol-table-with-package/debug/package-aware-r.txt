@@ -822,6 +822,7 @@ id FUNCTION
 id META
 id SHIFT
 id SYM
+id Transfer
 id accessibility_hint
 id accessibility_role
 id action0
@@ -899,6 +900,8 @@ id focusCrop
 id forever
 id fps_text
 id front
+id getBalance
+id getWallet
 id group_divider
 id home
 id homeAsUp
@@ -908,6 +911,7 @@ id icon_group
 id icon_only
 id ifRoom
 id image
+id importWallet
 id info
 id infowindow_description
 id infowindow_title
@@ -1000,6 +1004,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id toRn
 id top
 id topPanel
 id torch
@@ -1045,6 +1050,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_main
 layout annotation
 layout dev_loading_view
 layout fps_view

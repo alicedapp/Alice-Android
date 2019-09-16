@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/lmcmz/alicex-dev/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-he/values-he.xml",
+            "outputFile": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-he\\values-he.xml",
             "map": [
                 {
-                    "source": "/Users/lmcmz/.gradle/caches/transforms-2/files-2.1/f80fd4391fb48d1b42bbc70a6374fdb4/res/values-he/values-he.xml",
+                    "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\5db3de06e8bf45e6ac8aa9f2c17e6987\\res\\values-he\\values-he.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
