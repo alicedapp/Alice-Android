@@ -44,4 +44,11 @@ public abstract class BaseActivity<P extends BasePresenter> extends Activity {
         Toast.makeText(this,text,Toast.LENGTH_LONG).show();
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if(mPresenter!=null){
+            mPresenter.onDestroy();
+        }
+    }
 }

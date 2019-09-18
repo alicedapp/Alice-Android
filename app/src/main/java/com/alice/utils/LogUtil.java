@@ -20,7 +20,7 @@ public class LogUtil {
     public static final int NOTHING = 6;
     //public static final int LEVEL = VERBOSE;//打印所有等级的信息
     //
-    public static int LEVEL = NOTHING;//关闭所有等级的信息
+    public static int LEVEL = VERBOSE;//关闭所有等级的信息
 
     public static String TAG = IConfig.TAG;
 

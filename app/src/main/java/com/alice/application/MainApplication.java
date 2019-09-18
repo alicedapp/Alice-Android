@@ -5,6 +5,7 @@ import android.app.Application;
 import android.content.Context;
 
 import com.alice.BuildConfig;
+import com.alice.CustomToastPackage;
 import com.alice.R;
 import com.alice.async.MainHandler;
 import com.alice.config.IConfig;
@@ -49,7 +50,8 @@ public class MainApplication extends Application implements ReactApplication {
               new CodePush(getResources().getString(R.string.reactNativeCodePush_androidDeploymentKey), getApplicationContext(), BuildConfig.DEBUG),
               new RNCameraPackage(),
               new ReactNativeOneSignalPackage(),
-              new RCTMGLPackage()
+              new RCTMGLPackage(),
+              new CustomToastPackage()
       );
     }
 

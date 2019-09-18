@@ -18,4 +18,8 @@ public abstract class BasePresenter<GV extends IBaseView> {
 
     }
 
+    public void onDestroy(){
+
+    }
+
 }

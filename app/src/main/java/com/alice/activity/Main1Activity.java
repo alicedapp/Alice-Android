@@ -1,7 +1,6 @@
 package com.alice.activity;
 
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.view.LayoutInflater;
 import android.view.View;
 
@@ -9,12 +8,13 @@ import com.alice.R;
 import com.alice.activity.base.BaseActivity;
 import com.alice.customView.BaseDialog;
 import com.alice.presenter.MainPresenter;
-import com.alice.utils.PermissionUtils;
 import com.alice.view.IMainView;
 
 import butterknife.OnClick;
 
-
+/**
+ * create by zhhr on 2019/09/18
+ */
 public class Main1Activity extends BaseActivity<MainPresenter> implements IMainView {
     private BaseDialog transformDialog;
 
