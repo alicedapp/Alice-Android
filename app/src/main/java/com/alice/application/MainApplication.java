@@ -1,9 +1,13 @@
 package com.alice.application;
 
+import android.app.ActivityManager;
 import android.app.Application;
+import android.content.Context;
 
 import com.alice.BuildConfig;
 import com.alice.R;
+import com.alice.async.MainHandler;
+import com.alice.config.IConfig;
 import com.facebook.react.ReactApplication;
 import com.horcrux.svg.SvgPackage;
 import com.mkuczera.RNReactNativeHapticFeedbackPackage;
@@ -69,8 +73,24 @@ public class MainApplication extends Application implements ReactApplication {
 
 
   private void init() {
-    //init sp
-    Hawk.init(this).build();
+    boolean isCoreProcess = false;
+    List<ActivityManager.RunningAppProcessInfo> processInfos = ((ActivityManager) getSystemService(Context.ACTIVITY_SERVICE)).getRunningAppProcesses();
+    if (processInfos != null) {
+      int pid = android.os.Process.myPid();
+      for (ActivityManager.RunningAppProcessInfo info : processInfos) {
+        if (info.pid == pid) {
+          if (IConfig.CORE_PROCESS_NAME.equals(info.processName)) {
+            isCoreProcess = true;
+          }
+          break;
+        }
+      }
+    }
+    //主进程
+    if (isCoreProcess) {
+      //init sp
+      Hawk.init(this).build();
+      MainHandler.init(this);
+    }
   }
-
 }

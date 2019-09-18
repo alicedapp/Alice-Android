@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.mapbox.mapboxsdk:mapbox-android-plugin-markerview-v7:0.2.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/383abe74947b0dd3c7ec4a564bbf2e65/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/383abe74947b0dd3c7ec4a564bbf2e65/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aa0cdd0bc2baaf1ca16fb8c71734ad25/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aa0cdd0bc2baaf1ca16fb8c71734ad25/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

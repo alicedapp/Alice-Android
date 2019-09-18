@@ -7,6 +7,8 @@ import android.widget.Toast;
 
 import com.alice.presenter.base.BasePresenter;
 
+import butterknife.ButterKnife;
+
 
 public abstract class BaseActivity<P extends BasePresenter> extends Activity {
     protected P mPresenter;
@@ -27,6 +29,7 @@ public abstract class BaseActivity<P extends BasePresenter> extends Activity {
         setContentView(getLayout());
         initPresenter(getIntent());
         checkPresenterIsNull();
+        ButterKnife.bind(this);
         initView();
     }
 
@@ -37,7 +40,7 @@ public abstract class BaseActivity<P extends BasePresenter> extends Activity {
     }
 
     //设置打印方法
-    public void showToast(String text){
+    public void toast(String text){
         Toast.makeText(this,text,Toast.LENGTH_LONG).show();
     }
 

@@ -1,4 +1,4 @@
-#Mon Sep 16 20:28:25 CST 2019
+#Tue Sep 17 20:57:39 CST 2019
 base.10=D\:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\18
 base.9=D\:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\17
 base.8=D\:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\16

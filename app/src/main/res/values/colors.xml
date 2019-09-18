@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 不同透明度的白色和黑色 -->
+    <color name="white">#ffffff</color>
+    <color name="white_0_transparent">#00ffffff</color>
+    <color name="white_20_transparent">#33ffffff</color>
+    <color name="white_30_transparent">#4dffffff</color>
+    <color name="white_40_transparent">#66ffffff</color>
+    <color name="white_50_transparent">#80ffffff</color>
+    <color name="white_60_transparent">#9affffff</color>
+    <color name="white_70_transparent">#b3ffffff</color>
+    <color name="white_80_transparent">#ccffffff</color>
+    <color name="white_90_transparent">#e5ffffff</color>
+    <color name="white_95_transparent">#f2ffffff</color>
+    <color name="white_100_transparent">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="black_03_transparent">#08000000</color>
+    <color name="black_04_transparent">#0A000000</color>
+    <color name="black_05_transparent">#0D000000</color>
+    <color name="black_06_transparent">#0F000000</color>
+    <color name="black_10_transparent">#19000000</color>
+    <color name="black_15_transparent">#26000000</color>
+    <color name="black_20_transparent">#30000000</color>
+    <color name="black_25_transparent">#36000000</color>
+    <color name="black_30_transparent">#4D000000</color>
+    <color name="black_35_transparent">#4B000000</color>
+    <color name="black_40_transparent">#66000000</color>
+    <color name="black_50_transparent">#7F000000</color>
+    <color name="black_60_transparent">#99000000</color>
+    <color name="black_70_transparent">#B2000000</color>
+    <color name="black_75_transparent">#BF000000</color>
+    <color name="black_80_transparent">#CC000000</color>
+    <color name="black_90_transparent">#E5000000</color>
+    <color name="black_100_transparent">#ff000000</color>
+    <color name="transparent">#00000000</color>
+
+    <drawable name="transparent_background">#00000000</drawable>
+    <drawable name="black_background">#D8D8D8</drawable>
+
+    <color name="image_gray_placeholder">#d9d9d9</color>
+    <color name="placeholder_1">#ffdcccb3</color>
+    <color name="placeholder_2">#ffcac0ba</color>
+    <color name="placeholder_3">#fff0d4d9</color>
+    <color name="placeholder_4">#ffd5dbd3</color>
+
+    <color name="color_ff4978">#ff4978</color>
+    <color name="color_eee">#eeeeee</color>
+    <color name="color_f0f2f8">#f0f2f8</color>
+    <color name="color_B3f0f2f8">#B3f0f2f8</color>
+    <color name="color_ff8852">#FF8852</color>
+    <color name="color_83acff">#83ACFF</color>
+    <color name="color_83acff_10">#1983ACFF</color>
+    <color name="color_d8d8d8">#D8D8D8</color>
+    <color name="color_339cff">#339CFF</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_E7EFFF">#E7EFFF</color>
+    <color name="color_F4F4F4">#F4F4F4</color>
+    <color name="color_FFE3D6">#FFE3D6</color>
+    <color name="color_FF652D">#FF652D</color>
+    <color name="color_FFA448">#FFA448</color>
+    <color name="color_FFF4E8">#FFF4E8</color>
+    <color name="color_EC380D">#EC380D</color>
+    <color name="color_16191b">#16191b</color>
+    <color name="color_dddddd">#dddddd</color>
+    <color name="color_f2f2f2">#f2f2f2</color>
+    <color name="color_92d0ff">#92d0ff</color>
+    <color name="color_ffb148">#ffb148</color>
+</resources>

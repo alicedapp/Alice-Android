@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
@@ -26,11 +26,12 @@ import java.io.File;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.schedulers.Schedulers;
 
+import static com.alice.config.Constants.MEMORIZINGWORDS;
+
 public class MainActivity extends Activity {
     private Web3j web3j;
     private Credentials credentials;
     public final static String psw = "zhhr1122";
-    public final static String  MEMORIZINGWORDS= "memorizingWords";
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

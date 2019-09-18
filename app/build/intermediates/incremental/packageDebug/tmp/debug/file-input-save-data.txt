@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Sep 11 11:03:14 CST 2019
+#Tue Sep 17 20:57:42 CST 2019
 60.set=NATIVE_RESOURCE
 52.set=NATIVE_RESOURCE
 53.base=D\:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
@@ -48,7 +48,7 @@
 77.path=classes.dex
 8.set=NATIVE_RESOURCE
 88.baseType=DIRECTORY
-30.path=lib/x86/libjsc.so
+30.path=lib/armeabi-v7a/libconceal.so
 48.baseType=DIRECTORY
 1.base=D\:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 45.base=D\:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\merged_assets\\debug\\out
@@ -385,7 +385,7 @@ count=98
 56.baseType=DIRECTORY
 16.baseType=DIRECTORY
 78.path=lib/x86/libface_detector_v2_jni.so
-31.path=lib/armeabi-v7a/libconceal.so
+31.path=lib/x86/libjsc.so
 2.base=D\:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 46.base=D\:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
 38.path=lib/armeabi-v7a/libjscexecutor.so

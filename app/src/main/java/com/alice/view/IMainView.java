@@ -5,5 +5,5 @@ public interface IMainView extends IBaseView{
     void createWallet();
     void importWallet();
     void checkBalances();
-    void transfer(String address);
+    void transfer();
 }

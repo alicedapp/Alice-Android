@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/view_dimen_30"
+        android:layout_marginTop="@dimen/view_dimen_30"
+        android:layout_marginRight="@dimen/view_dimen_30"
+        android:layout_marginBottom="@dimen/view_dimen_30"
+        android:background="@drawable/bg_corner_24_solid_f0f2f8"
+        android:hint="Please enter the address"
+        android:padding="@dimen/view_dimen_30"
+        android:textSize="@dimen/text_font_size_42" />
+
+    <EditText
+        android:id="@+id/et_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/view_dimen_30"
+        android:layout_marginTop="@dimen/view_dimen_30"
+        android:layout_marginRight="@dimen/view_dimen_30"
+        android:layout_marginBottom="@dimen/view_dimen_30"
+        android:background="@drawable/bg_corner_24_solid_f0f2f8"
+        android:hint="Please enter the amount"
+        android:padding="@dimen/view_dimen_30"
+        android:textSize="@dimen/text_font_size_42" />
+
+</LinearLayout>
