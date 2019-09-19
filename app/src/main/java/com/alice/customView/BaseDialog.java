@@ -72,6 +72,7 @@ public class BaseDialog extends Dialog {
             mDialog.tvTitle.setText(mDialog.mTitle);
         }
         if (!TextUtils.isEmpty(mDialog.mMessage)) {
+            mDialog.tvMsg.setVisibility(View.VISIBLE);
             mDialog.tvMsg.setText(mDialog.mMessage);
         }
         if(!TextUtils.isEmpty(negativeText)){

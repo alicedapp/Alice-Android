@@ -10,10 +10,14 @@ import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.alice.R;
+import com.alice.utils.UnitUtlis;
 
+import org.web3j.utils.Convert;
 
+import java.math.BigDecimal;
 
 
 public class TransferDialog extends Dialog {
@@ -36,7 +40,9 @@ public class TransferDialog extends Dialog {
     public TransferDialog(Context context,String address,String value) {
         super(context, R.style.MyDialog);
         this.mAddress = address;
-        this.mValue = value;
+        String realValue = UnitUtlis.hex2decimal(value.substring(2));
+        BigDecimal bigDecimal = Convert.fromWei(realValue,Convert.Unit.ETHER);
+        this.mValue = bigDecimal.toString();
     }
 
     public void setOnClickConfirmListener(OnClickConfirmListener onClickConfirmListener) {

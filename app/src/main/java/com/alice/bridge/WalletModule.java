@@ -83,8 +83,7 @@ public class WalletModule extends ReactContextBaseJavaModule {
             transformDialog.setOnClickConfirmListener(new TransferDialog.OnClickConfirmListener() {
                 @Override
                 public void onClickConfirm(String address, String value) {
-                    BigDecimal valueWei = Convert.toWei(value, Convert.Unit.WEI);
-                    Web3jManager.getInstance().transfer(address, valueWei, new BaseListener<TransactionReceipt>() {
+                    Web3jManager.getInstance().transfer(address, value, new BaseListener<TransactionReceipt>() {
                         @Override
                         public void OnSuccess(TransactionReceipt send) {
                             String text = "Transaction complete:" + "trans hash=" + send.getTransactionHash() + "from :" + send.getFrom() + "to:" + send.getTo() + "gas used=" + send.getGasUsed() + "status: " + send.getStatus();
@@ -94,6 +93,7 @@ public class WalletModule extends ReactContextBaseJavaModule {
 
                         @Override
                         public void OnFailed(Throwable e) {
+                            LogUtil.e(e.toString());
                             promise.reject(e.toString());
                         }
                     });

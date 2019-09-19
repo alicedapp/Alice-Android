@@ -1,11 +1,8 @@
 package com.alice.activity;
 
 import android.content.Intent;
-import android.text.TextUtils;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.EditText;
-import android.widget.Toast;
+import android.widget.TextView;
 
 import com.alice.R;
 import com.alice.activity.base.BaseActivity;
@@ -14,13 +11,20 @@ import com.alice.customView.TransferDialog;
 import com.alice.presenter.MainPresenter;
 import com.alice.view.IMainView;
 
+import org.web3j.crypto.Credentials;
+
+import butterknife.BindView;
 import butterknife.OnClick;
 
 /**
  * create by zhhr on 2019/09/18
  */
 public class Main1Activity extends BaseActivity<MainPresenter> implements IMainView {
+    @BindView(R.id.address)
+    TextView mTvAddress;
+
     private TransferDialog transformDialog;
+    private BaseDialog createDialog;
 
     @Override
     protected void initPresenter(Intent intent) {
@@ -46,7 +50,7 @@ public class Main1Activity extends BaseActivity<MainPresenter> implements IMainV
     @Override
     @OnClick({R.id.createWallet})
     public void createWallet() {
-        mPresenter.createWallet();
+        mPresenter.checkWallet();
     }
 
     @Override
@@ -84,6 +88,34 @@ public class Main1Activity extends BaseActivity<MainPresenter> implements IMainV
             });
         }
         transformDialog.show();
+    }
+
+    @Override
+    public void showContent(Credentials credentials) {
+        mTvAddress.setText("address：" + credentials.getAddress());
+    }
+
+    @Override
+    public void showCreateDialog() {
+        if(createDialog == null){
+            createDialog = new BaseDialog.Builder(this)
+                    .setTitle("Replace the key")
+                    .setMessage("You created the key already,Do you want to replace it？")
+                    .setPositiveButton("Replace", v -> {
+                        mPresenter.createWallet();
+                        mTvAddress.setText("");
+                        if(createDialog!=null){
+                            createDialog.dismiss();
+                        }
+                    })
+                    .setNegativeButton("Cancel", v -> {
+                        if(createDialog!=null){
+                            createDialog.dismiss();
+                        }
+                    })
+                    .create();
+        }
+        createDialog.show();
     }
 
     @Override

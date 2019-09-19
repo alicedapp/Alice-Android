@@ -2,22 +2,23 @@ package com.alice.presenter;
 
 import android.app.Activity;
 import android.content.pm.PackageManager;
-import android.util.Log;
-import android.widget.Toast;
+import android.text.TextUtils;
 
 import com.alice.async.BaseListener;
+import com.alice.config.Constants;
 import com.alice.manager.Web3jManager;
 import com.alice.presenter.base.BasePresenter;
 import com.alice.utils.LogUtil;
 import com.alice.utils.PermissionUtils;
 import com.alice.view.IMainView;
+import com.orhanobut.hawk.Hawk;
 
 import org.web3j.crypto.Credentials;
 import org.web3j.protocol.core.methods.response.EthGetBalance;
 import org.web3j.protocol.core.methods.response.TransactionReceipt;
 import org.web3j.utils.Convert;
 
-import java.math.BigDecimal;
+import java.io.File;
 
 public class MainPresenter extends BasePresenter<IMainView> {
 
@@ -35,7 +36,26 @@ public class MainPresenter extends BasePresenter<IMainView> {
         manager = Web3jManager.getInstance();
     }
 
-    public void createWallet() {
+    public void checkWallet() {
+        PERMISSIONS = CREATE;
+        if((PermissionUtils.CheckPermission(PermissionUtils.READ_EXTERNAL_STORAGE,mContext)
+                &&PermissionUtils.CheckPermission(PermissionUtils.WRITE_EXTERNAL_STORAGE,mContext))){
+            //if already create key,tip
+            if(!TextUtils.isEmpty(Hawk.get(Constants.KEY_STORE_PATH))){
+                String path = Hawk.get(Constants.KEY_STORE_PATH);
+                File file = new File(path);
+                if(file.exists()){
+                    mView.showCreateDialog();
+                    return;
+                }
+            }
+            createWallet();
+        }else{
+            PermissionUtils.verifyStoragePermissions(mContext);
+        }
+    }
+
+    public void createWallet(){
         PERMISSIONS = CREATE;
         if((PermissionUtils.CheckPermission(PermissionUtils.READ_EXTERNAL_STORAGE,mContext)
                 &&PermissionUtils.CheckPermission(PermissionUtils.WRITE_EXTERNAL_STORAGE,mContext))){
@@ -62,6 +82,7 @@ public class MainPresenter extends BasePresenter<IMainView> {
             manager.importWallet(new BaseListener<Credentials>() {
                 @Override
                 public void OnSuccess(Credentials credentials) {
+                    mView.showContent(credentials);
                     mView.showToast("Import wallet success,the address is "+credentials.getAddress());
                 }
 
@@ -79,7 +100,7 @@ public class MainPresenter extends BasePresenter<IMainView> {
         manager.checkBalances(new BaseListener<EthGetBalance>(){
             @Override
             public void OnSuccess(EthGetBalance balance) {
-                String blanceETH = Convert.fromWei(balance.getBalance().toString(), Convert.Unit.ETHER).toPlainString().concat("ether");
+                String blanceETH = Convert.fromWei(balance.getBalance().toString(), Convert.Unit.ETHER).toPlainString().concat(" ether");
                 mView.showToast("Get Balance Success,Balance is " + blanceETH);
             }
 
@@ -91,8 +112,7 @@ public class MainPresenter extends BasePresenter<IMainView> {
     }
 
     public void transfer(String address,String value) {
-        BigDecimal valueWei = Convert.toWei(value, Convert.Unit.ETHER);
-        manager.transfer(address,valueWei,new BaseListener<TransactionReceipt>(){
+        manager.transfer(address,value,new BaseListener<TransactionReceipt>(){
 
             @Override
             public void OnSuccess(TransactionReceipt send) {

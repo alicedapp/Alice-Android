@@ -2,10 +2,7 @@ package com.alice.manager;
 
 import android.os.Environment;
 import android.text.TextUtils;
-import android.util.Log;
-import android.widget.Toast;
 
-import com.alice.activity.MainActivity;
 import com.alice.async.BaseListener;
 import com.alice.async.MainHandler;
 import com.alice.async.WorkThreadHandler;
@@ -19,14 +16,14 @@ import org.web3j.protocol.Web3j;
 import org.web3j.protocol.core.DefaultBlockParameter;
 import org.web3j.protocol.core.methods.response.EthGetBalance;
 import org.web3j.protocol.core.methods.response.TransactionReceipt;
-import org.web3j.protocol.exceptions.TransactionException;
 import org.web3j.protocol.http.HttpService;
 import org.web3j.tx.Transfer;
 import org.web3j.utils.Convert;
 
 import java.io.File;
-import java.io.IOException;
+import java.io.FileNotFoundException;
 import java.math.BigDecimal;
+import java.nio.file.NoSuchFileException;
 
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
@@ -90,20 +87,19 @@ public class Web3jManager {
         checkNull(listener);
         WorkThreadHandler.getInstance().post(() -> {
             try {
-                String filePath = Hawk.get(KEY_STORE_PATH);
+                String filePath = Hawk.get(KEY_STORE_PATH,"");
                 File file = new File(filePath);
-                if(!file.exists()){
-                    MainHandler.getInstance().post(() -> {
-                        listener.OnFailed(new IllegalAccessException("Please create wallet first"));
-                    });
-                }
                 mCredentials = WalletUtils.loadCredentials(psw, file);
                 Hawk.put(KEY_ADDRESS,mCredentials.getAddress());
                 LogUtil.d("Import success!Address is " + mCredentials.getAddress());
                 MainHandler.getInstance().post(() -> {
                     listener.OnSuccess(mCredentials);
                 });
-            }catch (Exception e) {
+            }catch (FileNotFoundException e){
+                MainHandler.getInstance().post(() -> {
+                    listener.OnFailed(new IllegalAccessException("Please create wallet first"));
+                });
+            } catch (Exception e) {
                 MainHandler.getInstance().post(() -> {
                     listener.OnFailed(e);
                 });
@@ -154,13 +150,14 @@ public class Web3jManager {
         mCompositeDisposable.add(disposable);
     }
 
-    public void transfer(String address, BigDecimal value, BaseListener<TransactionReceipt> listener) {
+    public void transfer(String address, String value, BaseListener<TransactionReceipt> listener) {
         checkNull(listener);
         if(mCredentials == null){
             listener.OnFailed(new IllegalArgumentException("please import key first!"));
         }
         try {
-            Disposable disposable = Transfer.sendFunds(web3j, mCredentials, address, value, Convert.Unit.WEI)
+            BigDecimal valueWei = Convert.toWei(value, Convert.Unit.ETHER);
+            Disposable disposable = Transfer.sendFunds(web3j, mCredentials, address, valueWei, Convert.Unit.WEI)
                     .flowable()
                     .subscribeOn(Schedulers.io())
                     .unsubscribeOn(Schedulers.io())
