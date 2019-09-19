@@ -1374,6 +1374,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id address
 id adjust_height
 id adjust_width
 id alertTitle
@@ -1466,6 +1467,7 @@ id listMode
 id list_item
 id logoView
 id media_actions
+id memorizingWords
 id message
 id middle
 id multiply
@@ -1484,6 +1486,7 @@ id os_bgimage_notif_bgimage_right_aligned
 id os_bgimage_notif_body
 id os_bgimage_notif_title
 id parentPanel
+id path
 id progress_circular
 id progress_horizontal
 id radio

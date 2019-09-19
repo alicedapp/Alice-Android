@@ -7,7 +7,12 @@ import android.text.TextUtils;
 import com.alice.async.BaseListener;
 import com.alice.config.Constants;
 import com.alice.manager.Web3jManager;
+import com.alice.model.PriceModel;
+import com.alice.net.Api;
+import com.alice.net.ApiConstants;
+import com.alice.net.RequestCallback;
 import com.alice.presenter.base.BasePresenter;
+import com.alice.source.BaseDataSource;
 import com.alice.utils.LogUtil;
 import com.alice.utils.PermissionUtils;
 import com.alice.view.IMainView;
@@ -30,10 +35,12 @@ public class MainPresenter extends BasePresenter<IMainView> {
 
 
     private Web3jManager manager;
+    private BaseDataSource dataSource;
 
     public MainPresenter(Activity context, IMainView view){
         super(context,view);
         manager = Web3jManager.getInstance();
+        dataSource = new BaseDataSource();
     }
 
     public void checkWallet() {
@@ -94,6 +101,22 @@ public class MainPresenter extends BasePresenter<IMainView> {
         }else{
             PermissionUtils.verifyStoragePermissions(mContext);
         }
+        checkPrice();
+    }
+
+    public void checkPrice(){
+        dataSource.execute(dataSource.getService(Api.class).getPriceModel(ApiConstants.CONVERT, 2, 1, "CNY"), new RequestCallback<PriceModel>() {
+
+            @Override
+            public void onSuccess(PriceModel priceModel) {
+                mView.showToast(priceModel.getQuote().getCNY().getPrice() +"");
+            }
+
+            @Override
+            public void OnFailed(Throwable throwable) {
+                mView.showToast(throwable.toString());
+            }
+        });
     }
 
     public void checkBalances() {
@@ -131,6 +154,7 @@ public class MainPresenter extends BasePresenter<IMainView> {
     @Override
     public void onDestroy() {
         manager.clear();
+        dataSource.clear();
     }
 
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
