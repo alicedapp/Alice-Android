@@ -2,16 +2,22 @@ package com.alice.presenter;
 
 import android.app.Activity;
 import android.content.pm.PackageManager;
+import android.util.Log;
+import android.widget.Toast;
 
 import com.alice.async.BaseListener;
 import com.alice.manager.Web3jManager;
 import com.alice.presenter.base.BasePresenter;
+import com.alice.utils.LogUtil;
 import com.alice.utils.PermissionUtils;
 import com.alice.view.IMainView;
 
 import org.web3j.crypto.Credentials;
 import org.web3j.protocol.core.methods.response.EthGetBalance;
+import org.web3j.protocol.core.methods.response.TransactionReceipt;
 import org.web3j.utils.Convert;
+
+import java.math.BigDecimal;
 
 public class MainPresenter extends BasePresenter<IMainView> {
 
@@ -84,8 +90,22 @@ public class MainPresenter extends BasePresenter<IMainView> {
         });
     }
 
-    public void transfer(String address) {
+    public void transfer(String address,String value) {
+        BigDecimal valueWei = Convert.toWei(value, Convert.Unit.ETHER);
+        manager.transfer(address,valueWei,new BaseListener<TransactionReceipt>(){
 
+            @Override
+            public void OnSuccess(TransactionReceipt send) {
+                String text = "Transaction complete:" + "trans hash=" + send.getTransactionHash() + "from :" + send.getFrom() + "to:" + send.getTo() + "gas used=" + send.getGasUsed() + "status: " + send.getStatus();
+                LogUtil.d( text);
+                mView.showToast(text);
+            }
+
+            @Override
+            public void OnFailed(Throwable e) {
+                mView.showToast("Transfer Failed! exception is" + e.toString());
+            }
+        });
     }
 
     @Override

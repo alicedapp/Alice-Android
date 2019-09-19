@@ -1,12 +1,16 @@
 package com.alice.activity;
 
 import android.content.Intent;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.EditText;
+import android.widget.Toast;
 
 import com.alice.R;
 import com.alice.activity.base.BaseActivity;
 import com.alice.customView.BaseDialog;
+import com.alice.customView.TransferDialog;
 import com.alice.presenter.MainPresenter;
 import com.alice.view.IMainView;
 
@@ -16,7 +20,7 @@ import butterknife.OnClick;
  * create by zhhr on 2019/09/18
  */
 public class Main1Activity extends BaseActivity<MainPresenter> implements IMainView {
-    private BaseDialog transformDialog;
+    private TransferDialog transformDialog;
 
     @Override
     protected void initPresenter(Intent intent) {
@@ -60,21 +64,25 @@ public class Main1Activity extends BaseActivity<MainPresenter> implements IMainV
     @Override
     @OnClick({R.id.transfer})
     public void transfer() {
-        View view = LayoutInflater.from(this).inflate(R.layout.layout_tranfer, null);
-        String address = "";
-        transformDialog = new BaseDialog.Builder(this)
-                .setTitle("Transfer")
-                .setCustomView(view)
-                .setPositiveButton("confirm", new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        mPresenter.transfer(address);
-                        if(transformDialog!=null){
-                            transformDialog.dismiss();
-                        }
-                    }
-                })
-                .create();
+        if(transformDialog == null){
+            transformDialog = new TransferDialog(Main1Activity.this);
+            transformDialog.setOnClickConfirmListener(new TransferDialog.OnClickConfirmListener() {
+                @Override
+                public void onClickConfirm(String address, String value) {
+                    mPresenter.transfer(address,value);
+                }
+
+                @Override
+                public void onAddressError(String message) {
+                    toast(message);
+                }
+
+                @Override
+                public void onValueError(String message) {
+                    toast(message);
+                }
+            });
+        }
         transformDialog.show();
     }
 

@@ -53,6 +53,8 @@
     <color name="color_16191b">#16191b</color>
     <color name="color_333333">#333333</color>
     <color name="color_339cff">#339CFF</color>
+    <color name="color_47a6f8">#47a6f8</color>
+    <color name="color_555555">#555555</color>
     <color name="color_83acff">#83ACFF</color>
     <color name="color_83acff_10">#1983ACFF</color>
     <color name="color_92d0ff">#92d0ff</color>
@@ -64,6 +66,9 @@
     <color name="color_FFA448">#FFA448</color>
     <color name="color_FFE3D6">#FFE3D6</color>
     <color name="color_FFF4E8">#FFF4E8</color>
+    <color name="color_aaaaaa">#aaaaaa</color>
+    <color name="color_bbbbbb">#bbbbbb</color>
+    <color name="color_d1d1d1">#d1d1d1</color>
     <color name="color_d8d8d8">#D8D8D8</color>
     <color name="color_dddddd">#dddddd</color>
     <color name="color_eee">#eeeeee</color>
@@ -770,7 +775,7 @@
     <integer name="config_tooltipAnimTime">150</integer>
     <integer name="google_play_services_version">12451000</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
-    <string name="CODE_PUSH_APK_BUILD_TIME" translatable="false">"1568795145189"</string>
+    <string name="CODE_PUSH_APK_BUILD_TIME" translatable="false">"1568814833091"</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
     <string name="abc_action_menu_overflow_description">More options</string>
@@ -812,6 +817,7 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="adjustable_description" translatable="false">Adjustable</string>
     <string name="app_name">alice</string>
+    <string name="cancel">Cancel</string>
     <string name="catalyst_copy_button" project="catalyst" translatable="false">Copy\n</string>
     <string name="catalyst_debugjs" project="catalyst" translatable="false">Debug JS Remotely</string>
     <string name="catalyst_debugjs_nuclide" project="catalyst" translatable="false">Debug JS in Nuclide</string>
@@ -854,6 +860,7 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="confirm">Confirm</string>
     <string name="default_web_client_id" translatable="false">439884301632-plrgipqlgg55hibjnt20df7dp91otgcu.apps.googleusercontent.com</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="firebase_database_url" translatable="false">https://alice-1555232535074.firebaseio.com</string>

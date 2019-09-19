@@ -120,15 +120,15 @@ public final class R {
     public static final class color {
         private color() {}
 
-        public static final int mapbox_blue = 0x7f04006a;
-        public static final int mapbox_gray = 0x7f04006b;
-        public static final int mapbox_gray_dark = 0x7f04006c;
-        public static final int mapbox_location_layer_blue = 0x7f04006d;
-        public static final int mapbox_location_layer_gray = 0x7f04006e;
-        public static final int notification_action_color_filter = 0x7f04007b;
-        public static final int notification_icon_bg_color = 0x7f04007c;
-        public static final int ripple_material_light = 0x7f04008b;
-        public static final int secondary_text_default_material_light = 0x7f04008d;
+        public static final int mapbox_blue = 0x7f04006f;
+        public static final int mapbox_gray = 0x7f040070;
+        public static final int mapbox_gray_dark = 0x7f040071;
+        public static final int mapbox_location_layer_blue = 0x7f040072;
+        public static final int mapbox_location_layer_gray = 0x7f040073;
+        public static final int notification_action_color_filter = 0x7f040080;
+        public static final int notification_icon_bg_color = 0x7f040081;
+        public static final int ripple_material_light = 0x7f040090;
+        public static final int secondary_text_default_material_light = 0x7f040092;
     }
     public static final class dimen {
         private dimen() {}
@@ -229,25 +229,25 @@ public final class R {
         public static final int infowindow_description = 0x7f07006b;
         public static final int infowindow_title = 0x7f07006c;
         public static final int italic = 0x7f07006d;
-        public static final int left = 0x7f07006e;
-        public static final int line1 = 0x7f070070;
-        public static final int line3 = 0x7f070071;
-        public static final int logoView = 0x7f070074;
-        public static final int none = 0x7f07007a;
-        public static final int normal = 0x7f07007b;
-        public static final int notification_background = 0x7f07007c;
-        public static final int notification_main_column = 0x7f07007d;
-        public static final int notification_main_column_container = 0x7f07007e;
-        public static final int right = 0x7f07008d;
-        public static final int right_icon = 0x7f07008e;
-        public static final int right_side = 0x7f07008f;
-        public static final int start = 0x7f0700b4;
-        public static final int tag_transition_group = 0x7f0700ba;
-        public static final int text = 0x7f0700be;
-        public static final int text2 = 0x7f0700bf;
-        public static final int time = 0x7f0700c3;
-        public static final int title = 0x7f0700c4;
-        public static final int top = 0x7f0700c8;
+        public static final int left = 0x7f070071;
+        public static final int line1 = 0x7f070073;
+        public static final int line3 = 0x7f070074;
+        public static final int logoView = 0x7f070077;
+        public static final int none = 0x7f07007d;
+        public static final int normal = 0x7f07007e;
+        public static final int notification_background = 0x7f07007f;
+        public static final int notification_main_column = 0x7f070080;
+        public static final int notification_main_column_container = 0x7f070081;
+        public static final int right = 0x7f070090;
+        public static final int right_icon = 0x7f070091;
+        public static final int right_side = 0x7f070092;
+        public static final int start = 0x7f0700b7;
+        public static final int tag_transition_group = 0x7f0700bd;
+        public static final int text = 0x7f0700c1;
+        public static final int text2 = 0x7f0700c2;
+        public static final int time = 0x7f0700c6;
+        public static final int title = 0x7f0700c7;
+        public static final int top = 0x7f0700cb;
     }
     public static final class integer {
         private integer() {}
@@ -257,44 +257,44 @@ public final class R {
     public static final class layout {
         private layout() {}
 
-        public static final int mapbox_attribution_list_item = 0x7f090024;
-        public static final int mapbox_infowindow_content = 0x7f090025;
-        public static final int mapbox_mapview_internal = 0x7f090026;
-        public static final int mapbox_view_image_marker = 0x7f090027;
-        public static final int notification_action = 0x7f090028;
-        public static final int notification_action_tombstone = 0x7f090029;
-        public static final int notification_template_custom_big = 0x7f090030;
-        public static final int notification_template_icon_group = 0x7f090031;
-        public static final int notification_template_part_chronometer = 0x7f090035;
-        public static final int notification_template_part_time = 0x7f090036;
+        public static final int mapbox_attribution_list_item = 0x7f090025;
+        public static final int mapbox_infowindow_content = 0x7f090026;
+        public static final int mapbox_mapview_internal = 0x7f090027;
+        public static final int mapbox_view_image_marker = 0x7f090028;
+        public static final int notification_action = 0x7f090029;
+        public static final int notification_action_tombstone = 0x7f09002a;
+        public static final int notification_template_custom_big = 0x7f090031;
+        public static final int notification_template_icon_group = 0x7f090032;
+        public static final int notification_template_part_chronometer = 0x7f090036;
+        public static final int notification_template_part_time = 0x7f090037;
     }
     public static final class string {
         private string() {}
 
-        public static final int mapbox_attributionErrorNoBrowser = 0x7f0c0061;
-        public static final int mapbox_attributionTelemetryMessage = 0x7f0c0062;
-        public static final int mapbox_attributionTelemetryNegative = 0x7f0c0063;
-        public static final int mapbox_attributionTelemetryNeutral = 0x7f0c0064;
-        public static final int mapbox_attributionTelemetryPositive = 0x7f0c0065;
-        public static final int mapbox_attributionTelemetryTitle = 0x7f0c0066;
-        public static final int mapbox_attributionsDialogTitle = 0x7f0c0067;
-        public static final int mapbox_attributionsIconContentDescription = 0x7f0c0068;
-        public static final int mapbox_compassContentDescription = 0x7f0c0069;
-        public static final int mapbox_mapActionDescription = 0x7f0c006a;
-        public static final int mapbox_myLocationViewContentDescription = 0x7f0c006b;
-        public static final int mapbox_offline_error_region_definition_invalid = 0x7f0c006c;
-        public static final int mapbox_style_dark = 0x7f0c006d;
-        public static final int mapbox_style_light = 0x7f0c006e;
-        public static final int mapbox_style_mapbox_streets = 0x7f0c006f;
-        public static final int mapbox_style_outdoors = 0x7f0c0070;
-        public static final int mapbox_style_satellite = 0x7f0c0071;
-        public static final int mapbox_style_satellite_streets = 0x7f0c0072;
-        public static final int mapbox_style_traffic_day = 0x7f0c0073;
-        public static final int mapbox_style_traffic_night = 0x7f0c0074;
-        public static final int mapbox_telemetryImproveMap = 0x7f0c0075;
-        public static final int mapbox_telemetryLink = 0x7f0c0076;
-        public static final int mapbox_telemetrySettings = 0x7f0c0077;
-        public static final int status_bar_notification_info_overflow = 0x7f0c007b;
+        public static final int mapbox_attributionErrorNoBrowser = 0x7f0c0063;
+        public static final int mapbox_attributionTelemetryMessage = 0x7f0c0064;
+        public static final int mapbox_attributionTelemetryNegative = 0x7f0c0065;
+        public static final int mapbox_attributionTelemetryNeutral = 0x7f0c0066;
+        public static final int mapbox_attributionTelemetryPositive = 0x7f0c0067;
+        public static final int mapbox_attributionTelemetryTitle = 0x7f0c0068;
+        public static final int mapbox_attributionsDialogTitle = 0x7f0c0069;
+        public static final int mapbox_attributionsIconContentDescription = 0x7f0c006a;
+        public static final int mapbox_compassContentDescription = 0x7f0c006b;
+        public static final int mapbox_mapActionDescription = 0x7f0c006c;
+        public static final int mapbox_myLocationViewContentDescription = 0x7f0c006d;
+        public static final int mapbox_offline_error_region_definition_invalid = 0x7f0c006e;
+        public static final int mapbox_style_dark = 0x7f0c006f;
+        public static final int mapbox_style_light = 0x7f0c0070;
+        public static final int mapbox_style_mapbox_streets = 0x7f0c0071;
+        public static final int mapbox_style_outdoors = 0x7f0c0072;
+        public static final int mapbox_style_satellite = 0x7f0c0073;
+        public static final int mapbox_style_satellite_streets = 0x7f0c0074;
+        public static final int mapbox_style_traffic_day = 0x7f0c0075;
+        public static final int mapbox_style_traffic_night = 0x7f0c0076;
+        public static final int mapbox_telemetryImproveMap = 0x7f0c0077;
+        public static final int mapbox_telemetryLink = 0x7f0c0078;
+        public static final int mapbox_telemetrySettings = 0x7f0c0079;
+        public static final int status_bar_notification_info_overflow = 0x7f0c007d;
     }
     public static final class style {
         private style() {}

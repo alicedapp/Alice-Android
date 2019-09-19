@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/display_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_corner_24_solid_ffffff"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_dimen_180">
+
+            <TextView
+                android:text="📋"
+                android:layout_margin="@dimen/view_dimen_48"
+                android:textSize="@dimen/text_font_size_51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_centerInParent="true"
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:lines="1"
+                android:text="Transfer"
+                android:textColor="@color/color_aaaaaa"
+                android:textSize="@dimen/text_font_size_51"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/text_font_size_40"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginLeft="@dimen/view_dimen_75"
+                android:layout_marginTop="@dimen/view_dimen_75"
+                android:layout_marginBottom="@dimen/view_dimen_30"
+                android:textColor="@color/color_bbbbbb"
+                android:text="Address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RelativeLayout
+                android:layout_marginBottom="@dimen/view_dimen_30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_toLeftOf="@id/iv_clear_address"
+                    android:id="@+id/et_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/view_dimen_200"
+                    android:layout_marginLeft="@dimen/view_dimen_30"
+                    android:layout_marginRight="@dimen/view_dimen_30"
+                    android:background="@null"
+                    android:textColor="@color/color_555555"
+                    android:hint="Send To Address"
+                    android:padding="@dimen/view_dimen_30"
+                    android:textSize="@dimen/text_font_size_39" />
+                <ImageView
+                    android:id="@+id/iv_clear_address"
+                    android:layout_marginRight="@dimen/view_dimen_30"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/icon_clear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_marginRight="@dimen/view_dimen_24"
+                android:layout_marginLeft="@dimen/view_dimen_24"
+                android:background="@color/color_d1d1d1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_dimen_1"/>
+
+            <TextView
+                android:layout_marginLeft="@dimen/view_dimen_75"
+                android:layout_marginTop="@dimen/view_dimen_75"
+                android:layout_marginBottom="@dimen/view_dimen_30"
+                android:textColor="@color/color_bbbbbb"
+                android:text="Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:layout_marginBottom="@dimen/view_dimen_30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_toLeftOf="@id/iv_clear_value"
+                    android:id="@+id/et_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/view_dimen_30"
+                    android:layout_marginRight="@dimen/view_dimen_30"
+                    android:background="@null"
+                    android:hint="Amount To Send"
+                    android:inputType="numberDecimal"
+                    android:padding="@dimen/view_dimen_30"
+                    android:textSize="@dimen/text_font_size_54" />
+                <ImageView
+                    android:layout_toLeftOf="@+id/tv_eth"
+                    android:id="@+id/iv_clear_value"
+                    android:layout_marginRight="@dimen/view_dimen_30"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/icon_clear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:id="@+id/tv_eth"
+                    android:layout_toLeftOf="@+id/iv_eth"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_font_size_54"
+                    android:text="ETH"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:layout_margin="@dimen/view_dimen_30"
+                    android:id="@+id/iv_eth"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/icon_eth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+            <TextView
+                android:layout_marginBottom="@dimen/view_dimen_30"
+                android:layout_marginLeft="@dimen/view_dimen_55"
+                android:textSize="@dimen/text_font_size_51"
+                android:textColor="@color/color_aaaaaa"
+                android:text="EUR €1.629"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/view_dimen_105"
+            android:layout_marginTop="@dimen/view_dimen_30"
+            android:layout_marginRight="@dimen/view_dimen_105"
+            android:lineSpacingExtra="@dimen/view_dimen_20"
+            android:textColor="@color/black_90_transparent"
+            android:textSize="@dimen/text_font_size_42" />
+        <View
+            android:background="@color/color_d1d1d1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_dimen_1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_dimen_180"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Cancel"
+                android:textAllCaps="false"
+                android:textColor="@color/color_bbbbbb"
+                android:textSize="@dimen/view_dimen_48" />
+            <View
+                android:layout_width="@dimen/view_dimen_1"
+                android:layout_height="@dimen/view_dimen_90"
+                android:layout_gravity="center_vertical"
+                android:background="@color/color_d1d1d1" />
+            <TextView
+                android:id="@+id/ok"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:text="Confirm"
+                android:textColor="@color/color_47a6f8"
+                android:textSize="@dimen/view_dimen_48" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

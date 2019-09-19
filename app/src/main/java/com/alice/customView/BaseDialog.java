@@ -88,6 +88,7 @@ public class BaseDialog extends Dialog {
             btnPositive.setOnClickListener(onPositiveListener);
         }
         if(mCustomView!=null){
+            mCustomViewWrapper.removeAllViews();
             mCustomViewWrapper.addView(mCustomView);
         }
     }

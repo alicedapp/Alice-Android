@@ -502,6 +502,8 @@ color catalyst_redbox_background
 color color_16191b
 color color_333333
 color color_339cff
+color color_47a6f8
+color color_555555
 color color_83acff
 color color_83acff_10
 color color_92d0ff
@@ -513,6 +515,9 @@ color color_FF652D
 color color_FFA448
 color color_FFE3D6
 color color_FFF4E8
+color color_aaaaaa
+color color_bbbbbb
+color color_d1d1d1
 color color_d8d8d8
 color color_dddddd
 color color_eee
@@ -1421,7 +1426,7 @@ id edit_query
 id end
 id end_padder
 id et_address
-id et_num
+id et_value
 id expand_activities_button
 id expanded_menu
 id fill
@@ -1450,6 +1455,9 @@ id info
 id infowindow_description
 id infowindow_title
 id italic
+id iv_clear_address
+id iv_clear_value
+id iv_eth
 id left
 id light
 id line1
@@ -1544,6 +1552,7 @@ id top
 id topPanel
 id torch
 id transfer
+id tv_eth
 id uniform
 id up
 id useLogo
@@ -1592,6 +1601,7 @@ layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout dev_loading_view
 layout dialog_base
+layout dialog_transfer
 layout fps_view
 layout layout_tranfer
 layout mapbox_attribution_list_item
@@ -1625,6 +1635,8 @@ layout surface_view
 layout texture_view
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap icon_clear
+mipmap icon_eth
 raw consumer_onesignal_keep
 string CODE_PUSH_APK_BUILD_TIME
 string abc_action_bar_home_description
@@ -1668,6 +1680,7 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string adjustable_description
 string app_name
+string cancel
 string catalyst_copy_button
 string catalyst_debugjs
 string catalyst_debugjs_nuclide
@@ -1710,6 +1723,7 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string confirm
 string default_web_client_id
 string fcm_fallback_notification_channel_label
 string firebase_database_url

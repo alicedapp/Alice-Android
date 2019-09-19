@@ -1,9 +1,17 @@
 package com.alice.bridge;
 
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
 import android.widget.Toast;
 
+import com.alice.R;
+import com.alice.activity.Main1Activity;
 import com.alice.async.BaseListener;
+import com.alice.customView.BaseDialog;
+import com.alice.customView.TransferDialog;
 import com.alice.manager.Web3jManager;
+import com.alice.utils.LogUtil;
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
@@ -11,7 +19,10 @@ import com.facebook.react.bridge.ReactMethod;
 
 import org.web3j.crypto.Credentials;
 import org.web3j.protocol.core.methods.response.EthGetBalance;
+import org.web3j.protocol.core.methods.response.TransactionReceipt;
 import org.web3j.utils.Convert;
+
+import java.math.BigDecimal;
 
 import javax.annotation.Nonnull;
 
@@ -19,6 +30,8 @@ public class WalletModule extends ReactContextBaseJavaModule {
 
     private static final String DURATION_SHORT_KEY = "SHORT";
     private static final String DURATION_LONG_KEY = "LONG";
+
+    private TransferDialog transformDialog;
 
     public WalletModule(ReactApplicationContext reactContext) {
         super(reactContext);
@@ -61,5 +74,42 @@ public class WalletModule extends ReactContextBaseJavaModule {
                 promise.reject(e.toString());
             }
         });
+    }
+
+    @ReactMethod
+    public void transfer(String to,String value,Promise promise) {
+        if(transformDialog == null){
+            transformDialog = new TransferDialog(getCurrentActivity(),to,value);
+            transformDialog.setOnClickConfirmListener(new TransferDialog.OnClickConfirmListener() {
+                @Override
+                public void onClickConfirm(String address, String value) {
+                    BigDecimal valueWei = Convert.toWei(value, Convert.Unit.WEI);
+                    Web3jManager.getInstance().transfer(address, valueWei, new BaseListener<TransactionReceipt>() {
+                        @Override
+                        public void OnSuccess(TransactionReceipt send) {
+                            String text = "Transaction complete:" + "trans hash=" + send.getTransactionHash() + "from :" + send.getFrom() + "to:" + send.getTo() + "gas used=" + send.getGasUsed() + "status: " + send.getStatus();
+                            LogUtil.d(text);
+                            promise.resolve(send.getTransactionHash());
+                        }
+
+                        @Override
+                        public void OnFailed(Throwable e) {
+                            promise.reject(e.toString());
+                        }
+                    });
+                }
+
+                @Override
+                public void onAddressError(String message) {
+                    promise.reject(message);
+                }
+
+                @Override
+                public void onValueError(String message) {
+                    promise.reject(message);
+                }
+            });
+        }
+        transformDialog.show();
     }
 }

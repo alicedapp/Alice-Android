@@ -2,7 +2,10 @@ package com.alice.manager;
 
 import android.os.Environment;
 import android.text.TextUtils;
+import android.util.Log;
+import android.widget.Toast;
 
+import com.alice.activity.MainActivity;
 import com.alice.async.BaseListener;
 import com.alice.async.MainHandler;
 import com.alice.async.WorkThreadHandler;
@@ -15,9 +18,15 @@ import org.web3j.crypto.WalletUtils;
 import org.web3j.protocol.Web3j;
 import org.web3j.protocol.core.DefaultBlockParameter;
 import org.web3j.protocol.core.methods.response.EthGetBalance;
+import org.web3j.protocol.core.methods.response.TransactionReceipt;
+import org.web3j.protocol.exceptions.TransactionException;
 import org.web3j.protocol.http.HttpService;
+import org.web3j.tx.Transfer;
+import org.web3j.utils.Convert;
 
 import java.io.File;
+import java.io.IOException;
+import java.math.BigDecimal;
 
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
@@ -36,6 +45,7 @@ public class Web3jManager {
     public final static String psw = "Alice";
     private CompositeDisposable mCompositeDisposable;
 
+    private Credentials mCredentials;
     private Web3j web3j;
 
     private Web3jManager(){
@@ -87,11 +97,11 @@ public class Web3jManager {
                         listener.OnFailed(new IllegalAccessException("Please create wallet first"));
                     });
                 }
-                Credentials credentials = WalletUtils.loadCredentials(psw, file);
-                Hawk.put(KEY_ADDRESS,credentials.getAddress());
-                LogUtil.d("Import success!Address is " + credentials.getAddress());
+                mCredentials = WalletUtils.loadCredentials(psw, file);
+                Hawk.put(KEY_ADDRESS,mCredentials.getAddress());
+                LogUtil.d("Import success!Address is " + mCredentials.getAddress());
                 MainHandler.getInstance().post(() -> {
-                    listener.OnSuccess(credentials);
+                    listener.OnSuccess(mCredentials);
                 });
             }catch (Exception e) {
                 MainHandler.getInstance().post(() -> {
@@ -144,13 +154,32 @@ public class Web3jManager {
         mCompositeDisposable.add(disposable);
     }
 
+    public void transfer(String address, BigDecimal value, BaseListener<TransactionReceipt> listener) {
+        checkNull(listener);
+        if(mCredentials == null){
+            listener.OnFailed(new IllegalArgumentException("please import key first!"));
+        }
+        try {
+            Disposable disposable = Transfer.sendFunds(web3j, mCredentials, address, value, Convert.Unit.WEI)
+                    .flowable()
+                    .subscribeOn(Schedulers.io())
+                    .unsubscribeOn(Schedulers.io())
+                    .observeOn(AndroidSchedulers.mainThread())
+                    .subscribe(listener::OnSuccess, listener::OnFailed);
+            mCompositeDisposable.add(disposable);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+
     private void checkNull(BaseListener listener) {
         if(listener == null){
             LogUtil.e("listener is null");
             return;
         }
         if(web3j == null){
-            listener.OnFailed(new IllegalAccessException("Web3j build failed"));
+            listener.OnFailed(new IllegalArgumentException("Web3j build failed"));
             return;
         }
     }
