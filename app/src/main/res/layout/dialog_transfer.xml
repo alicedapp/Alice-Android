@@ -144,14 +144,14 @@
                     android:layout_height="wrap_content"/>
             </RelativeLayout>
             <TextView
+                android:id="@+id/tv_price"
                 android:layout_marginBottom="@dimen/view_dimen_30"
                 android:layout_marginLeft="@dimen/view_dimen_55"
                 android:textSize="@dimen/text_font_size_51"
                 android:textColor="@color/color_aaaaaa"
-                android:text="EUR €1.629"
+                android:text="CNY ¥ 0.00"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
-
 
         </LinearLayout>
 

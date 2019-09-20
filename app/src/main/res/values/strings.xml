@@ -3,5 +3,8 @@
     <string name="app_name">alice</string>
     <string name="confirm">Confirm</string>
     <string name="cancel">Cancel</string>
+    <string name="CNY_price">CNY ¥ %1$s</string>
+    <string name="USD_price">USD $ %1$s</string>
+    <string name="EUR_price">EUR € %1$s</string>
 
 </resources>

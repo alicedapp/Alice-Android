@@ -775,7 +775,10 @@
     <integer name="config_tooltipAnimTime">150</integer>
     <integer name="google_play_services_version">12451000</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
-    <string name="CODE_PUSH_APK_BUILD_TIME" translatable="false">"1568964760014"</string>
+    <string name="CNY_price">CNY ¥ %1$s</string>
+    <string name="CODE_PUSH_APK_BUILD_TIME" translatable="false">"1568969534515"</string>
+    <string name="EUR_price">EUR € %1$s</string>
+    <string name="USD_price">USD $ %1$s</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
     <string name="abc_action_menu_overflow_description">More options</string>

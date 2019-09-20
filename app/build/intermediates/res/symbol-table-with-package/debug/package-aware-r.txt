@@ -1556,6 +1556,7 @@ id topPanel
 id torch
 id transfer
 id tv_eth
+id tv_price
 id uniform
 id up
 id useLogo
@@ -1641,7 +1642,10 @@ mipmap ic_launcher_round
 mipmap icon_clear
 mipmap icon_eth
 raw consumer_onesignal_keep
+string CNY_price
 string CODE_PUSH_APK_BUILD_TIME
+string EUR_price
+string USD_price
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
