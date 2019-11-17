@@ -1,14 +1,9 @@
 package com.alice.bridge;
 
 import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.View;
 import android.widget.Toast;
 
-import com.alice.R;
-import com.alice.activity.Main1Activity;
 import com.alice.async.BaseListener;
-import com.alice.customView.BaseDialog;
 import com.alice.customView.TransferDialog;
 import com.alice.manager.Web3jManager;
 import com.alice.utils.LogUtil;
@@ -22,14 +17,11 @@ import org.web3j.protocol.core.methods.response.EthGetBalance;
 import org.web3j.protocol.core.methods.response.TransactionReceipt;
 import org.web3j.utils.Convert;
 
-import java.math.BigDecimal;
+import java.util.List;
 
 import javax.annotation.Nonnull;
 
 public class WalletModule extends ReactContextBaseJavaModule {
-
-    private static final String DURATION_SHORT_KEY = "SHORT";
-    private static final String DURATION_LONG_KEY = "LONG";
 
     private TransferDialog transformDialog;
 
@@ -111,5 +103,11 @@ public class WalletModule extends ReactContextBaseJavaModule {
             });
         }
         transformDialog.show();
+    }
+
+
+    @ReactMethod
+    public void signMessage(String message,Promise promise) {
+        Log.d("zhhr1122","message:" + message);
     }
 }

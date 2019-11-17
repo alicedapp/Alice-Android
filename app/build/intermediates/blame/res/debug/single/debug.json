@@ -12,6 +12,10 @@
         "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\cbef6c95cf876280ba1a9186098367c9\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
+        "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_bip39_spanish.flat",
+        "source": "D:\\ReactNative\\AliceX\\android\\app\\src\\main\\res\\raw\\bip39_spanish"
+    },
+    {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_default_mtrl_shape.xml.flat",
         "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\cbef6c95cf876280ba1a9186098367c9\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
@@ -21,7 +25,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_mapbox_markerview_icon_default.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xxxhdpi-v4\\mapbox_markerview_icon_default.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xxxhdpi-v4\\mapbox_markerview_icon_default.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -29,19 +33,19 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_mapbox_info_icon_selected.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xxxhdpi-v4\\mapbox_info_icon_selected.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xxxhdpi-v4\\mapbox_info_icon_selected.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
         "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\cbef6c95cf876280ba1a9186098367c9\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
     },
     {
-        "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\cbef6c95cf876280ba1a9186098367c9\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
+        "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_mapbox_mylocation_icon_bearing.png.flat",
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-hdpi-v4\\mapbox_mylocation_icon_bearing.png"
     },
     {
-        "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_mapbox_mylocation_icon_bearing.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-hdpi-v4\\mapbox_mylocation_icon_bearing.png"
+        "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\cbef6c95cf876280ba1a9186098367c9\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow.xml.flat",
@@ -57,15 +61,15 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_redbox_item_frame.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\6775afba3ad00a794dc74d1500197d72\\res\\layout\\redbox_item_frame.xml"
-    },
-    {
-        "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\cbef6c95cf876280ba1a9186098367c9\\res\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\480a80bd536218e3f3acfdd50020592d\\res\\layout\\redbox_item_frame.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\cbef6c95cf876280ba1a9186098367c9\\res\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\cbef6c95cf876280ba1a9186098367c9\\res\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -89,15 +93,15 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_mapbox_info_icon_default.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xxhdpi-v4\\mapbox_info_icon_default.png"
-    },
-    {
-        "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_edittext.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\cbef6c95cf876280ba1a9186098367c9\\res\\color\\abc_tint_edittext.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xxhdpi-v4\\mapbox_info_icon_default.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\cbef6c95cf876280ba1a9186098367c9\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_edittext.xml.flat",
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\cbef6c95cf876280ba1a9186098367c9\\res\\color\\abc_tint_edittext.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_36dp.png.flat",
@@ -121,15 +125,15 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_mapbox_mylocation_icon_default.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xxhdpi-v4\\mapbox_mylocation_icon_default.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xxhdpi-v4\\mapbox_mylocation_icon_default.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_mapbox_user_stroke_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xhdpi-v4\\mapbox_user_stroke_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xhdpi-v4\\mapbox_user_stroke_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_mapbox_markerview_icon_default.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-mdpi-v4\\mapbox_markerview_icon_default.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-mdpi-v4\\mapbox_markerview_icon_default.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
@@ -145,7 +149,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_mapbox_mylocation_icon_bearing.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xxxhdpi-v4\\mapbox_mylocation_icon_bearing.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xxxhdpi-v4\\mapbox_mylocation_icon_bearing.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icon_eth.png.flat",
@@ -173,7 +177,11 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_mapbox_logo_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xxhdpi-v4\\mapbox_logo_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xxhdpi-v4\\mapbox_logo_icon.png"
+    },
+    {
+        "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_alphawallet_min.js.flat",
+        "source": "D:\\ReactNative\\AliceX\\android\\app\\src\\main\\res\\raw\\alphawallet_min.js"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
@@ -188,20 +196,20 @@
         "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\cbef6c95cf876280ba1a9186098367c9\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23_abc_control_background_material.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\cbef6c95cf876280ba1a9186098367c9\\res\\drawable-v23\\abc_control_background_material.xml"
+        "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_mapbox_logo_icon.png.flat",
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-mdpi-v4\\mapbox_logo_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\cbef6c95cf876280ba1a9186098367c9\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
-        "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_mapbox_logo_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-mdpi-v4\\mapbox_logo_icon.png"
+        "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23_abc_control_background_material.xml.flat",
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\cbef6c95cf876280ba1a9186098367c9\\res\\drawable-v23\\abc_control_background_material.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_mapbox_user_icon_stale.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xxhdpi-v4\\mapbox_user_icon_stale.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xxhdpi-v4\\mapbox_user_icon_stale.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
@@ -213,7 +221,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_mapbox_mylocation_icon_default.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xhdpi-v4\\mapbox_mylocation_icon_default.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xhdpi-v4\\mapbox_mylocation_icon_default.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_longpressed_holo.9.png.flat",
@@ -221,7 +229,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mapbox_mylocation_bg_shape.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable\\mapbox_mylocation_bg_shape.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable\\mapbox_mylocation_bg_shape.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_in_bottom.xml.flat",
@@ -257,7 +265,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_mapbox_user_bearing_icon.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-anydpi-v21\\mapbox_user_bearing_icon.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-anydpi-v21\\mapbox_user_bearing_icon.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_top_material.xml.flat",
@@ -273,7 +281,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_catalyst_push_up_in.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\6775afba3ad00a794dc74d1500197d72\\res\\anim\\catalyst_push_up_in.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\480a80bd536218e3f3acfdd50020592d\\res\\anim\\catalyst_push_up_in.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v21_abc_btn_colored_borderless_text_material.xml.flat",
@@ -297,11 +305,11 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_disabled.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_catalyst_fade_in.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\6775afba3ad00a794dc74d1500197d72\\res\\anim\\catalyst_fade_in.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\480a80bd536218e3f3acfdd50020592d\\res\\anim\\catalyst_fade_in.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
@@ -325,11 +333,11 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_mapbox_logo_helmet.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xxhdpi-v4\\mapbox_logo_helmet.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xxhdpi-v4\\mapbox_logo_helmet.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_mapbox_info_icon_default.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-hdpi-v4\\mapbox_info_icon_default.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-hdpi-v4\\mapbox_info_icon_default.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
@@ -365,7 +373,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_mapbox_info_icon_default.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xxxhdpi-v4\\mapbox_info_icon_default.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xxxhdpi-v4\\mapbox_info_icon_default.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
@@ -381,11 +389,11 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_dark_normal.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4_mapbox_user_puck_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-ldpi-v4\\mapbox_user_puck_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-ldpi-v4\\mapbox_user_puck_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_spinner.xml.flat",
@@ -397,11 +405,11 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_consumer_onesignal_keep.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\f7e2b0a25e7dbf2a5aab43162545da0e\\res\\raw\\consumer_onesignal_keep.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\ede844ce83729ecea54838c1d72befc2\\res\\raw\\consumer_onesignal_keep.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mapbox_popup_window_transparent.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable\\mapbox_popup_window_transparent.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable\\mapbox_popup_window_transparent.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
@@ -425,7 +433,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_mapbox_view_image_marker.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\layout\\mapbox_view_image_marker.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\layout\\mapbox_view_image_marker.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_hint_foreground_material_light.xml.flat",
@@ -445,7 +453,15 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_mapbox_logo_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xxxhdpi-v4\\mapbox_logo_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xxxhdpi-v4\\mapbox_logo_icon.png"
+    },
+    {
+        "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_init_token.js.flat",
+        "source": "D:\\ReactNative\\AliceX\\android\\app\\src\\main\\res\\raw\\init_token.js"
+    },
+    {
+        "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_bip39_chinese.flat",
+        "source": "D:\\ReactNative\\AliceX\\android\\app\\src\\main\\res\\raw\\bip39_chinese"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_btn_colored_text_material.xml.flat",
@@ -457,7 +473,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4_mapbox_user_bearing_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-ldpi-v4\\mapbox_user_bearing_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-ldpi-v4\\mapbox_user_bearing_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -493,7 +509,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tooltip_frame_dark.xml.flat",
@@ -501,11 +517,11 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_mapbox_mylocation_icon_bearing.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-mdpi-v4\\mapbox_mylocation_icon_bearing.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-mdpi-v4\\mapbox_mylocation_icon_bearing.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_mapbox_user_puck_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xxhdpi-v4\\mapbox_user_puck_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xxhdpi-v4\\mapbox_user_puck_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_light.xml.flat",
@@ -521,7 +537,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mapbox_info_bg_selector.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable\\mapbox_info_bg_selector.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable\\mapbox_info_bg_selector.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
@@ -537,7 +553,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable-xxhdpi-v4\\googleg_standard_color_18.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable-xxhdpi-v4\\googleg_standard_color_18.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
@@ -557,11 +573,11 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_mapbox_user_stroke_icon.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-anydpi-v21\\mapbox_user_stroke_icon.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-anydpi-v21\\mapbox_user_stroke_icon.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_dark.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_light.xml.flat",
@@ -573,7 +589,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_mapbox_user_stroke_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xxhdpi-v4\\mapbox_user_stroke_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xxhdpi-v4\\mapbox_user_stroke_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
@@ -585,7 +601,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_mapbox_info_icon_default.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xhdpi-v4\\mapbox_info_icon_default.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xhdpi-v4\\mapbox_info_icon_default.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
@@ -593,7 +609,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mapbox_rounded_corner.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable\\mapbox_rounded_corner.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable\\mapbox_rounded_corner.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
@@ -621,7 +637,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_mapbox_infowindow_content.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\layout\\mapbox_infowindow_content.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\layout\\mapbox_infowindow_content.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
@@ -629,7 +645,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_mapbox_user_bearing_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-hdpi-v4\\mapbox_user_bearing_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-hdpi-v4\\mapbox_user_bearing_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
@@ -645,7 +661,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_mapbox_compass_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xxhdpi-v4\\mapbox_compass_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xxhdpi-v4\\mapbox_compass_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_button_bar_material.xml.flat",
@@ -657,7 +673,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_mapbox_compass_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xhdpi-v4\\mapbox_compass_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xhdpi-v4\\mapbox_compass_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_surface_view.xml.flat",
@@ -665,7 +681,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_mapbox_user_puck_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xhdpi-v4\\mapbox_user_puck_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xhdpi-v4\\mapbox_user_puck_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -673,7 +689,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable-mdpi-v4\\googleg_standard_color_18.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable-mdpi-v4\\googleg_standard_color_18.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_grow_fade_in_from_bottom.xml.flat",
@@ -685,7 +701,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_dark.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
@@ -705,7 +721,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_mapbox_marker_icon_default.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-hdpi-v4\\mapbox_marker_icon_default.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-hdpi-v4\\mapbox_marker_icon_default.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
@@ -713,7 +729,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_rn_dev_preferences.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\6775afba3ad00a794dc74d1500197d72\\res\\xml\\rn_dev_preferences.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\480a80bd536218e3f3acfdd50020592d\\res\\xml\\rn_dev_preferences.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_switch_track.xml.flat",
@@ -725,7 +741,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_os_notification_fallback_white_24dp.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\f7e2b0a25e7dbf2a5aab43162545da0e\\res\\drawable-xxhdpi-v4\\ic_os_notification_fallback_white_24dp.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\ede844ce83729ecea54838c1d72befc2\\res\\drawable-xxhdpi-v4\\ic_os_notification_fallback_white_24dp.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -749,7 +765,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable-hdpi-v4\\googleg_standard_color_18.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable-hdpi-v4\\googleg_standard_color_18.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_48dp.png.flat",
@@ -773,7 +789,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_mapbox_user_stroke_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-mdpi-v4\\mapbox_user_stroke_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-mdpi-v4\\mapbox_user_stroke_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -789,11 +805,11 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mapbox_user_icon_shadow.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable\\mapbox_user_icon_shadow.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable\\mapbox_user_icon_shadow.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_small_material.xml.flat",
@@ -801,7 +817,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable-xhdpi-v4\\googleg_standard_color_18.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable-xhdpi-v4\\googleg_standard_color_18.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_radio_material.xml.flat",
@@ -809,7 +825,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_os_notification_fallback_white_24dp.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\f7e2b0a25e7dbf2a5aab43162545da0e\\res\\drawable-xhdpi-v4\\ic_os_notification_fallback_white_24dp.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\ede844ce83729ecea54838c1d72befc2\\res\\drawable-xhdpi-v4\\ic_os_notification_fallback_white_24dp.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_text_cursor_material.xml.flat",
@@ -837,7 +853,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_dark_focused.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_empty_drawable.png.flat",
@@ -853,11 +869,11 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_mapbox_compass_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-hdpi-v4\\mapbox_compass_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-hdpi-v4\\mapbox_compass_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4_mapbox_user_stroke_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-ldpi-v4\\mapbox_user_stroke_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-ldpi-v4\\mapbox_user_stroke_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_activity_chooser_view_list_item.xml.flat",
@@ -885,7 +901,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_tooltip.xml.flat",
@@ -897,11 +913,11 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_mapbox_user_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-hdpi-v4\\mapbox_user_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-hdpi-v4\\mapbox_user_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_mapbox_compass_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xxxhdpi-v4\\mapbox_compass_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xxxhdpi-v4\\mapbox_compass_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
@@ -909,7 +925,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_dark_focused.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_out.xml.flat",
@@ -917,7 +933,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
@@ -929,7 +945,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_mapbox_logo_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xhdpi-v4\\mapbox_logo_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xhdpi-v4\\mapbox_logo_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -945,7 +961,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_mapbox_user_icon_stale.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xxxhdpi-v4\\mapbox_user_icon_stale.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xxxhdpi-v4\\mapbox_user_icon_stale.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_dialog_material_background.xml.flat",
@@ -953,7 +969,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_mapbox_user_puck_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-hdpi-v4\\mapbox_user_puck_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-hdpi-v4\\mapbox_user_puck_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -961,7 +977,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -973,7 +989,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_mapbox_info_icon_selected.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xhdpi-v4\\mapbox_info_icon_selected.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xhdpi-v4\\mapbox_info_icon_selected.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -993,7 +1009,11 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_mapbox_info_icon_default.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-anydpi-v21\\mapbox_info_icon_default.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-anydpi-v21\\mapbox_info_icon_default.xml"
+    },
+    {
+        "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_init.js.flat",
+        "source": "D:\\ReactNative\\AliceX\\android\\app\\src\\main\\res\\raw\\init.js"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
@@ -1001,7 +1021,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
@@ -1013,11 +1033,11 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_mapbox_user_stroke_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xxxhdpi-v4\\mapbox_user_stroke_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xxxhdpi-v4\\mapbox_user_stroke_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_mapbox_marker_icon_default.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xhdpi-v4\\mapbox_marker_icon_default.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xhdpi-v4\\mapbox_marker_icon_default.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_corner_24_solid_ffffff.xml.flat",
@@ -1025,7 +1045,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_light_focused.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_dark.xml.flat",
@@ -1037,15 +1057,15 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_mapbox_info_icon_selected.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-mdpi-v4\\mapbox_info_icon_selected.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-mdpi-v4\\mapbox_info_icon_selected.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_mapbox_user_icon.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-anydpi-v21\\mapbox_user_icon.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-anydpi-v21\\mapbox_user_icon.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4_mapbox_info_icon_selected.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-ldpi-v4\\mapbox_info_icon_selected.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-ldpi-v4\\mapbox_info_icon_selected.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_btn_colored_borderless_text_material.xml.flat",
@@ -1053,7 +1073,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_mapbox_info_icon_selected.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-hdpi-v4\\mapbox_info_icon_selected.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-hdpi-v4\\mapbox_info_icon_selected.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_48dp.png.flat",
@@ -1125,7 +1145,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_onesignal_bgimage_notif_layout.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\f7e2b0a25e7dbf2a5aab43162545da0e\\res\\layout\\onesignal_bgimage_notif_layout.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\ede844ce83729ecea54838c1d72befc2\\res\\layout\\onesignal_bgimage_notif_layout.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_menu_overflow_material.xml.flat",
@@ -1149,7 +1169,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_mapbox_mylocation_icon_default.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-mdpi-v4\\mapbox_mylocation_icon_default.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-mdpi-v4\\mapbox_mylocation_icon_default.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_layout.xml.flat",
@@ -1161,11 +1181,11 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_catalyst_push_up_out.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\6775afba3ad00a794dc74d1500197d72\\res\\anim\\catalyst_push_up_out.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\480a80bd536218e3f3acfdd50020592d\\res\\anim\\catalyst_push_up_out.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_mapbox_user_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xxxhdpi-v4\\mapbox_user_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xxxhdpi-v4\\mapbox_user_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_internal_bg.xml.flat",
@@ -1177,11 +1197,11 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_mapbox_user_bearing_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xxxhdpi-v4\\mapbox_user_bearing_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xxxhdpi-v4\\mapbox_user_bearing_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_redbox_item_title.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\6775afba3ad00a794dc74d1500197d72\\res\\layout\\redbox_item_title.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\480a80bd536218e3f3acfdd50020592d\\res\\layout\\redbox_item_title.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
@@ -1189,7 +1209,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_focused_holo.9.png.flat",
@@ -1197,7 +1217,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_mapbox_markerview_icon_default.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xxhdpi-v4\\mapbox_markerview_icon_default.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xxhdpi-v4\\mapbox_markerview_icon_default.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_16dp.png.flat",
@@ -1217,7 +1237,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_disabled.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -1225,7 +1245,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_annotation.xml.flat",
@@ -1245,7 +1265,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_mapbox_markerview_icon_default.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xhdpi-v4\\mapbox_markerview_icon_default.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xhdpi-v4\\mapbox_markerview_icon_default.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -1253,11 +1273,11 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_light.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_mapbox_info_icon_selected.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-anydpi-v21\\mapbox_info_icon_selected.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-anydpi-v21\\mapbox_info_icon_selected.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
@@ -1277,7 +1297,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_mapbox_info_icon_selected.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xxhdpi-v4\\mapbox_info_icon_selected.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xxhdpi-v4\\mapbox_info_icon_selected.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -1293,7 +1313,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_mapbox_attribution_list_item.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\layout\\mapbox_attribution_list_item.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\layout\\mapbox_attribution_list_item.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
@@ -1309,7 +1329,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_mapbox_user_bearing_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xhdpi-v4\\mapbox_user_bearing_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xhdpi-v4\\mapbox_user_bearing_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_light.xml.flat",
@@ -1325,7 +1345,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_tooltip_exit.xml.flat",
@@ -1349,11 +1369,11 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ic_os_notification_fallback_white_24dp.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\f7e2b0a25e7dbf2a5aab43162545da0e\\res\\drawable-xxxhdpi-v4\\ic_os_notification_fallback_white_24dp.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\ede844ce83729ecea54838c1d72befc2\\res\\drawable-xxxhdpi-v4\\ic_os_notification_fallback_white_24dp.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_mapbox_compass_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-mdpi-v4\\mapbox_compass_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-mdpi-v4\\mapbox_compass_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_radio.xml.flat",
@@ -1361,7 +1381,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_mapbox_mylocation_icon_default.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xxxhdpi-v4\\mapbox_mylocation_icon_default.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xxxhdpi-v4\\mapbox_mylocation_icon_default.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -1389,11 +1409,11 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable-hdpi-v4\\googleg_disabled_color_18.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable-hdpi-v4\\googleg_disabled_color_18.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_mapbox_user_bearing_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-mdpi-v4\\mapbox_user_bearing_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-mdpi-v4\\mapbox_user_bearing_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
@@ -1401,11 +1421,11 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_catalyst_slide_down.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\6775afba3ad00a794dc74d1500197d72\\res\\anim\\catalyst_slide_down.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\480a80bd536218e3f3acfdd50020592d\\res\\anim\\catalyst_slide_down.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable-mdpi-v4\\googleg_disabled_color_18.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable-mdpi-v4\\googleg_disabled_color_18.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_switch_thumb_material.xml.flat",
@@ -1437,11 +1457,11 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_mapbox_mylocation_icon_bearing.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xhdpi-v4\\mapbox_mylocation_icon_bearing.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xhdpi-v4\\mapbox_mylocation_icon_bearing.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_full_open_on_phone.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable-hdpi-v4\\common_full_open_on_phone.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable-hdpi-v4\\common_full_open_on_phone.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_36dp.png.flat",
@@ -1449,7 +1469,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_mapbox_mylocation_icon_bearing.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xxhdpi-v4\\mapbox_mylocation_icon_bearing.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xxhdpi-v4\\mapbox_mylocation_icon_bearing.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
@@ -1473,7 +1493,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_mapbox_user_bearing_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xxhdpi-v4\\mapbox_user_bearing_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xxhdpi-v4\\mapbox_user_bearing_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_search_url_text.xml.flat",
@@ -1513,7 +1533,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_os_notification_fallback_white_24dp.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\f7e2b0a25e7dbf2a5aab43162545da0e\\res\\drawable-hdpi-v4\\ic_os_notification_fallback_white_24dp.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\ede844ce83729ecea54838c1d72befc2\\res\\drawable-hdpi-v4\\ic_os_notification_fallback_white_24dp.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
@@ -1521,7 +1541,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_light.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable\\common_google_signin_btn_text_light.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_light.xml.flat",
@@ -1529,11 +1549,11 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4_mapbox_info_icon_default.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-ldpi-v4\\mapbox_info_icon_default.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-ldpi-v4\\mapbox_info_icon_default.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4_mapbox_user_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-ldpi-v4\\mapbox_user_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-ldpi-v4\\mapbox_user_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow_custom.xml.flat",
@@ -1545,7 +1565,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_mapbox_logo_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-hdpi-v4\\mapbox_logo_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-hdpi-v4\\mapbox_logo_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
@@ -1553,15 +1573,15 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_mapbox_logo_helmet.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xxxhdpi-v4\\mapbox_logo_helmet.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xxxhdpi-v4\\mapbox_logo_helmet.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_mapbox_user_icon_stale.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xhdpi-v4\\mapbox_user_icon_stale.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xhdpi-v4\\mapbox_user_icon_stale.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
@@ -1569,7 +1589,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_36dp.png.flat",
@@ -1577,7 +1597,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_catalyst_slide_up.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\6775afba3ad00a794dc74d1500197d72\\res\\anim\\catalyst_slide_up.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\480a80bd536218e3f3acfdd50020592d\\res\\anim\\catalyst_slide_up.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
@@ -1585,11 +1605,11 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_mapbox_user_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xhdpi-v4\\mapbox_user_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xhdpi-v4\\mapbox_user_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_mapbox_user_puck_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xxxhdpi-v4\\mapbox_user_puck_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xxxhdpi-v4\\mapbox_user_puck_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-watch-v20_abc_alert_dialog_title_material.xml.flat",
@@ -1601,7 +1621,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
@@ -1625,11 +1645,11 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_mapbox_mylocation_icon_default.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-hdpi-v4\\mapbox_mylocation_icon_default.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-hdpi-v4\\mapbox_mylocation_icon_default.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable-xhdpi-v4\\googleg_disabled_color_18.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable-xhdpi-v4\\googleg_disabled_color_18.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_36dp.png.flat",
@@ -1649,7 +1669,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_os_notification_fallback_white_24dp.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\f7e2b0a25e7dbf2a5aab43162545da0e\\res\\drawable-mdpi-v4\\ic_os_notification_fallback_white_24dp.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\ede844ce83729ecea54838c1d72befc2\\res\\drawable-mdpi-v4\\ic_os_notification_fallback_white_24dp.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
@@ -1676,12 +1696,16 @@
         "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\cbef6c95cf876280ba1a9186098367c9\\res\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
+        "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw_bip39_english.flat",
+        "source": "D:\\ReactNative\\AliceX\\android\\app\\src\\main\\res\\raw\\bip39_english"
+    },
+    {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\cbef6c95cf876280ba1a9186098367c9\\res\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
@@ -1697,7 +1721,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_mapbox_marker_icon_default.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xxhdpi-v4\\mapbox_marker_icon_default.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xxhdpi-v4\\mapbox_marker_icon_default.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_background_cache_hint_selector_material_light.xml.flat",
@@ -1749,7 +1773,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_mapbox_logo_helmet.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xhdpi-v4\\mapbox_logo_helmet.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xhdpi-v4\\mapbox_logo_helmet.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -1757,7 +1781,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_mapbox_marker_icon_default.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-mdpi-v4\\mapbox_marker_icon_default.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-mdpi-v4\\mapbox_marker_icon_default.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -1765,7 +1789,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_mapbox_user_stroke_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-hdpi-v4\\mapbox_user_stroke_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-hdpi-v4\\mapbox_user_stroke_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
@@ -1773,7 +1797,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_common_google_signin_btn_text_dark.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\color\\common_google_signin_btn_text_dark.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
@@ -1781,7 +1805,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat",
@@ -1789,7 +1813,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_mapbox_user_icon_stale.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-anydpi-v21\\mapbox_user_icon_stale.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-anydpi-v21\\mapbox_user_icon_stale.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
@@ -1805,11 +1829,11 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_fps_view.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\6775afba3ad00a794dc74d1500197d72\\res\\layout\\fps_view.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\480a80bd536218e3f3acfdd50020592d\\res\\layout\\fps_view.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_full_open_on_phone.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable-xhdpi-v4\\common_full_open_on_phone.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable-xhdpi-v4\\common_full_open_on_phone.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -1840,6 +1864,10 @@
         "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c9baaa3eee53e4c83e2937453ad03199\\res\\layout\\notification_action_tombstone.xml"
     },
     {
+        "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_webview.xml.flat",
+        "source": "D:\\ReactNative\\AliceX\\android\\app\\src\\main\\res\\layout\\activity_webview.xml"
+    },
+    {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\cbef6c95cf876280ba1a9186098367c9\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
@@ -1849,7 +1877,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_redbox_top_border_background.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\6775afba3ad00a794dc74d1500197d72\\res\\drawable\\redbox_top_border_background.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\480a80bd536218e3f3acfdd50020592d\\res\\drawable\\redbox_top_border_background.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_popup_enter.xml.flat",
@@ -1865,7 +1893,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_light_normal.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
@@ -1925,7 +1953,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_mapbox_logo_helmet.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-mdpi-v4\\mapbox_logo_helmet.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-mdpi-v4\\mapbox_logo_helmet.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
@@ -1933,7 +1961,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -1941,11 +1969,11 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_mapbox_logo_helmet.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-hdpi-v4\\mapbox_logo_helmet.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-hdpi-v4\\mapbox_logo_helmet.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_browser_actions_context_menu_page.xml.flat",
@@ -1957,7 +1985,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_dev_loading_view.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\6775afba3ad00a794dc74d1500197d72\\res\\layout\\dev_loading_view.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\480a80bd536218e3f3acfdd50020592d\\res\\layout\\dev_loading_view.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
@@ -1981,7 +2009,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_common_google_signin_btn_text_light.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\color\\common_google_signin_btn_text_light.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_16dp.png.flat",
@@ -2001,7 +2029,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_mapbox_mapview_internal.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\layout\\mapbox_mapview_internal.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\layout\\mapbox_mapview_internal.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
@@ -2013,7 +2041,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_mapbox_user_puck_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-mdpi-v4\\mapbox_user_puck_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-mdpi-v4\\mapbox_user_puck_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
@@ -2025,7 +2053,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_mapbox_marker_icon_default.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xxxhdpi-v4\\mapbox_marker_icon_default.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xxxhdpi-v4\\mapbox_marker_icon_default.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_indicator_material.xml.flat",
@@ -2033,7 +2061,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_mapbox_user_puck_icon.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-anydpi-v21\\mapbox_user_puck_icon.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-anydpi-v21\\mapbox_user_puck_icon.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -2061,11 +2089,11 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_light_focused.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
@@ -2081,7 +2109,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_mapbox_user_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-mdpi-v4\\mapbox_user_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-mdpi-v4\\mapbox_user_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
@@ -2089,7 +2117,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_mapbox_user_icon.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-xxhdpi-v4\\mapbox_user_icon.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-xxhdpi-v4\\mapbox_user_icon.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_track_material.xml.flat",
@@ -2125,7 +2153,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_redbox_view.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\6775afba3ad00a794dc74d1500197d72\\res\\layout\\redbox_view.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\480a80bd536218e3f3acfdd50020592d\\res\\layout\\redbox_view.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
@@ -2133,7 +2161,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_catalyst_fade_out.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\6775afba3ad00a794dc74d1500197d72\\res\\anim\\catalyst_fade_out.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\480a80bd536218e3f3acfdd50020592d\\res\\anim\\catalyst_fade_out.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
@@ -2145,7 +2173,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_common_google_signin_btn_tint.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\color\\common_google_signin_btn_tint.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\color\\common_google_signin_btn_tint.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_dark.xml.flat",
@@ -2217,7 +2245,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_mapbox_info_icon_default.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-mdpi-v4\\mapbox_info_icon_default.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-mdpi-v4\\mapbox_info_icon_default.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_tranfer.xml.flat",
@@ -2245,11 +2273,11 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_mapbox_user_icon_stale.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-hdpi-v4\\mapbox_user_icon_stale.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-hdpi-v4\\mapbox_user_icon_stale.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_light_normal.xml.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
@@ -2257,7 +2285,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_checkbox.xml.flat",
@@ -2265,7 +2293,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_mapbox_markerview_icon_default.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-hdpi-v4\\mapbox_markerview_icon_default.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-hdpi-v4\\mapbox_markerview_icon_default.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_48dp.png.flat",
@@ -2273,7 +2301,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4_mapbox_user_icon_stale.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-ldpi-v4\\mapbox_user_icon_stale.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-ldpi-v4\\mapbox_user_icon_stale.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
@@ -2281,7 +2309,7 @@
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_mapbox_user_icon_stale.png.flat",
-        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\drawable-mdpi-v4\\mapbox_user_icon_stale.png"
+        "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\drawable-mdpi-v4\\mapbox_user_icon_stale.png"
     },
     {
         "merged": "D:\\ReactNative\\AliceX\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",

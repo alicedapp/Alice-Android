@@ -17,6 +17,8 @@ anim catalyst_push_up_in
 anim catalyst_push_up_out
 anim catalyst_slide_down
 anim catalyst_slide_up
+array TrustedApps
+array TrustedExtensions
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -1525,6 +1527,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id signMessage
 id spacer
 id split_action_bar
 id src_atop
@@ -1565,6 +1568,7 @@ id view_tag_native_id
 id wide
 id withText
 id wrap_content
+id wv_content
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer cancel_button_image_alpha
@@ -1600,6 +1604,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_webview
 layout annotation
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
@@ -1641,7 +1646,13 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 mipmap icon_clear
 mipmap icon_eth
+raw alphawallet_min
+raw bip39_chinese
+raw bip39_english
+raw bip39_spanish
 raw consumer_onesignal_keep
+raw init
+raw init_token
 string CNY_price
 string CODE_PUSH_APK_BUILD_TIME
 string EUR_price

@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\d4269c749d0b6b824472c3dbf36ec826\\res\\values-sv\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "206",
-                        "endOffsets": "453"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "3936",
-                        "endColumns": "206",
-                        "endOffsets": "4138"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\d159eafd080b73d2733064e3ba929d1c\\res\\values-sv\\values.xml",
+                    "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\d8f98564d1c0238c59b858042ef2a2db\\res\\values-sv\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -55,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\e8286f0190bfcef608df018b4296c975\\res\\values-sv\\values.xml",
+                    "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\cd0646a4177ad398b5521c37855cd561\\res\\values-sv\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -72,7 +55,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\c94eec501168d0939f08089e241f1e8a\\res\\values-sv\\values.xml",
+                    "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\1bd6f2ac011a296a625afade26d02a4b\\res\\values-sv\\values-sv.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,178,361,431,515,587,673,760,894,1019,1186,1303,1443",
+                        "endColumns": "122,182,69,83,71,85,86,133,124,166,116,139,76",
+                        "endOffsets": "173,356,426,510,582,668,755,889,1014,1181,1298,1438,1515"
+                    },
+                    "to": {
+                        "startLines": "49,50,51,52,53,54,55,56,57,58,59,60,61",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "5688,5811,5994,6064,6148,6220,6306,6393,6527,6652,6819,6936,7076",
+                        "endColumns": "122,182,69,83,71,85,86,133,124,166,116,139,76",
+                        "endOffsets": "5806,5989,6059,6143,6215,6301,6388,6522,6647,6814,6931,7071,7148"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\a4391ebae14ced5217344af51bdcf71c\\res\\values-sv\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -86,6 +86,23 @@
                         "startOffsets": "2784,2893,3082,3211,3323,3523,3650,3803,4143,4350,4460,4653,4783,4996,5182,5278,5371",
                         "endColumns": "108,188,128,111,199,126,152,132,206,109,192,129,212,185,95,92,107",
                         "endOffsets": "2888,3077,3206,3318,3518,3645,3798,3931,4345,4455,4648,4778,4991,5177,5273,5366,5474"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\d7edb53c238dd0c2753ea28b23f44016\\res\\values-sv\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "206",
+                        "endOffsets": "453"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "3936",
+                        "endColumns": "206",
+                        "endOffsets": "4138"
                     }
                 },
                 {
@@ -103,23 +120,6 @@
                         "startOffsets": "7232",
                         "endColumns": "100",
                         "endOffsets": "7328"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\zhanghaoran\\.gradle\\caches\\transforms-2\\files-2.1\\b21b8aa230c8911fea89ae21a543166e\\res\\values-sv\\values-sv.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,178,361,431,515,587,673,760,894,1019,1186,1303,1443",
-                        "endColumns": "122,182,69,83,71,85,86,133,124,166,116,139,76",
-                        "endOffsets": "173,356,426,510,582,668,755,889,1014,1181,1298,1438,1515"
-                    },
-                    "to": {
-                        "startLines": "49,50,51,52,53,54,55,56,57,58,59,60,61",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "5688,5811,5994,6064,6148,6220,6306,6393,6527,6652,6819,6936,7076",
-                        "endColumns": "122,182,69,83,71,85,86,133,124,166,116,139,76",
-                        "endOffsets": "5806,5989,6059,6143,6215,6301,6388,6522,6647,6814,6931,7071,7148"
                     }
                 }
             ]

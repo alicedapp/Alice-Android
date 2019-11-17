@@ -88,6 +88,11 @@ public class Main1Activity extends BaseActivity<MainPresenter> implements IMainV
         }
         transformDialog.show();
     }
+    @OnClick({R.id.signMessage})
+    public void signMessage(){
+       Intent intent = new Intent(this,WebViewActivity.class);
+       startActivity(intent);
+    }
 
     @Override
     public void showContent(Credentials credentials) {

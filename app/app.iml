@@ -206,12 +206,5 @@
     <orderEntry type="module" module-name="react-native-camera" />
     <orderEntry type="module" module-name="react-native-onesignal" />
     <orderEntry type="module" module-name="@react-native-mapbox-gl_maps" />
-    <orderEntry type="module" module-name="react-native-svg" />
-    <orderEntry type="module" module-name="react-native-haptic-feedback" />
-    <orderEntry type="module" module-name="react-native-gesture-handler" />
-    <orderEntry type="module" module-name="react-native-code-push" />
-    <orderEntry type="module" module-name="react-native-camera" />
-    <orderEntry type="module" module-name="react-native-onesignal" />
-    <orderEntry type="module" module-name="@react-native-mapbox-gl_maps" />
   </component>
 </module>

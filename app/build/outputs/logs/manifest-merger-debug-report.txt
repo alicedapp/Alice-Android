@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml:1:1-39:12
-INJECTED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml:1:1-39:12
-INJECTED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml:1:1-39:12
-INJECTED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml:1:1-39:12
-MERGED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml:1:1-39:12
+ADDED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml:1:1-40:12
+INJECTED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml:1:1-40:12
+INJECTED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml:1:1-40:12
+INJECTED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml:1:1-40:12
+MERGED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml:1:1-40:12
 MERGED from [com.google.firebase:firebase-core:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\9ba468385db34d99f13d4350b9f2cef1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c828556e2ee37c1ba3f66248c3294e5b\AndroidManifest.xml:17:1-22:12
 MERGED from [:react-native-svg] D:\ReactNative\AliceX\node_modules\react-native-svg\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
@@ -13,44 +13,44 @@ MERGED from [:react-native-gesture-handler] D:\ReactNative\AliceX\node_modules\r
 MERGED from [:react-native-code-push] D:\ReactNative\AliceX\node_modules\react-native-code-push\android\app\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-17:12
 MERGED from [:react-native-camera] D:\ReactNative\AliceX\node_modules\react-native-camera\android\build\intermediates\library_manifest\mlkitDebug\AndroidManifest.xml:2:1-18:12
 MERGED from [:react-native-onesignal] D:\ReactNative\AliceX\node_modules\react-native-onesignal\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [com.facebook.react:react-native:0.59.9] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\6775afba3ad00a794dc74d1500197d72\AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.react:react-native:0.59.9] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\480a80bd536218e3f3acfdd50020592d\AndroidManifest.xml:2:1-13:12
 MERGED from [:@react-native-mapbox-gl_maps] D:\ReactNative\AliceX\node_modules\@react-native-mapbox-gl\maps\android\rctmgl\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-14:12
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-localization-v7:0.9.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c7ec623acffc399d55ab40184583153d\AndroidManifest.xml:2:1-9:12
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-markerview-v7:0.2.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\aa0cdd0bc2baaf1ca16fb8c71734ad25\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-localization-v7:0.9.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\77595800c1296604b69499a1e82b8d8e\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-markerview-v7:0.2.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\73b3b9cb5a6b30e03c463aacc98e77d9\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\cbef6c95cf876280ba1a9186098367c9\AndroidManifest.xml:17:1-22:12
-MERGED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:2:1-107:12
-MERGED from [com.google.android.gms:play-services-location:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1b06f777e36051c80ff182bed2cedce7\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\32067134cb9f9107b38d395ced91bbb3\AndroidManifest.xml:17:1-32:12
-MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\e8286f0190bfcef608df018b4296c975\AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.firebase:firebase-ml-vision:19.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1eebac41c32dcb22a64689917bddaadf\AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0a7e70f49307c17844d4008599eac2f5\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b75a166a3426e2301879d64e288d1328\AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\3c7a4a05d8dd441f6dbabf58edc0154f\AndroidManifest.xml:2:1-7:12
+MERGED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:2:1-107:12
+MERGED from [com.google.android.gms:play-services-location:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\a93618348a0f13cd1e6717562ae5e329\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b84b027acd34a91bf7188a99f6398e68\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\cd0646a4177ad398b5521c37855cd561\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-ml-vision:19.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\97a0aa44be83228fb6f973d6ea573ec9\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c63672a78a85bb13322d19bc85908466\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ce422f4a12eb600de5de52012aa6bd95\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\6d201fa9332a5d6c7b0722e41a8ef245\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ced41659543e871ab7c6f1a112085522\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1720b60575649c7d2855fb887f70970d\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0f45d7c36c28a2988c34367d018f79f6\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-ml-common:17.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\43bf3aca8dcefc9c4722accd23e52075\AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\260a0149f50485b00bb3d9da633f913d\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f83cf803d5fc2e13c8fb6e3b4a432af2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-ml-common:17.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\9d4fb60e0344ce3c29ea35e048f96d1c\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\26b2c2c79cd7676b8829c0f3b9940562\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\83d4d82be9b73d4487512f2c422278e3\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b3cd2bb66e6ee941518d07819bfb654e\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:17:1-55:12
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\9e08fa93c1af67737e2df2fa07d037c7\AndroidManifest.xml:17:1-41:12
-MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d159eafd080b73d2733064e3ba929d1c\AndroidManifest.xml:17:1-37:12
-MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:17:1-59:12
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\82ae3d59ab14e53d34d4e21813d30575\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c94eec501168d0939f08089e241f1e8a\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b17c3770b26ef2828dff2d6f72c0c5a7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0b8b00934b1b5d0702d6130ac7908753\AndroidManifest.xml:17:1-41:12
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d8f98564d1c0238c59b858042ef2a2db\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f60264b2cd4b4654aa39f85f5e631b85\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\a4391ebae14ced5217344af51bdcf71c\AndroidManifest.xml:17:1-29:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\04225f27f8307d9f577968a5074db310\AndroidManifest.xml:17:1-22:12
 MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\339ee5910ff3c17569fd752d15952b47\AndroidManifest.xml:15:1-21:12
 MERGED from [com.orhanobut:hawk:2.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\aeaea222860a1bca26512eae0252a5b7\AndroidManifest.xml:2:1-8:12
 MERGED from [com.jakewharton:butterknife:10.2.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\63c2e16cf32d6f0faaa8b4c1d68ff18d\AndroidManifest.xml:2:1-7:12
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b21b8aa230c8911fea89ae21a543166e\AndroidManifest.xml:2:1-20:12
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\75f7701da65a6cfceb199555847c7a69\AndroidManifest.xml:2:1-30:12
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\04225f27f8307d9f577968a5074db310\AndroidManifest.xml:17:1-22:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1bd6f2ac011a296a625afade26d02a4b\AndroidManifest.xml:2:1-20:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0ae768a47e6132681cbd032b8bba204d\AndroidManifest.xml:2:1-30:12
 MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\a2e272909b7b9bc8fb2f9980db818a2e\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ccefa96ba32907603a602d7ef03cfc85\AndroidManifest.xml:2:1-17:12
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\02fbab052d35ed6bdafb3aa272f6dbb3\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\99bcee44c39ba7afef32b2d3f05b7d10\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\81d9fc1c2c0299bab062e5cb7a1f4db1\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d4269c749d0b6b824472c3dbf36ec826\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c2b6530ba4d1307a1e94d0d70f032e7e\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\9fd48c2d835b8d5197b9ff6977afa9ab\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\48954b2047720e6319b67842cb7f95c0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b003468bcc868bf521714a6388134225\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d7edb53c238dd0c2753ea28b23f44016\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b1148d4e6349c79e0dd30664e6a58e60\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\04e730f02108a12df3938d2ae731814c\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\3bf90545a30182a83e3c81dd1b514653\AndroidManifest.xml:17:1-22:12
@@ -61,7 +61,7 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\zhanghaoran\
 MERGED from [com.jakewharton:butterknife-runtime:10.2.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\580c044337e8c68bfc7837d7a19d2e6b\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.media:media:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1658b451ac2f82d0a0681f3df20eb3d0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\01dad71e2ffda0ec4759cfebc89cce4a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.4.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\eab46f2d7b3da28f890fd91a0a4a7eb5\AndroidManifest.xml:2:1-11:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.4.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\199fa63b9afbcd899ea827c4787ab15f\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\8cd26b137d11879da9d6f176564b6942\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f04a6a4bfc37df3b0af4ff0f73334cdf\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f6e43a4dbfde754e01d5c3478b2a3fb7\AndroidManifest.xml:17:1-22:12
@@ -77,24 +77,24 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\zhanghaoran\.gra
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\13e6d22eeea2ddb530efa4f87ee891ef\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\341ae5f7a6fd5ae3947b1980acf3ccba\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c57374a35c4084b95b04c96dd3ebb5b5\AndroidManifest.xml:17:1-22:12
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.1.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\626ee99f8d578a3bcb0e8e7270ac0411\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.1.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c7df067b6d756294e44005f5e098ec39\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\394a2cbc31e7b054de71106d982052af\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\6a320cafa0014daa0215a16059406513\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\bbf3ebe4e06b71b4e3d36e4abc7a1534\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\df3f0175aba2639f50d80ead23efa304\AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\26b95721ed72a051dc6582993c821b3d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\a8dd281f392997a747eaea5de755c245\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4c9e83e84f4f531d31c48efceb029ccd\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\30bb08ecb0f3085277b746d4f3cbb3b7\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\527f2fd6c814b8246566403b0d7ec4c6\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b91255428330c470ac6a85c1976e1b50\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\249d67876756adfbb6eca5a796cd9b94\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\794894e097ad3be52b78f0c5c40d1b3b\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1af3c06397e14ebc1d6c92c02254f24b\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\e30f61378a4815d9c3edf0562ced2666\AndroidManifest.xml:2:1-13:12
 MERGED from [com.facebook.conceal:conceal:1.1.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b629abcbad7aca043cb90771eb383719\AndroidManifest.xml:7:1-16:12
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\751f537b7b50747d195dfe59fd7a235a\AndroidManifest.xml:17:1-24:12
-MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\211c47483a2265202a830bca220d63b7\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b225d14849b0f0a2deb2637545d9e273\AndroidManifest.xml:2:1-9:12
 MERGED from [com.getkeepsafe.relinker:relinker:1.3.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\8f82e4385096596ab975e07ae64f90b4\AndroidManifest.xml:2:1-7:12
-MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\91f0ba47f0c7541101ddc08de8280bd5\AndroidManifest.xml:2:1-9:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0d15540daf613405b3072652e864ae0c\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\a1012628441a47e688a351e61bf1b179\AndroidManifest.xml:17:1-24:12
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.3.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f0b7c87ce4dc5feb320b738043ed10a9\AndroidManifest.xml:2:1-14:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.3.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\6ae4f0a68a84d3910095340d0c7439f1\AndroidManifest.xml:2:1-14:12
 INJECTED from D:\ReactNative\AliceX\android\app\src\debug\AndroidManifest.xml:2:1-8:12
 INJECTED from D:\ReactNative\AliceX\android\app\src\debug\AndroidManifest.xml:2:1-8:12
 INJECTED from D:\ReactNative\AliceX\android\app\src\debug\AndroidManifest.xml:2:1-8:12
@@ -105,13 +105,13 @@ INJECTED from D:\ReactNative\AliceX\android\app\src\debug\AndroidManifest.xml:2:
 		INJECTED from D:\ReactNative\AliceX\android\app\src\debug\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml:1:1-39:12
+		ADDED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml:1:1-40:12
 		INJECTED from D:\ReactNative\AliceX\android\app\src\debug\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\ReactNative\AliceX\android\app\src\debug\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml:1:1-39:12
+		ADDED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml:1:1-40:12
 		INJECTED from D:\ReactNative\AliceX\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml:1:11-69
@@ -121,24 +121,24 @@ MERGED from [:react-native-code-push] D:\ReactNative\AliceX\node_modules\react-n
 MERGED from [:react-native-code-push] D:\ReactNative\AliceX\node_modules\react-native-code-push\android\app\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
 MERGED from [:@react-native-mapbox-gl_maps] D:\ReactNative\AliceX\node_modules\@react-native-mapbox-gl\maps\android\rctmgl\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
 MERGED from [:@react-native-mapbox-gl_maps] D:\ReactNative\AliceX\node_modules\@react-native-mapbox-gl\maps\android\rctmgl\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
-MERGED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:17:5-67
-MERGED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:17:5-67
-MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\32067134cb9f9107b38d395ced91bbb3\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\32067134cb9f9107b38d395ced91bbb3\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\e8286f0190bfcef608df018b4296c975\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\e8286f0190bfcef608df018b4296c975\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b75a166a3426e2301879d64e288d1328\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b75a166a3426e2301879d64e288d1328\AndroidManifest.xml:24:5-67
-MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\9e08fa93c1af67737e2df2fa07d037c7\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\9e08fa93c1af67737e2df2fa07d037c7\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:23:5-67
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b21b8aa230c8911fea89ae21a543166e\AndroidManifest.xml:16:5-67
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b21b8aa230c8911fea89ae21a543166e\AndroidManifest.xml:16:5-67
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\75f7701da65a6cfceb199555847c7a69\AndroidManifest.xml:16:5-67
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\75f7701da65a6cfceb199555847c7a69\AndroidManifest.xml:16:5-67
+MERGED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:17:5-67
+MERGED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:17:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b84b027acd34a91bf7188a99f6398e68\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b84b027acd34a91bf7188a99f6398e68\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\cd0646a4177ad398b5521c37855cd561\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\cd0646a4177ad398b5521c37855cd561\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ce422f4a12eb600de5de52012aa6bd95\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ce422f4a12eb600de5de52012aa6bd95\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0b8b00934b1b5d0702d6130ac7908753\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0b8b00934b1b5d0702d6130ac7908753\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:23:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1bd6f2ac011a296a625afade26d02a4b\AndroidManifest.xml:16:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1bd6f2ac011a296a625afade26d02a4b\AndroidManifest.xml:16:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0ae768a47e6132681cbd032b8bba204d\AndroidManifest.xml:16:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0ae768a47e6132681cbd032b8bba204d\AndroidManifest.xml:16:5-67
 	android:name
 		ADDED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml:4:22-64
 uses-permission#android.permission.RECORD_AUDIO
@@ -167,70 +167,70 @@ uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml:10:5-79
 MERGED from [:@react-native-mapbox-gl_maps] D:\ReactNative\AliceX\node_modules\@react-native-mapbox-gl\maps\android\rctmgl\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-79
 MERGED from [:@react-native-mapbox-gl_maps] D:\ReactNative\AliceX\node_modules\@react-native-mapbox-gl\maps\android\rctmgl\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-79
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\75f7701da65a6cfceb199555847c7a69\AndroidManifest.xml:13:5-79
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\75f7701da65a6cfceb199555847c7a69\AndroidManifest.xml:13:5-79
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.3.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f0b7c87ce4dc5feb320b738043ed10a9\AndroidManifest.xml:11:5-79
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.3.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f0b7c87ce4dc5feb320b738043ed10a9\AndroidManifest.xml:11:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0ae768a47e6132681cbd032b8bba204d\AndroidManifest.xml:13:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0ae768a47e6132681cbd032b8bba204d\AndroidManifest.xml:13:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.3.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\6ae4f0a68a84d3910095340d0c7439f1\AndroidManifest.xml:11:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.3.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\6ae4f0a68a84d3910095340d0c7439f1\AndroidManifest.xml:11:5-79
 	android:name
 		ADDED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml:10:22-76
 application
-ADDED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml:12:5-34:19
-MERGED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml:12:5-34:19
-MERGED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml:12:5-34:19
+ADDED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml:12:5-35:19
+MERGED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml:12:5-35:19
+MERGED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml:12:5-35:19
 MERGED from [com.google.firebase:firebase-core:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\9ba468385db34d99f13d4350b9f2cef1\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-core:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\9ba468385db34d99f13d4350b9f2cef1\AndroidManifest.xml:7:5-20
 MERGED from [:react-native-code-push] D:\ReactNative\AliceX\node_modules\react-native-code-push\android\app\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-15:19
 MERGED from [:react-native-code-push] D:\ReactNative\AliceX\node_modules\react-native-code-push\android\app\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-15:19
-MERGED from [com.facebook.react:react-native:0.59.9] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\6775afba3ad00a794dc74d1500197d72\AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.react:react-native:0.59.9] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\6775afba3ad00a794dc74d1500197d72\AndroidManifest.xml:11:5-20
-MERGED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:49:5-105:19
-MERGED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:49:5-105:19
-MERGED from [com.google.android.gms:play-services-location:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1b06f777e36051c80ff182bed2cedce7\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1b06f777e36051c80ff182bed2cedce7\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\32067134cb9f9107b38d395ced91bbb3\AndroidManifest.xml:30:5-20
-MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\32067134cb9f9107b38d395ced91bbb3\AndroidManifest.xml:30:5-20
-MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\e8286f0190bfcef608df018b4296c975\AndroidManifest.xml:26:5-20
-MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\e8286f0190bfcef608df018b4296c975\AndroidManifest.xml:26:5-20
-MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0a7e70f49307c17844d4008599eac2f5\AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0a7e70f49307c17844d4008599eac2f5\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b75a166a3426e2301879d64e288d1328\AndroidManifest.xml:26:5-20
-MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b75a166a3426e2301879d64e288d1328\AndroidManifest.xml:26:5-20
+MERGED from [com.facebook.react:react-native:0.59.9] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\480a80bd536218e3f3acfdd50020592d\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.59.9] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\480a80bd536218e3f3acfdd50020592d\AndroidManifest.xml:11:5-20
+MERGED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:49:5-105:19
+MERGED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:49:5-105:19
+MERGED from [com.google.android.gms:play-services-location:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\a93618348a0f13cd1e6717562ae5e329\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\a93618348a0f13cd1e6717562ae5e329\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b84b027acd34a91bf7188a99f6398e68\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b84b027acd34a91bf7188a99f6398e68\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\cd0646a4177ad398b5521c37855cd561\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\cd0646a4177ad398b5521c37855cd561\AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c63672a78a85bb13322d19bc85908466\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c63672a78a85bb13322d19bc85908466\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ce422f4a12eb600de5de52012aa6bd95\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ce422f4a12eb600de5de52012aa6bd95\AndroidManifest.xml:26:5-20
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ced41659543e871ab7c6f1a112085522\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ced41659543e871ab7c6f1a112085522\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1720b60575649c7d2855fb887f70970d\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1720b60575649c7d2855fb887f70970d\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0f45d7c36c28a2988c34367d018f79f6\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0f45d7c36c28a2988c34367d018f79f6\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\260a0149f50485b00bb3d9da633f913d\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\260a0149f50485b00bb3d9da633f913d\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b3cd2bb66e6ee941518d07819bfb654e\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b3cd2bb66e6ee941518d07819bfb654e\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:28:5-53:19
-MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:28:5-53:19
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\9e08fa93c1af67737e2df2fa07d037c7\AndroidManifest.xml:28:5-39:19
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\9e08fa93c1af67737e2df2fa07d037c7\AndroidManifest.xml:28:5-39:19
-MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d159eafd080b73d2733064e3ba929d1c\AndroidManifest.xml:22:5-35:19
-MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d159eafd080b73d2733064e3ba929d1c\AndroidManifest.xml:22:5-35:19
-MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:28:5-57:19
-MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:28:5-57:19
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\82ae3d59ab14e53d34d4e21813d30575\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\82ae3d59ab14e53d34d4e21813d30575\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c94eec501168d0939f08089e241f1e8a\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c94eec501168d0939f08089e241f1e8a\AndroidManifest.xml:22:5-27:19
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\75f7701da65a6cfceb199555847c7a69\AndroidManifest.xml:18:5-28:19
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\75f7701da65a6cfceb199555847c7a69\AndroidManifest.xml:18:5-28:19
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f83cf803d5fc2e13c8fb6e3b4a432af2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f83cf803d5fc2e13c8fb6e3b4a432af2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\26b2c2c79cd7676b8829c0f3b9940562\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\26b2c2c79cd7676b8829c0f3b9940562\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b17c3770b26ef2828dff2d6f72c0c5a7\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b17c3770b26ef2828dff2d6f72c0c5a7\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0b8b00934b1b5d0702d6130ac7908753\AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0b8b00934b1b5d0702d6130ac7908753\AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d8f98564d1c0238c59b858042ef2a2db\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d8f98564d1c0238c59b858042ef2a2db\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f60264b2cd4b4654aa39f85f5e631b85\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f60264b2cd4b4654aa39f85f5e631b85\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\a4391ebae14ced5217344af51bdcf71c\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\a4391ebae14ced5217344af51bdcf71c\AndroidManifest.xml:22:5-27:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0ae768a47e6132681cbd032b8bba204d\AndroidManifest.xml:18:5-28:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0ae768a47e6132681cbd032b8bba204d\AndroidManifest.xml:18:5-28:19
 MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\a2e272909b7b9bc8fb2f9980db818a2e\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\a2e272909b7b9bc8fb2f9980db818a2e\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ccefa96ba32907603a602d7ef03cfc85\AndroidManifest.xml:9:5-15:19
-MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ccefa96ba32907603a602d7ef03cfc85\AndroidManifest.xml:9:5-15:19
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\02fbab052d35ed6bdafb3aa272f6dbb3\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\02fbab052d35ed6bdafb3aa272f6dbb3\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\99bcee44c39ba7afef32b2d3f05b7d10\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\99bcee44c39ba7afef32b2d3f05b7d10\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\81d9fc1c2c0299bab062e5cb7a1f4db1\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\81d9fc1c2c0299bab062e5cb7a1f4db1\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d4269c749d0b6b824472c3dbf36ec826\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d4269c749d0b6b824472c3dbf36ec826\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c2b6530ba4d1307a1e94d0d70f032e7e\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c2b6530ba4d1307a1e94d0d70f032e7e\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\9fd48c2d835b8d5197b9ff6977afa9ab\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\9fd48c2d835b8d5197b9ff6977afa9ab\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\48954b2047720e6319b67842cb7f95c0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\48954b2047720e6319b67842cb7f95c0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b003468bcc868bf521714a6388134225\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b003468bcc868bf521714a6388134225\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d7edb53c238dd0c2753ea28b23f44016\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d7edb53c238dd0c2753ea28b23f44016\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.core:core:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c9baaa3eee53e4c83e2937453ad03199\AndroidManifest.xml:22:5-89
 MERGED from [androidx.core:core:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c9baaa3eee53e4c83e2937453ad03199\AndroidManifest.xml:22:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\45bb71f1d4cc1c2329f692951aa453bd\AndroidManifest.xml:22:5-23:19
@@ -239,8 +239,8 @@ MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\zhanghaoran\.gradle\
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\e30f61378a4815d9c3edf0562ced2666\AndroidManifest.xml:11:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\751f537b7b50747d195dfe59fd7a235a\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\751f537b7b50747d195dfe59fd7a235a\AndroidManifest.xml:22:5-20
-MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\91f0ba47f0c7541101ddc08de8280bd5\AndroidManifest.xml:7:5-20
-MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\91f0ba47f0c7541101ddc08de8280bd5\AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0d15540daf613405b3072652e864ae0c\AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0d15540daf613405b3072652e864ae0c\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\a1012628441a47e688a351e61bf1b179\AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\a1012628441a47e688a351e61bf1b179\AndroidManifest.xml:22:5-20
 	android:appComponentFactory
@@ -305,6 +305,10 @@ activity#com.alice.activity.RnActivity
 ADDED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml:33:9-56
 	android:name
 		ADDED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml:33:19-54
+activity#com.alice.activity.WebViewActivity
+ADDED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml:34:9-61
+	android:name
+		ADDED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml:34:19-59
 uses-sdk
 INJECTED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\ReactNative\AliceX\android\app\src\main\AndroidManifest.xml
@@ -325,82 +329,82 @@ MERGED from [:react-native-camera] D:\ReactNative\AliceX\node_modules\react-nati
 MERGED from [:react-native-camera] D:\ReactNative\AliceX\node_modules\react-native-camera\android\build\intermediates\library_manifest\mlkitDebug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-onesignal] D:\ReactNative\AliceX\node_modules\react-native-onesignal\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:react-native-onesignal] D:\ReactNative\AliceX\node_modules\react-native-onesignal\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [com.facebook.react:react-native:0.59.9] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\6775afba3ad00a794dc74d1500197d72\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.59.9] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\6775afba3ad00a794dc74d1500197d72\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.59.9] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\480a80bd536218e3f3acfdd50020592d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.59.9] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\480a80bd536218e3f3acfdd50020592d\AndroidManifest.xml:7:5-9:41
 MERGED from [:@react-native-mapbox-gl_maps] D:\ReactNative\AliceX\node_modules\@react-native-mapbox-gl\maps\android\rctmgl\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:@react-native-mapbox-gl_maps] D:\ReactNative\AliceX\node_modules\@react-native-mapbox-gl\maps\android\rctmgl\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-localization-v7:0.9.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c7ec623acffc399d55ab40184583153d\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-localization-v7:0.9.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c7ec623acffc399d55ab40184583153d\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-markerview-v7:0.2.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\aa0cdd0bc2baaf1ca16fb8c71734ad25\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-markerview-v7:0.2.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\aa0cdd0bc2baaf1ca16fb8c71734ad25\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-localization-v7:0.9.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\77595800c1296604b69499a1e82b8d8e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-localization-v7:0.9.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\77595800c1296604b69499a1e82b8d8e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-markerview-v7:0.2.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\73b3b9cb5a6b30e03c463aacc98e77d9\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-markerview-v7:0.2.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\73b3b9cb5a6b30e03c463aacc98e77d9\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\cbef6c95cf876280ba1a9186098367c9\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\cbef6c95cf876280ba1a9186098367c9\AndroidManifest.xml:20:5-44
-MERGED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:5:5-44
-MERGED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1b06f777e36051c80ff182bed2cedce7\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1b06f777e36051c80ff182bed2cedce7\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\32067134cb9f9107b38d395ced91bbb3\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\32067134cb9f9107b38d395ced91bbb3\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\e8286f0190bfcef608df018b4296c975\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\e8286f0190bfcef608df018b4296c975\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-ml-vision:19.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1eebac41c32dcb22a64689917bddaadf\AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-ml-vision:19.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1eebac41c32dcb22a64689917bddaadf\AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0a7e70f49307c17844d4008599eac2f5\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0a7e70f49307c17844d4008599eac2f5\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b75a166a3426e2301879d64e288d1328\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b75a166a3426e2301879d64e288d1328\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\3c7a4a05d8dd441f6dbabf58edc0154f\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\3c7a4a05d8dd441f6dbabf58edc0154f\AndroidManifest.xml:5:5-44
+MERGED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:5:5-44
+MERGED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\a93618348a0f13cd1e6717562ae5e329\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\a93618348a0f13cd1e6717562ae5e329\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b84b027acd34a91bf7188a99f6398e68\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b84b027acd34a91bf7188a99f6398e68\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\cd0646a4177ad398b5521c37855cd561\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\cd0646a4177ad398b5521c37855cd561\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-ml-vision:19.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\97a0aa44be83228fb6f973d6ea573ec9\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-vision:19.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\97a0aa44be83228fb6f973d6ea573ec9\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c63672a78a85bb13322d19bc85908466\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c63672a78a85bb13322d19bc85908466\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ce422f4a12eb600de5de52012aa6bd95\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ce422f4a12eb600de5de52012aa6bd95\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\6d201fa9332a5d6c7b0722e41a8ef245\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\6d201fa9332a5d6c7b0722e41a8ef245\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ced41659543e871ab7c6f1a112085522\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ced41659543e871ab7c6f1a112085522\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1720b60575649c7d2855fb887f70970d\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1720b60575649c7d2855fb887f70970d\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0f45d7c36c28a2988c34367d018f79f6\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0f45d7c36c28a2988c34367d018f79f6\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-ml-common:17.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\43bf3aca8dcefc9c4722accd23e52075\AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-ml-common:17.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\43bf3aca8dcefc9c4722accd23e52075\AndroidManifest.xml:6:5-44
-MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\260a0149f50485b00bb3d9da633f913d\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\260a0149f50485b00bb3d9da633f913d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f83cf803d5fc2e13c8fb6e3b4a432af2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f83cf803d5fc2e13c8fb6e3b4a432af2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-common:17.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\9d4fb60e0344ce3c29ea35e048f96d1c\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-common:17.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\9d4fb60e0344ce3c29ea35e048f96d1c\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\26b2c2c79cd7676b8829c0f3b9940562\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\26b2c2c79cd7676b8829c0f3b9940562\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\83d4d82be9b73d4487512f2c422278e3\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\83d4d82be9b73d4487512f2c422278e3\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b3cd2bb66e6ee941518d07819bfb654e\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b3cd2bb66e6ee941518d07819bfb654e\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\9e08fa93c1af67737e2df2fa07d037c7\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\9e08fa93c1af67737e2df2fa07d037c7\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d159eafd080b73d2733064e3ba929d1c\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d159eafd080b73d2733064e3ba929d1c\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\82ae3d59ab14e53d34d4e21813d30575\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\82ae3d59ab14e53d34d4e21813d30575\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c94eec501168d0939f08089e241f1e8a\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c94eec501168d0939f08089e241f1e8a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b17c3770b26ef2828dff2d6f72c0c5a7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b17c3770b26ef2828dff2d6f72c0c5a7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0b8b00934b1b5d0702d6130ac7908753\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0b8b00934b1b5d0702d6130ac7908753\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d8f98564d1c0238c59b858042ef2a2db\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d8f98564d1c0238c59b858042ef2a2db\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f60264b2cd4b4654aa39f85f5e631b85\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f60264b2cd4b4654aa39f85f5e631b85\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\a4391ebae14ced5217344af51bdcf71c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\a4391ebae14ced5217344af51bdcf71c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\04225f27f8307d9f577968a5074db310\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\04225f27f8307d9f577968a5074db310\AndroidManifest.xml:20:5-44
 MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\339ee5910ff3c17569fd752d15952b47\AndroidManifest.xml:19:5-43
 MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\339ee5910ff3c17569fd752d15952b47\AndroidManifest.xml:19:5-43
 MERGED from [com.orhanobut:hawk:2.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\aeaea222860a1bca26512eae0252a5b7\AndroidManifest.xml:6:5-44
 MERGED from [com.orhanobut:hawk:2.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\aeaea222860a1bca26512eae0252a5b7\AndroidManifest.xml:6:5-44
 MERGED from [com.jakewharton:butterknife:10.2.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\63c2e16cf32d6f0faaa8b4c1d68ff18d\AndroidManifest.xml:5:5-44
 MERGED from [com.jakewharton:butterknife:10.2.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\63c2e16cf32d6f0faaa8b4c1d68ff18d\AndroidManifest.xml:5:5-44
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b21b8aa230c8911fea89ae21a543166e\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b21b8aa230c8911fea89ae21a543166e\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\75f7701da65a6cfceb199555847c7a69\AndroidManifest.xml:7:5-9:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\75f7701da65a6cfceb199555847c7a69\AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\04225f27f8307d9f577968a5074db310\AndroidManifest.xml:20:5-44
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\04225f27f8307d9f577968a5074db310\AndroidManifest.xml:20:5-44
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1bd6f2ac011a296a625afade26d02a4b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1bd6f2ac011a296a625afade26d02a4b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0ae768a47e6132681cbd032b8bba204d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0ae768a47e6132681cbd032b8bba204d\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\a2e272909b7b9bc8fb2f9980db818a2e\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\a2e272909b7b9bc8fb2f9980db818a2e\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ccefa96ba32907603a602d7ef03cfc85\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ccefa96ba32907603a602d7ef03cfc85\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\02fbab052d35ed6bdafb3aa272f6dbb3\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\02fbab052d35ed6bdafb3aa272f6dbb3\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\99bcee44c39ba7afef32b2d3f05b7d10\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\99bcee44c39ba7afef32b2d3f05b7d10\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\81d9fc1c2c0299bab062e5cb7a1f4db1\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\81d9fc1c2c0299bab062e5cb7a1f4db1\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d4269c749d0b6b824472c3dbf36ec826\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d4269c749d0b6b824472c3dbf36ec826\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c2b6530ba4d1307a1e94d0d70f032e7e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c2b6530ba4d1307a1e94d0d70f032e7e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\9fd48c2d835b8d5197b9ff6977afa9ab\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\9fd48c2d835b8d5197b9ff6977afa9ab\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\48954b2047720e6319b67842cb7f95c0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\48954b2047720e6319b67842cb7f95c0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b003468bcc868bf521714a6388134225\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b003468bcc868bf521714a6388134225\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d7edb53c238dd0c2753ea28b23f44016\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d7edb53c238dd0c2753ea28b23f44016\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b1148d4e6349c79e0dd30664e6a58e60\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b1148d4e6349c79e0dd30664e6a58e60\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\04e730f02108a12df3938d2ae731814c\AndroidManifest.xml:20:5-44
@@ -421,8 +425,8 @@ MERGED from [androidx.media:media:1.0.0] C:\Users\zhanghaoran\.gradle\caches\tra
 MERGED from [androidx.media:media:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1658b451ac2f82d0a0681f3df20eb3d0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\01dad71e2ffda0ec4759cfebc89cce4a\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\01dad71e2ffda0ec4759cfebc89cce4a\AndroidManifest.xml:20:5-44
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.4.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\eab46f2d7b3da28f890fd91a0a4a7eb5\AndroidManifest.xml:7:5-9:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.4.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\eab46f2d7b3da28f890fd91a0a4a7eb5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.4.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\199fa63b9afbcd899ea827c4787ab15f\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.4.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\199fa63b9afbcd899ea827c4787ab15f\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\8cd26b137d11879da9d6f176564b6942\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\8cd26b137d11879da9d6f176564b6942\AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f04a6a4bfc37df3b0af4ff0f73334cdf\AndroidManifest.xml:20:5-44
@@ -453,8 +457,8 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\zhanghaoran\.gradle\caches\tra
 MERGED from [androidx.print:print:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\341ae5f7a6fd5ae3947b1980acf3ccba\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c57374a35c4084b95b04c96dd3ebb5b5\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c57374a35c4084b95b04c96dd3ebb5b5\AndroidManifest.xml:20:5-44
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.1.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\626ee99f8d578a3bcb0e8e7270ac0411\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.1.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\626ee99f8d578a3bcb0e8e7270ac0411\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.1.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c7df067b6d756294e44005f5e098ec39\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.1.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c7df067b6d756294e44005f5e098ec39\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\394a2cbc31e7b054de71106d982052af\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\394a2cbc31e7b054de71106d982052af\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\6a320cafa0014daa0215a16059406513\AndroidManifest.xml:20:5-44
@@ -463,32 +467,32 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\zhanghao
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\bbf3ebe4e06b71b4e3d36e4abc7a1534\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\df3f0175aba2639f50d80ead23efa304\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\df3f0175aba2639f50d80ead23efa304\AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\26b95721ed72a051dc6582993c821b3d\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\26b95721ed72a051dc6582993c821b3d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\a8dd281f392997a747eaea5de755c245\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\a8dd281f392997a747eaea5de755c245\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4c9e83e84f4f531d31c48efceb029ccd\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4c9e83e84f4f531d31c48efceb029ccd\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\30bb08ecb0f3085277b746d4f3cbb3b7\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\30bb08ecb0f3085277b746d4f3cbb3b7\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\527f2fd6c814b8246566403b0d7ec4c6\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\527f2fd6c814b8246566403b0d7ec4c6\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b91255428330c470ac6a85c1976e1b50\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b91255428330c470ac6a85c1976e1b50\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\249d67876756adfbb6eca5a796cd9b94\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\249d67876756adfbb6eca5a796cd9b94\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\794894e097ad3be52b78f0c5c40d1b3b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\794894e097ad3be52b78f0c5c40d1b3b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1af3c06397e14ebc1d6c92c02254f24b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1af3c06397e14ebc1d6c92c02254f24b\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\e30f61378a4815d9c3edf0562ced2666\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\e30f61378a4815d9c3edf0562ced2666\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.conceal:conceal:1.1.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b629abcbad7aca043cb90771eb383719\AndroidManifest.xml:12:5-14:41
 MERGED from [com.facebook.conceal:conceal:1.1.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b629abcbad7aca043cb90771eb383719\AndroidManifest.xml:12:5-14:41
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\751f537b7b50747d195dfe59fd7a235a\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\751f537b7b50747d195dfe59fd7a235a\AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\211c47483a2265202a830bca220d63b7\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\211c47483a2265202a830bca220d63b7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b225d14849b0f0a2deb2637545d9e273\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b225d14849b0f0a2deb2637545d9e273\AndroidManifest.xml:5:5-7:41
 MERGED from [com.getkeepsafe.relinker:relinker:1.3.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\8f82e4385096596ab975e07ae64f90b4\AndroidManifest.xml:5:5-43
 MERGED from [com.getkeepsafe.relinker:relinker:1.3.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\8f82e4385096596ab975e07ae64f90b4\AndroidManifest.xml:5:5-43
-MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\91f0ba47f0c7541101ddc08de8280bd5\AndroidManifest.xml:5:5-43
-MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\91f0ba47f0c7541101ddc08de8280bd5\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0d15540daf613405b3072652e864ae0c\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0d15540daf613405b3072652e864ae0c\AndroidManifest.xml:5:5-43
 MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\a1012628441a47e688a351e61bf1b179\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\a1012628441a47e688a351e61bf1b179\AndroidManifest.xml:20:5-44
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.3.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f0b7c87ce4dc5feb320b738043ed10a9\AndroidManifest.xml:7:5-9:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.3.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f0b7c87ce4dc5feb320b738043ed10a9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.3.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\6ae4f0a68a84d3910095340d0c7439f1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.3.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\6ae4f0a68a84d3910095340d0c7439f1\AndroidManifest.xml:7:5-9:41
 INJECTED from D:\ReactNative\AliceX\android\app\src\debug\AndroidManifest.xml
 INJECTED from D:\ReactNative\AliceX\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion
@@ -503,8 +507,8 @@ ADDED from D:\ReactNative\AliceX\android\app\src\debug\AndroidManifest.xml:5:5-7
 		ADDED from D:\ReactNative\AliceX\android\app\src\debug\AndroidManifest.xml:5:22-75
 uses-permission#android.permission.VIBRATE
 ADDED from [:react-native-haptic-feedback] D:\ReactNative\AliceX\node_modules\react-native-haptic-feedback\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-66
-MERGED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:24:5-66
-MERGED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:24:5-66
+MERGED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:24:5-66
+MERGED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:24:5-66
 	android:name
 		ADDED from [:react-native-haptic-feedback] D:\ReactNative\AliceX\node_modules\react-native-haptic-feedback\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-63
 uses-feature#android.hardware.camera
@@ -520,402 +524,402 @@ ADDED from [:react-native-camera] D:\ReactNative\AliceX\node_modules\react-nativ
 	android:name
 		ADDED from [:react-native-camera] D:\ReactNative\AliceX\node_modules\react-native-camera\android\build\intermediates\library_manifest\mlkitDebug\AndroidManifest.xml:15:9-57
 permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:8:5-10:47
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:8:5-10:47
 	android:protectionLevel
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:10:9-44
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:10:9-44
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:9:9-63
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:9:9-63
 permission#com.alice.permission.C2D_MESSAGE
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:8:5-10:47
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:8:5-10:47
 	android:protectionLevel
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:10:9-44
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:10:9-44
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:9:9-63
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:9:9-63
 uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:12:5-79
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:12:5-79
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:12:22-76
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:12:22-76
 uses-permission#com.alice.permission.C2D_MESSAGE
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:12:5-79
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:12:5-79
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:12:22-76
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:12:22-76
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:18:5-82
-MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\e8286f0190bfcef608df018b4296c975\AndroidManifest.xml:23:5-82
-MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\e8286f0190bfcef608df018b4296c975\AndroidManifest.xml:23:5-82
-MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b75a166a3426e2301879d64e288d1328\AndroidManifest.xml:23:5-82
-MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b75a166a3426e2301879d64e288d1328\AndroidManifest.xml:23:5-82
-MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:26:5-82
-MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:26:5-82
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:18:5-82
+MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\cd0646a4177ad398b5521c37855cd561\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-gcm:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\cd0646a4177ad398b5521c37855cd561\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ce422f4a12eb600de5de52012aa6bd95\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ce422f4a12eb600de5de52012aa6bd95\AndroidManifest.xml:23:5-82
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:26:5-82
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:18:22-79
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:18:22-79
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:19:5-68
-MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\9e08fa93c1af67737e2df2fa07d037c7\AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\9e08fa93c1af67737e2df2fa07d037c7\AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:24:5-68
-MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:24:5-68
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\75f7701da65a6cfceb199555847c7a69\AndroidManifest.xml:12:5-68
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\75f7701da65a6cfceb199555847c7a69\AndroidManifest.xml:12:5-68
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:19:5-68
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0b8b00934b1b5d0702d6130ac7908753\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0b8b00934b1b5d0702d6130ac7908753\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:24:5-68
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0ae768a47e6132681cbd032b8bba204d\AndroidManifest.xml:12:5-68
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0ae768a47e6132681cbd032b8bba204d\AndroidManifest.xml:12:5-68
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:19:22-65
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:19:22-65
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:25:5-79
-MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\32067134cb9f9107b38d395ced91bbb3\AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\32067134cb9f9107b38d395ced91bbb3\AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\9e08fa93c1af67737e2df2fa07d037c7\AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\9e08fa93c1af67737e2df2fa07d037c7\AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:22:5-79
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b21b8aa230c8911fea89ae21a543166e\AndroidManifest.xml:17:5-79
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b21b8aa230c8911fea89ae21a543166e\AndroidManifest.xml:17:5-79
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\75f7701da65a6cfceb199555847c7a69\AndroidManifest.xml:14:5-79
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\75f7701da65a6cfceb199555847c7a69\AndroidManifest.xml:14:5-79
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.3.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f0b7c87ce4dc5feb320b738043ed10a9\AndroidManifest.xml:12:5-79
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.3.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f0b7c87ce4dc5feb320b738043ed10a9\AndroidManifest.xml:12:5-79
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b84b027acd34a91bf7188a99f6398e68\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b84b027acd34a91bf7188a99f6398e68\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0b8b00934b1b5d0702d6130ac7908753\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0b8b00934b1b5d0702d6130ac7908753\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:22:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1bd6f2ac011a296a625afade26d02a4b\AndroidManifest.xml:17:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1bd6f2ac011a296a625afade26d02a4b\AndroidManifest.xml:17:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0ae768a47e6132681cbd032b8bba204d\AndroidManifest.xml:14:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0ae768a47e6132681cbd032b8bba204d\AndroidManifest.xml:14:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.3.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\6ae4f0a68a84d3910095340d0c7439f1\AndroidManifest.xml:12:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.3.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\6ae4f0a68a84d3910095340d0c7439f1\AndroidManifest.xml:12:5-79
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:25:22-76
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:25:22-76
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:30:5-81
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:30:5-81
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:30:22-78
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:30:22-78
 uses-permission#com.sec.android.provider.badge.permission.READ
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:32:5-86
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:32:5-86
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:32:22-83
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:32:22-83
 uses-permission#com.sec.android.provider.badge.permission.WRITE
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:33:5-87
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:33:5-87
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:33:22-84
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:33:22-84
 uses-permission#com.htc.launcher.permission.READ_SETTINGS
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:34:5-81
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:34:5-81
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:34:22-78
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:34:22-78
 uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:35:5-83
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:35:5-83
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:35:22-80
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:35:22-80
 uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:36:5-88
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:36:5-88
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:36:22-85
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:36:22-85
 uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:37:5-92
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:37:5-92
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:37:22-89
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:37:22-89
 uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:38:5-84
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:38:5-84
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:38:22-81
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:38:22-81
 uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:39:5-83
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:39:5-83
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:39:22-80
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:39:22-80
 uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:40:5-91
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:40:5-91
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:40:22-88
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:40:22-88
 uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:41:5-92
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:41:5-92
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:41:22-89
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:41:22-89
 uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:42:5-93
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:42:5-93
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:42:22-90
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:42:22-90
 uses-permission#android.permission.READ_APP_BADGE
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:43:5-73
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:43:5-73
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:43:22-70
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:43:22-70
 uses-permission#com.oppo.launcher.permission.READ_SETTINGS
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:44:5-82
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:44:5-82
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:44:22-79
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:44:22-79
 uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:45:5-83
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:45:5-83
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:45:22-80
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:45:22-80
 uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:46:5-88
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:46:5-88
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:46:22-85
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:46:22-85
 uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:47:5-89
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:47:5-89
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:47:22-86
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:47:22-86
 meta-data#onesignal_app_id
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:50:9-52:51
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:50:9-52:51
 	android:value
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:52:13-48
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:52:13-48
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:51:13-44
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:51:13-44
 meta-data#onesignal_google_project_number
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:54:9-56:70
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:54:9-56:70
 	android:value
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:56:13-67
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:56:13-67
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:55:13-59
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:55:13-59
 receiver#com.onesignal.GcmBroadcastReceiver
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:58:9-68:20
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:58:9-68:20
 	android:permission
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:60:13-73
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:60:13-73
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:59:13-62
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:59:13-62
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:63:13-67:29
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:63:13-67:29
 	android:priority
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:63:28-50
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:63:28-50
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.alice
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:63:13-67:29
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:63:13-67:29
 	android:priority
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:63:28-50
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:63:28-50
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:64:17-81
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:64:17-81
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:64:25-78
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:64:25-78
 category#${applicationId}
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:66:17-61
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:66:17-61
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:66:27-58
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:66:27-58
 category#com.alice
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:66:17-61
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:66:17-61
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:66:27-58
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:66:27-58
 receiver#com.onesignal.NotificationOpenedReceiver
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:69:9-77
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:69:9-77
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:69:19-74
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:69:19-74
 service#com.onesignal.GcmIntentService
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:71:9-66
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:71:9-66
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:71:18-63
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:71:18-63
 service#com.onesignal.GcmIntentJobService
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:72:9-74:72
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:72:9-74:72
 	android:permission
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:74:13-69
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:74:13-69
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:73:13-61
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:73:13-61
 service#com.onesignal.RestoreJobService
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:75:9-77:72
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:75:9-77:72
 	android:permission
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:77:13-69
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:77:13-69
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:76:13-59
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:76:13-59
 service#com.onesignal.RestoreKickoffJobService
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:78:9-80:72
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:78:9-80:72
 	android:permission
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:80:13-69
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:80:13-69
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:79:13-66
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:79:13-66
 service#com.onesignal.SyncService
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:81:9-83:43
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:81:9-83:43
 	android:stopWithTask
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:83:13-40
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:83:13-40
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:82:13-53
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:82:13-53
 service#com.onesignal.SyncJobService
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:84:9-86:72
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:84:9-86:72
 	android:permission
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:86:13-69
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:86:13-69
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:85:13-56
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:85:13-56
 activity#com.onesignal.PermissionsActivity
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:88:9-90:75
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:88:9-90:75
 	android:theme
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:90:13-72
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:90:13-72
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:89:13-61
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:89:13-61
 service#com.onesignal.NotificationRestoreService
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:92:9-76
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:92:9-76
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:92:18-73
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:92:18-73
 receiver#com.onesignal.BootUpReceiver
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:94:9-99:20
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:94:9-99:20
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:94:19-62
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:94:19-62
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:95:13-98:29
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:95:13-98:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:96:17-79
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:96:17-79
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:96:25-76
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:96:25-76
 action#android.intent.action.QUICKBOOT_POWERON
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:97:17-82
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:97:17-82
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:97:25-79
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:97:25-79
 receiver#com.onesignal.UpgradeReceiver
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:100:9-104:20
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:100:9-104:20
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:100:19-63
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:100:19-63
 intent-filter#action:name:android.intent.action.MY_PACKAGE_REPLACED
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:101:13-103:29
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:101:13-103:29
 action#android.intent.action.MY_PACKAGE_REPLACED
-ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:102:17-84
+ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:102:17-84
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\f7e2b0a25e7dbf2a5aab43162545da0e\AndroidManifest.xml:102:25-81
+		ADDED from [com.onesignal:OneSignal:3.10.8] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ede844ce83729ecea54838c1d72befc2\AndroidManifest.xml:102:25-81
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\32067134cb9f9107b38d395ced91bbb3\AndroidManifest.xml:26:5-28:35
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b21b8aa230c8911fea89ae21a543166e\AndroidManifest.xml:9:5-11:35
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b21b8aa230c8911fea89ae21a543166e\AndroidManifest.xml:9:5-11:35
+ADDED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b84b027acd34a91bf7188a99f6398e68\AndroidManifest.xml:26:5-28:35
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1bd6f2ac011a296a625afade26d02a4b\AndroidManifest.xml:9:5-11:35
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1bd6f2ac011a296a625afade26d02a4b\AndroidManifest.xml:9:5-11:35
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\32067134cb9f9107b38d395ced91bbb3\AndroidManifest.xml:27:9-41
+		ADDED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b84b027acd34a91bf7188a99f6398e68\AndroidManifest.xml:27:9-41
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\32067134cb9f9107b38d395ced91bbb3\AndroidManifest.xml:28:9-32
+		ADDED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b84b027acd34a91bf7188a99f6398e68\AndroidManifest.xml:28:9-32
 uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
-ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:26:5-110
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\9e08fa93c1af67737e2df2fa07d037c7\AndroidManifest.xml:26:5-110
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\9e08fa93c1af67737e2df2fa07d037c7\AndroidManifest.xml:26:5-110
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0b8b00934b1b5d0702d6130ac7908753\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0b8b00934b1b5d0702d6130ac7908753\AndroidManifest.xml:26:5-110
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:26:22-107
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:26:22-107
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:29:9-33:20
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\9e08fa93c1af67737e2df2fa07d037c7\AndroidManifest.xml:29:9-33:20
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\9e08fa93c1af67737e2df2fa07d037c7\AndroidManifest.xml:29:9-33:20
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0b8b00934b1b5d0702d6130ac7908753\AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0b8b00934b1b5d0702d6130ac7908753\AndroidManifest.xml:29:9-33:20
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:31:13-35
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:31:13-35
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:32:13-37
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:30:13-85
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:30:13-85
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:34:9-42:20
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:34:9-42:20
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:36:13-35
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:36:13-35
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:37:13-36
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:37:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:38:13-69
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:38:13-69
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:35:13-100
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:35:13-100
 intent-filter#action:name:com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:39:13-41:29
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:39:13-41:29
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:40:17-79
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:40:17-79
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:40:25-76
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:40:25-76
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:44:9-47:40
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\9e08fa93c1af67737e2df2fa07d037c7\AndroidManifest.xml:35:9-38:40
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\9e08fa93c1af67737e2df2fa07d037c7\AndroidManifest.xml:35:9-38:40
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:44:9-47:40
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0b8b00934b1b5d0702d6130ac7908753\AndroidManifest.xml:35:9-38:40
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0b8b00934b1b5d0702d6130ac7908753\AndroidManifest.xml:35:9-38:40
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:46:13-35
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:46:13-35
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:47:13-37
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:47:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:45:13-84
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:45:13-84
 service#com.google.android.gms.measurement.AppMeasurementJobService
-ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:48:9-52:72
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:48:9-52:72
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:50:13-35
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:50:13-35
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:51:13-37
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:51:13-37
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:52:13-69
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:52:13-69
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\4e1402b7d23941222f00eeb7f86a8f03\AndroidManifest.xml:49:13-87
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\abd79d3bebe2043ae7c585609145d965\AndroidManifest.xml:49:13-87
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d159eafd080b73d2733064e3ba929d1c\AndroidManifest.xml:28:9-34:19
+ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d8f98564d1c0238c59b858042ef2a2db\AndroidManifest.xml:28:9-34:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d159eafd080b73d2733064e3ba929d1c\AndroidManifest.xml:30:13-36
+		ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d8f98564d1c0238c59b858042ef2a2db\AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d159eafd080b73d2733064e3ba929d1c\AndroidManifest.xml:29:13-82
+		ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d8f98564d1c0238c59b858042ef2a2db\AndroidManifest.xml:29:13-82
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d159eafd080b73d2733064e3ba929d1c\AndroidManifest.xml:31:13-33:29
+ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d8f98564d1c0238c59b858042ef2a2db\AndroidManifest.xml:31:13-33:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d159eafd080b73d2733064e3ba929d1c\AndroidManifest.xml:31:28-51
+		ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d8f98564d1c0238c59b858042ef2a2db\AndroidManifest.xml:31:28-51
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d159eafd080b73d2733064e3ba929d1c\AndroidManifest.xml:32:17-78
+ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d8f98564d1c0238c59b858042ef2a2db\AndroidManifest.xml:32:17-78
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d159eafd080b73d2733064e3ba929d1c\AndroidManifest.xml:32:25-75
+		ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d8f98564d1c0238c59b858042ef2a2db\AndroidManifest.xml:32:25-75
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:29:9-35:19
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:29:9-35:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:31:13-37
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:30:13-84
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:30:13-84
 meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
-ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:32:13-34:85
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:32:13-34:85
 	android:value
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:34:17-82
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:34:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:33:17-96
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:33:17-96
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:37:9-44:20
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:37:9-44:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:39:13-36
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:39:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:40:13-73
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:40:13-73
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:38:13-78
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:38:13-78
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:41:13-43:29
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:41:13-43:29
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:50:9-56:19
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:50:9-56:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:52:13-36
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:52:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:51:13-77
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:51:13-77
 intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:53:13-55:29
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:53:13-55:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:53:28-51
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:53:28-51
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:54:17-80
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:54:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\414919cb47a552e7817b3ac7c37e25dc\AndroidManifest.xml:54:25-77
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\89ecbf1e4c2ee43e6b94feb290fce348\AndroidManifest.xml:54:25-77
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c94eec501168d0939f08089e241f1e8a\AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\a4391ebae14ced5217344af51bdcf71c\AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c94eec501168d0939f08089e241f1e8a\AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\a4391ebae14ced5217344af51bdcf71c\AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c94eec501168d0939f08089e241f1e8a\AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\a4391ebae14ced5217344af51bdcf71c\AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c94eec501168d0939f08089e241f1e8a\AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\a4391ebae14ced5217344af51bdcf71c\AndroidManifest.xml:24:13-79
 uses-feature#android.hardware.wifi
-ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b21b8aa230c8911fea89ae21a543166e\AndroidManifest.xml:12:5-14:36
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1bd6f2ac011a296a625afade26d02a4b\AndroidManifest.xml:12:5-14:36
 	android:required
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b21b8aa230c8911fea89ae21a543166e\AndroidManifest.xml:14:9-33
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1bd6f2ac011a296a625afade26d02a4b\AndroidManifest.xml:14:9-33
 	android:name
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b21b8aa230c8911fea89ae21a543166e\AndroidManifest.xml:13:9-45
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1bd6f2ac011a296a625afade26d02a4b\AndroidManifest.xml:13:9-45
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b21b8aa230c8911fea89ae21a543166e\AndroidManifest.xml:18:5-76
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\75f7701da65a6cfceb199555847c7a69\AndroidManifest.xml:15:5-76
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\75f7701da65a6cfceb199555847c7a69\AndroidManifest.xml:15:5-76
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1bd6f2ac011a296a625afade26d02a4b\AndroidManifest.xml:18:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0ae768a47e6132681cbd032b8bba204d\AndroidManifest.xml:15:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0ae768a47e6132681cbd032b8bba204d\AndroidManifest.xml:15:5-76
 	android:name
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\b21b8aa230c8911fea89ae21a543166e\AndroidManifest.xml:18:22-73
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:8.0.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\1bd6f2ac011a296a625afade26d02a4b\AndroidManifest.xml:18:22-73
 provider#com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider
-ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\75f7701da65a6cfceb199555847c7a69\AndroidManifest.xml:19:9-23:39
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0ae768a47e6132681cbd032b8bba204d\AndroidManifest.xml:19:9-23:39
 	android:authorities
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\75f7701da65a6cfceb199555847c7a69\AndroidManifest.xml:21:13-79
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0ae768a47e6132681cbd032b8bba204d\AndroidManifest.xml:21:13-79
 	android:exported
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\75f7701da65a6cfceb199555847c7a69\AndroidManifest.xml:22:13-37
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0ae768a47e6132681cbd032b8bba204d\AndroidManifest.xml:22:13-37
 	android:initOrder
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\75f7701da65a6cfceb199555847c7a69\AndroidManifest.xml:23:13-36
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0ae768a47e6132681cbd032b8bba204d\AndroidManifest.xml:23:13-36
 	android:name
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\75f7701da65a6cfceb199555847c7a69\AndroidManifest.xml:20:13-93
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0ae768a47e6132681cbd032b8bba204d\AndroidManifest.xml:20:13-93
 service#com.mapbox.android.telemetry.crash.CrashReporterJobIntentService
-ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\75f7701da65a6cfceb199555847c7a69\AndroidManifest.xml:25:9-27:72
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0ae768a47e6132681cbd032b8bba204d\AndroidManifest.xml:25:9-27:72
 	android:permission
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\75f7701da65a6cfceb199555847c7a69\AndroidManifest.xml:27:13-69
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0ae768a47e6132681cbd032b8bba204d\AndroidManifest.xml:27:13-69
 	android:name
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\75f7701da65a6cfceb199555847c7a69\AndroidManifest.xml:26:13-92
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.4.1] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\0ae768a47e6132681cbd032b8bba204d\AndroidManifest.xml:26:13-92
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ccefa96ba32907603a602d7ef03cfc85\AndroidManifest.xml:10:9-14:39
+ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c2b6530ba4d1307a1e94d0d70f032e7e\AndroidManifest.xml:10:9-14:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ccefa96ba32907603a602d7ef03cfc85\AndroidManifest.xml:12:13-72
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c2b6530ba4d1307a1e94d0d70f032e7e\AndroidManifest.xml:12:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ccefa96ba32907603a602d7ef03cfc85\AndroidManifest.xml:13:13-37
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c2b6530ba4d1307a1e94d0d70f032e7e\AndroidManifest.xml:13:13-37
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ccefa96ba32907603a602d7ef03cfc85\AndroidManifest.xml:14:13-36
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c2b6530ba4d1307a1e94d0d70f032e7e\AndroidManifest.xml:14:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\ccefa96ba32907603a602d7ef03cfc85\AndroidManifest.xml:11:13-77
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\c2b6530ba4d1307a1e94d0d70f032e7e\AndroidManifest.xml:11:13-77
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d4269c749d0b6b824472c3dbf36ec826\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d7edb53c238dd0c2753ea28b23f44016\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d4269c749d0b6b824472c3dbf36ec826\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d7edb53c238dd0c2753ea28b23f44016\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d4269c749d0b6b824472c3dbf36ec826\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\zhanghaoran\.gradle\caches\transforms-2\files-2.1\d7edb53c238dd0c2753ea28b23f44016\AndroidManifest.xml:24:13-58

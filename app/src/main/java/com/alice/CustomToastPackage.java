@@ -1,5 +1,6 @@
 package com.alice;
 
+import com.alice.bridge.ContractModule;
 import com.alice.bridge.WalletModule;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.NativeModule;
@@ -19,6 +20,7 @@ public class CustomToastPackage implements ReactPackage {
     public List<NativeModule> createNativeModules(@Nonnull ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
         modules.add(new WalletModule(reactContext));
+        modules.add(new ContractModule(reactContext));
         return modules;
     }
 

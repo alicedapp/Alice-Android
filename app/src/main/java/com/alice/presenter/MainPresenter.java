@@ -3,6 +3,7 @@ package com.alice.presenter;
 import android.app.Activity;
 import android.content.pm.PackageManager;
 import android.text.TextUtils;
+import android.widget.Toast;
 
 import com.alice.async.BaseListener;
 import com.alice.config.Constants;
@@ -15,6 +16,7 @@ import com.alice.view.IMainView;
 import com.orhanobut.hawk.Hawk;
 
 import org.web3j.crypto.Credentials;
+import org.web3j.protocol.core.methods.response.EthCall;
 import org.web3j.protocol.core.methods.response.EthGetBalance;
 import org.web3j.protocol.core.methods.response.TransactionReceipt;
 import org.web3j.utils.Convert;
@@ -148,5 +150,19 @@ public class MainPresenter extends BasePresenter<IMainView> {
                     break;
             }
         }
+    }
+
+    public void signMessage() {
+        manager.sign("0x48656c6c6f20576f726c64000000000000000000000000000000000000000000", new BaseListener<String>() {
+            @Override
+            public void OnSuccess(String s) {
+
+            }
+
+            @Override
+            public void OnFailed(Throwable e) {
+
+            }
+        });
     }
 }
