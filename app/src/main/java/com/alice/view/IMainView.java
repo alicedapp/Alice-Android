@@ -8,6 +8,8 @@ public interface IMainView extends IBaseView{
     void importWallet();
     void checkBalances();
     void transfer();
+    void smartContract();
+    void smartContractSet();
     void showContent(Credentials credentials);
     void showCreateDialog();
 }

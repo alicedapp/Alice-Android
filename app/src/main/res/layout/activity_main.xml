@@ -82,6 +82,22 @@
             android:textAllCaps="false"
             android:text="signMessage" />
 
+        <Button
+            android:id="@+id/smartContract"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="smartContract"
+            android:textAllCaps="false"
+            android:text="get" />
+
+        <Button
+            android:id="@+id/smartContractSet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="smartContract"
+            android:textAllCaps="false"
+            android:text="set" />
+
     </LinearLayout>
 
 

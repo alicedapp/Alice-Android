@@ -65,6 +65,19 @@ public class Main1Activity extends BaseActivity<MainPresenter> implements IMainV
     }
 
     @Override
+    @OnClick({R.id.smartContract})
+    public void smartContract() {
+        mPresenter.smartContract();
+    }
+
+    @Override
+    @OnClick({R.id.smartContractSet})
+    public void smartContractSet() {
+        mPresenter.smartContractSet("set new from zhhr");
+    }
+
+
+    @Override
     @OnClick({R.id.transfer})
     public void transfer() {
         if(transformDialog == null){

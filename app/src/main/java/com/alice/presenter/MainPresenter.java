@@ -6,6 +6,7 @@ import android.text.TextUtils;
 import android.widget.Toast;
 
 import com.alice.async.BaseListener;
+import com.alice.async.WorkThreadHandler;
 import com.alice.config.Constants;
 import com.alice.manager.Web3jManager;
 import com.alice.presenter.base.BasePresenter;
@@ -133,6 +134,16 @@ public class MainPresenter extends BasePresenter<IMainView> {
         });
     }
 
+    public void smartContract() {
+        WorkThreadHandler.getInstance().post(new Runnable() {
+            @Override
+            public void run() {
+                String message = manager.getMessageName("0x2f21957c7147c3eE49235903D6471159a16c9ccd");
+                mView.showToast(message);
+            }
+        });
+    }
+
     @Override
     public void onDestroy() {
         manager.clear();
@@ -162,6 +173,15 @@ public class MainPresenter extends BasePresenter<IMainView> {
             @Override
             public void OnFailed(Throwable e) {
 
+            }
+        });
+    }
+
+    public void smartContractSet(String message) {
+        WorkThreadHandler.getInstance().post(new Runnable() {
+            @Override
+            public void run() {
+                mView.showToast(manager.setMessage("0x2f21957c7147c3eE49235903D6471159a16c9ccd",message));
             }
         });
     }
