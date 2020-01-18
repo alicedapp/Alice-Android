@@ -37,6 +37,16 @@ public class BaseDataSource {
         compositeDisposable.add(disposable);
     }
 
+    public <T> void execute1(Observable observable,  RequestCallback<T> callback) {
+        Disposable disposable = (Disposable) observable
+                .throttleFirst(500, TimeUnit.MILLISECONDS)
+                .subscribeOn(Schedulers.io())
+                .unsubscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribeWith(new BaseSubscriber<>(callback));
+        compositeDisposable.add(disposable);
+    }
+
     public void clear() {
         if (!compositeDisposable.isDisposed()) {
             compositeDisposable.dispose();

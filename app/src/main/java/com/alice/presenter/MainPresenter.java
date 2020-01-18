@@ -23,6 +23,7 @@ import org.web3j.protocol.core.methods.response.TransactionReceipt;
 import org.web3j.utils.Convert;
 
 import java.io.File;
+import java.math.BigInteger;
 
 public class MainPresenter extends BasePresenter<IMainView> {
 
@@ -177,11 +178,11 @@ public class MainPresenter extends BasePresenter<IMainView> {
         });
     }
 
-    public void smartContractSet(String message) {
+    public void smartContractSet(String address, String functionName,String value, String[] params, BigInteger gasPrice) {
         WorkThreadHandler.getInstance().post(new Runnable() {
             @Override
             public void run() {
-                mView.showToast(manager.setMessage("0x2f21957c7147c3eE49235903D6471159a16c9ccd",message));
+                mView.showToast(manager.setSmartContract(address,functionName,value,params,gasPrice));
             }
         });
     }

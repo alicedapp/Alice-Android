@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/v_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_60_transparent" />
+
+    <LinearLayout
+        android:id="@+id/rl_content"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_dimen_1500"
+        android:layout_alignParentBottom="true"
+        android:translationY="@dimen/view_dimen_1500"
+        android:background="@drawable/bg_corner_24_solid_top_ffffff"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_dimen_190"
+            android:gravity="center"
+            android:text="@string/call_smart_contract"
+            android:textColor="#bebebe"
+            android:textSize="@dimen/view_dimen_60" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_dimen_1"
+            android:background="@color/color_d1d1d1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/view_dimen_30"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contract:"
+                android:textColor="#aaaaaa"
+                android:textSize="@dimen/view_dimen_48" />
+
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/view_dimen_20"
+                android:ellipsize="middle"
+                android:singleLine="true"
+                android:textColor="#80b2f9" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/view_dimen_30"
+            android:layout_marginTop="@dimen/view_dimen_80"
+            android:layout_marginRight="@dimen/view_dimen_30"
+            android:background="@drawable/bg_corner_24_solid_ebebeb"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_dimen_180"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.4"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/view_dimen_30"
+                    android:text="Function Name"
+                    android:textColor="#aaaaaa"
+                    android:textSize="@dimen/view_dimen_48" />
+
+                <TextView
+                    android:id="@+id/et_function_name"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.6"
+                    android:gravity="center"
+                    android:textColor="#565656"
+                    android:textSize="@dimen/view_dimen_48" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_dimen_1"
+                android:layout_marginLeft="@dimen/view_dimen_24"
+                android:layout_marginRight="@dimen/view_dimen_24"
+                android:background="@color/color_d1d1d1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_dimen_180"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.4"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/view_dimen_30"
+                    android:text="Value"
+                    android:textColor="#aaaaaa"
+                    android:textSize="@dimen/view_dimen_48" />
+
+                <TextView
+                    android:id="@+id/ev_value"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.6"
+                    android:gravity="center"
+                    android:textColor="#565656"
+                    android:textSize="@dimen/view_dimen_48" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_dimen_1"
+                android:layout_marginLeft="@dimen/view_dimen_24"
+                android:layout_marginRight="@dimen/view_dimen_24"
+                android:background="@color/color_d1d1d1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_dimen_180"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.4"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/view_dimen_30"
+                    android:text="Parameters"
+                    android:textColor="#aaaaaa"
+                    android:textSize="@dimen/view_dimen_48" />
+
+                <TextView
+                    android:id="@+id/ev_params"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.6"
+                    android:gravity="center"
+                    android:textColor="#565656"
+                    android:textSize="@dimen/view_dimen_48" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_send"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_dimen_210"
+            android:layout_marginLeft="@dimen/view_dimen_90"
+            android:layout_marginTop="@dimen/view_dimen_80"
+            android:layout_marginRight="@dimen/view_dimen_90"
+            android:background="@drawable/bg_corner_100_solid_333333"
+            android:gravity="center"
+            android:text="Hold to Send"
+            android:textColor="@color/white"
+            android:textSize="@dimen/view_dimen_50" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/view_dimen_100"
+            android:layout_marginTop="@dimen/view_dimen_50"
+            android:layout_marginRight="@dimen/view_dimen_100">
+
+            <TextView
+                android:id="@+id/tv_gas_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/CNY_price"
+                android:textColor="#565656" />
+
+            <TextView
+                android:id="@+id/tv_arrive_times"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="@string/ARRIVE_IN_MINS"
+                android:textColor="#565656"
+                android:textSize="@dimen/view_dimen_42" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

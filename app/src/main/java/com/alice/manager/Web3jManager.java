@@ -319,17 +319,17 @@ public class Web3jManager {
         return results.get(0).getValue().toString();
     }
 
-    public String setMessage(String contractAddr,String message) {
+    public String setSmartContract(String contractAddr,String functionName,String value,String[] params,BigInteger gasPrice) {
         String fromAddr = Hawk.get(KEY_ADDRESS);
-        BigInteger gasPrice = Convert.toWei("1", Convert.Unit.GWEI).toBigInteger();
         BigInteger nonce = getNonce(web3j, fromAddr);
         // 构建方法调用信息
-        String method = "setMessage";
+        String method = functionName;
 
         // 构建输入参数
         List<Type> inputArgs = new ArrayList<>();
-        inputArgs.add(new Utf8String(message));
-
+        for(String param:params){
+            inputArgs.add(new Utf8String(param));
+        }
         // 合约返回值容器
         List<TypeReference<?>> outputArgs = new ArrayList<>();
 

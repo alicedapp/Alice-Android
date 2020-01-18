@@ -451,6 +451,7 @@
     <dimen name="view_dimen_1080">360.0dp</dimen>
     <dimen name="view_dimen_1200">400.0dp</dimen>
     <dimen name="view_dimen_1440">480.0dp</dimen>
+    <dimen name="view_dimen_1500">500.0dp</dimen>
     <dimen name="view_dimen_negative_26">-8.67dip</dimen>
     <!-- video view -->
     <dimen name="video_ic_play_size">53dip</dimen>

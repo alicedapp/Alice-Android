@@ -104,12 +104,12 @@ public class TransferDialog extends Dialog {
                         BigDecimal bg = new BigDecimal(price *mPrice);
                         //保留小数点后3位
                         double realPrice = bg.setScale(3, BigDecimal.ROUND_HALF_UP).doubleValue();
-                        tvPrice.setText(getContext().getString(R.string.CNY_price,realPrice +""));
+                        tvPrice.setText(getContext().getString(R.string.USD_price,realPrice +""));
                     }catch (Exception e){
                         LogUtil.e(e.toString());
                     }
                 }else{
-                    tvPrice.setText(getContext().getString(R.string.CNY_price,"0.00"));
+                    tvPrice.setText(getContext().getString(R.string.USD_price,"0.00"));
                 }
             }
         });
@@ -123,6 +123,12 @@ public class TransferDialog extends Dialog {
     public void show() {
         super.show();
         show(this);
+    }
+
+    @Override
+    public void dismiss() {
+        dataSource.clear();
+        super.dismiss();
     }
 
     private void show(TransferDialog mDialog) {
@@ -143,11 +149,13 @@ public class TransferDialog extends Dialog {
                 dismiss();
             });
         }
-        dataSource.execute(dataSource.getService(Api.class).getPriceModel(ApiConstants.CONVERT, 2, 1, "CNY"), new RequestCallback<PriceModel>() {
+        dataSource.execute(dataSource.getService(Api.class).getPriceModel(ApiConstants.CONVERT, 2, 1, "USD"), new RequestCallback<PriceModel>() {
 
             @Override
             public void onSuccess(PriceModel priceModel) {
-                mPrice = priceModel.getQuote().getCNY().getPrice();
+                if(priceModel!=null){
+                    mPrice = priceModel.getQuote().getUSD().getPrice();
+                }
             }
 
             @Override

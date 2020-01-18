@@ -1,16 +1,21 @@
 package com.alice.activity;
 
 import android.content.Intent;
+import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.alice.R;
 import com.alice.activity.base.BaseActivity;
 import com.alice.customView.BaseDialog;
+import com.alice.customView.BottomTapView;
 import com.alice.customView.TransferDialog;
 import com.alice.presenter.MainPresenter;
 import com.alice.view.IMainView;
 
 import org.web3j.crypto.Credentials;
+
+import java.math.BigInteger;
 
 import butterknife.BindView;
 import butterknife.OnClick;
@@ -73,7 +78,14 @@ public class Main1Activity extends BaseActivity<MainPresenter> implements IMainV
     @Override
     @OnClick({R.id.smartContractSet})
     public void smartContractSet() {
-        mPresenter.smartContractSet("set new from zhhr");
+        BottomTapView bottomTapView = new BottomTapView(this);
+        bottomTapView.showView(this,"0x2f21957c7147c3eE49235903D6471159a16c9ccd","setMessage","0",new String[]{"set new message"});
+        bottomTapView.setOnClickSendListener(new BottomTapView.OnClickSendListener() {
+            @Override
+            public void OnClickSend(String address, String functionName, String value, String[] params, BigInteger gasPrice) {
+                mPresenter.smartContractSet(address,functionName,value,params,gasPrice);
+            }
+        });
     }
 
 
