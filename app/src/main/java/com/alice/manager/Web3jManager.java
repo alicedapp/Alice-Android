@@ -7,6 +7,13 @@ import android.util.Log;
 import com.alice.async.BaseListener;
 import com.alice.async.MainHandler;
 import com.alice.async.WorkThreadHandler;
+import com.alice.model.BaseReponseBody;
+import com.alice.model.GasPriceModel;
+import com.alice.model.PriceModel;
+import com.alice.model.SmartContractMessage;
+import com.alice.net.Api;
+import com.alice.net.ApiConstants;
+import com.alice.source.BaseDataSource;
 import com.alice.utils.Hex;
 import com.alice.utils.LogUtil;
 import com.facebook.react.bridge.ReadableArray;
@@ -55,11 +62,12 @@ import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 
+import io.reactivex.Single;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
-import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;
+import retrofit2.Call;
 
 import static com.alice.config.Constants.KEY_ADDRESS;
 import static com.alice.config.Constants.KEY_STORE_PATH;
@@ -76,10 +84,12 @@ public class Web3jManager {
 
     private Credentials mCredentials;
     private Web3j web3j;
+    private BaseDataSource dataSource;
 
     private Web3jManager() {
         web3j = Web3j.build(new HttpService("https://rinkeby.infura.io/da3717f25f824cc1baa32d812386d93f"));
         this.mCompositeDisposable = new CompositeDisposable();
+        dataSource = new BaseDataSource(mCompositeDisposable);
     }
 
     private static class Web3jManagerHolder {
@@ -206,6 +216,11 @@ public class Web3jManager {
         }
     }
 
+    /**
+     * 签名(未完成)
+     * @param message
+     * @param listener
+     */
     public void sign(String message, BaseListener<String> listener) {
         checkNull(listener);
         if (TextUtils.isEmpty(message)) {
@@ -244,50 +259,8 @@ public class Web3jManager {
     }
 
 
-    public void callSmartContractFunction(String contractAddr, String funcABI, String functionName, ReadableArray params, String value, String data,BaseListener<EthCall> listener){
-        checkNull(listener);
-        String address = Hawk.get(KEY_ADDRESS);
-        List<Type> paramList = new ArrayList<>();
-        Function function = new Function("setOrder", Arrays.<Type>asList(new Utf8String("Mark"), new Utf8String("HotDog")), Collections.<TypeReference<?>>emptyList());
-        String encodedFunction = FunctionEncoder.encode(function);
-        Transaction transaction = createEthCallTransaction(address, "0x68F7202dcb25360FA6042F6739B7F6526AfcA66E", data);
-        Disposable disposable = web3j.ethCall(transaction, DefaultBlockParameterName.LATEST)
-                .flowable()
-                .subscribeOn(Schedulers.io())
-                .unsubscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribe(listener::OnSuccess, listener::OnFailed);
-        mCompositeDisposable.add(disposable);
-    }
-
-    public void callSmartContractFunction(String contractAddr,BaseListener<EthCall> listener){
-        checkNull(listener);
-        String address = Hawk.get(KEY_ADDRESS);
-        String methodName = "getMessage";
-        List<Type> inputParameters = new ArrayList<>();
-        List<TypeReference<?>> outputParameters = new ArrayList<>();
-        TypeReference<Utf8String> typeReference = new TypeReference<Utf8String>() {};
-        outputParameters.add(typeReference);
-
-        Function function = new Function(methodName, inputParameters, outputParameters);
-        String encodedFunction = FunctionEncoder.encode(function);
-        Transaction transaction = createEthCallTransaction(address, contractAddr, encodedFunction);
-        Disposable disposable = web3j.ethCall(transaction, DefaultBlockParameterName.LATEST)
-                .flowable()
-                .subscribeOn(Schedulers.io())
-                .unsubscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribe(ethCall -> {
-                    List<Type> someTypes = FunctionReturnDecoder.decode(ethCall.getValue(), function.getOutputParameters());
-                    Log.d("zhhr1122","someTypes = " + someTypes.get(0).getTypeAsString());
-                }, throwable -> {
-                    Log.d("zhhr1122",throwable.toString());
-                });
-        mCompositeDisposable.add(disposable);
-    }
-
     /**
-     * 查询代币名称
+     * 查询智能合约
      */
     public String getMessageName(String contractAddr) {
         String address = Hawk.get(KEY_ADDRESS);
@@ -319,6 +292,15 @@ public class Web3jManager {
         return results.get(0).getValue().toString();
     }
 
+    /**
+     * 简易调用智能合约
+     * @param contractAddr
+     * @param functionName
+     * @param value
+     * @param params
+     * @param gasPrice
+     * @return
+     */
     public String setSmartContract(String contractAddr,String functionName,String value,String[] params,BigInteger gasPrice) {
         String fromAddr = Hawk.get(KEY_ADDRESS);
         BigInteger nonce = getNonce(web3j, fromAddr);
@@ -351,6 +333,96 @@ public class Web3jManager {
         return signAndSend(web3j, nonce, gasPrice, gasLimit, contractAddr, BigInteger.ZERO, funcABI, ChainId.RINKEBY, mCredentials.getEcKeyPair().getPrivateKey().toString(16));
     }
 
+    /**
+     * 获取智能合约信息
+     * @param contractAddr
+     * @param functionName
+     * @param value
+     * @param params
+     * @param listener
+     */
+    public void loadSmartContractSet(String contractAddr, String functionName, String value, String[] params,BaseListener<SmartContractMessage> listener) {
+        checkNull(listener);
+        WorkThreadHandler.getInstance().post(new Runnable() {
+            @Override
+            public void run() {
+                try{
+                    String fromAddr = Hawk.get(KEY_ADDRESS);
+                    BigInteger nonce = getNonce(web3j, fromAddr);
+                    // 构建方法调用信息
+                    String method = functionName;
+                    // 构建输入参数
+                    List<Type> inputArgs = new ArrayList<>();
+                    for(String param:params){
+                        inputArgs.add(new Utf8String(param));
+                    }
+                    // 合约返回值容器
+                    List<TypeReference<?>> outputArgs = new ArrayList<>();
+                    String funcABI = FunctionEncoder.encode(new Function(method, inputArgs, outputArgs));
+
+                    //调用接口拿到gasPrice信息
+                    GasPriceModel gasPriceModel = dataSource.executeSync(dataSource.getService(Api.class).getGasPriceModelSync(ApiConstants.GAS_PRICE));
+
+                    //调用接口拿到美元换算信息
+                    BaseReponseBody<PriceModel> baseReponseBody = dataSource.executeSync(dataSource.getService(Api.class).getPriceModelSync(ApiConstants.CONVERT, 2, 1, "USD"));
+                    PriceModel priceModel = baseReponseBody.data.get(0);
+                    //设置gasPrice
+                    BigInteger gasPrice = Convert.toWei("1", Convert.Unit.GWEI).toBigInteger();
+                    if(gasPriceModel!=null){
+                        BigDecimal amountGwei = BigDecimal.valueOf(gasPriceModel.average);
+                        gasPrice = Convert.toWei(amountGwei, Convert.Unit.GWEI).toBigInteger();
+                    }
+
+                    Transaction transaction = Transaction.createFunctionCallTransaction(fromAddr, nonce, gasPrice, null, contractAddr, funcABI);
+                    BigInteger gasLimit = getTransactionGasLimit(web3j, transaction);
+                    //设置参数
+                    SmartContractMessage smartContractMessage = new SmartContractMessage();
+                    smartContractMessage.gasLimit = gasLimit;
+                    smartContractMessage.gasPrice = gasPrice;
+                    smartContractMessage.priceModel = priceModel;
+                    smartContractMessage.gasPriceModel = gasPriceModel;
+                    smartContractMessage.funcABI = funcABI;
+                    smartContractMessage.contractAddr = contractAddr;
+                    smartContractMessage.fromAddr = fromAddr;
+                    smartContractMessage.nonce = nonce;
+
+                    MainHandler.getInstance().post(() -> listener.OnSuccess(smartContractMessage));
+                }catch (Exception e){
+                    MainHandler.getInstance().post(() -> listener.OnFailed(e));
+                }
+            }
+        });
+    }
+
+    /**
+     * 调用智能合约
+     * @param smartContractMessage
+     * @param listener
+     */
+    public void setSmartContract(SmartContractMessage smartContractMessage, BaseListener<String> listener) {
+        checkNull(listener);
+        WorkThreadHandler.getInstance().post(() -> {
+            try{
+                // 获得余额
+                BigDecimal ethBalance = getBalance(web3j, smartContractMessage.fromAddr);
+                BigInteger balance = Convert.toWei(ethBalance, Convert.Unit.ETHER).toBigInteger();
+                if (balance.compareTo(smartContractMessage.gasLimit) < 0) {
+                    throw new RuntimeException("手续费不足，请核实");
+                }
+                String resultHashCode =  signAndSend(web3j, smartContractMessage.nonce, smartContractMessage.gasPrice, smartContractMessage.gasLimit, smartContractMessage.contractAddr, BigInteger.ZERO, smartContractMessage.funcABI, ChainId.RINKEBY, mCredentials.getEcKeyPair().getPrivateKey().toString(16));
+                MainHandler.getInstance().post(() -> listener.OnSuccess(resultHashCode));
+            }catch (Exception e){
+                MainHandler.getInstance().post(() -> listener.OnFailed(e));
+            }
+        });
+    }
+
+    /**
+     * 获取gaslimit
+     * @param web3j
+     * @param transaction
+     * @return
+     */
     public BigInteger getTransactionGasLimit(Web3j web3j, Transaction transaction) {
         try {
             EthEstimateGas ethEstimateGas = web3j.ethEstimateGas(transaction).send();
@@ -363,6 +435,12 @@ public class Web3jManager {
         }
     }
 
+    /**
+     * 同步查询余额
+     * @param web3j
+     * @param address
+     * @return
+     */
     public BigDecimal getBalance(Web3j web3j, String address) {
         try {
             EthGetBalance ethGetBalance = web3j.ethGetBalance(address, DefaultBlockParameterName.LATEST).send();
@@ -373,6 +451,19 @@ public class Web3jManager {
         }
     }
 
+    /**
+     * 签名后发送智能合约请求
+     * @param web3j
+     * @param nonce
+     * @param gasPrice
+     * @param gasLimit
+     * @param to
+     * @param value
+     * @param data
+     * @param chainId
+     * @param privateKey
+     * @return
+     */
     public String signAndSend(Web3j web3j, BigInteger nonce, BigInteger gasPrice, BigInteger gasLimit, String to, BigInteger value, String data, byte chainId, String privateKey) {
         String txHash = "";
         RawTransaction rawTransaction = RawTransaction.createTransaction(nonce, gasPrice, gasLimit, to, value, data);
@@ -395,7 +486,6 @@ public class Web3jManager {
             try {
                 EthSendTransaction send = web3j.ethSendRawTransaction(signData).send();
                 txHash = send.getTransactionHash();
-                //System.out.println(JSON.toJSONString(send));
             } catch (IOException e) {
                 throw new RuntimeException("交易异常");
             }
@@ -417,6 +507,10 @@ public class Web3jManager {
         }
     }
 
+    /**
+     * 检查空
+     * @param listener
+     */
     private void checkNull(BaseListener listener) {
         if (listener == null) {
             LogUtil.e("listener is null");

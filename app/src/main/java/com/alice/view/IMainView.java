@@ -1,5 +1,7 @@
 package com.alice.view;
 
+import com.alice.model.SmartContractMessage;
+
 import org.web3j.crypto.Credentials;
 
 public interface IMainView extends IBaseView{
@@ -12,4 +14,5 @@ public interface IMainView extends IBaseView{
     void smartContractSet();
     void showContent(Credentials credentials);
     void showCreateDialog();
+    void setBottomView(SmartContractMessage smartContractMessage);
 }

@@ -9,6 +9,7 @@ import com.alice.async.BaseListener;
 import com.alice.async.WorkThreadHandler;
 import com.alice.config.Constants;
 import com.alice.manager.Web3jManager;
+import com.alice.model.SmartContractMessage;
 import com.alice.presenter.base.BasePresenter;
 import com.alice.source.BaseDataSource;
 import com.alice.utils.LogUtil;
@@ -183,6 +184,36 @@ public class MainPresenter extends BasePresenter<IMainView> {
             @Override
             public void run() {
                 mView.showToast(manager.setSmartContract(address,functionName,value,params,gasPrice));
+            }
+        });
+    }
+
+    public void loadSmartContractSet(String address, String function, String value, String[] params) {
+      manager.loadSmartContractSet(address,function,value,params,new BaseListener<SmartContractMessage>(){
+
+          @Override
+          public void OnSuccess(SmartContractMessage s) {
+                mView.setBottomView(s);
+          }
+
+          @Override
+          public void OnFailed(Throwable e) {
+                mView.showToast(e.getMessage());
+          }
+      });
+    }
+
+    public void smartContractSet(SmartContractMessage smartContractMessage) {
+        manager.setSmartContract(smartContractMessage,new BaseListener<String>(){
+
+            @Override
+            public void OnSuccess(String s) {
+                mView.showToast(s);
+            }
+
+            @Override
+            public void OnFailed(Throwable e) {
+                mView.showToast(e.getMessage());
             }
         });
     }

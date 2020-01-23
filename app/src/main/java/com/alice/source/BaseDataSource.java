@@ -6,6 +6,7 @@ import com.alice.net.BaseSubscriber;
 import com.alice.net.Function.BaseReponseFunction;
 import com.alice.net.RequestCallback;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import io.reactivex.Observable;
@@ -13,12 +14,18 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
+import retrofit2.Call;
+import retrofit2.Response;
 
 public class BaseDataSource {
     private CompositeDisposable compositeDisposable;
 
     public BaseDataSource(){
         compositeDisposable = new CompositeDisposable();
+    }
+
+    public BaseDataSource(CompositeDisposable compositeDisposable){
+        this.compositeDisposable = compositeDisposable;
     }
 
     public <T> T getService(Class<T> clz) {
@@ -45,6 +52,11 @@ public class BaseDataSource {
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribeWith(new BaseSubscriber<>(callback));
         compositeDisposable.add(disposable);
+    }
+
+    public <T> T executeSync(Call<T> call) throws IOException{
+        Response<T> response = call.execute();
+        return response.body();
     }
 
     public void clear() {

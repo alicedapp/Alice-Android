@@ -20,6 +20,7 @@ import com.alice.R;
 import com.alice.model.BaseReponseBody;
 import com.alice.model.GasPriceModel;
 import com.alice.model.PriceModel;
+import com.alice.model.SmartContractMessage;
 import com.alice.net.Api;
 import com.alice.net.ApiConstants;
 import com.alice.net.RequestCallback;
@@ -64,6 +65,8 @@ public class BottomTapView extends RelativeLayout {
     private String mFunctionText;
     private String[] mParamsText;
 
+    private SmartContractMessage mData;
+
 
     public void setOnClickSendListener(OnClickSendListener onClickSendListener) {
         this.onClickSendListener = onClickSendListener;
@@ -94,8 +97,7 @@ public class BottomTapView extends RelativeLayout {
         bg.setOnClickListener(v -> hideView());
         mSend.setOnClickListener(v -> {
             if(onClickSendListener!=null){
-                BigInteger gasPrice = Convert.toWei("1", Convert.Unit.GWEI).toBigInteger();
-                onClickSendListener.OnClickSend(mAddaressText,mFunctionText,mValueText,mParamsText,gasPrice);
+                onClickSendListener.OnClickSend(mData);
             }
         });
     }
@@ -123,41 +125,10 @@ public class BottomTapView extends RelativeLayout {
                 mFunctionName.setText(functionName);
             }
             mParentView.addView(this);
-            initData();
             ObjectAnimator translationYAnimation = ObjectAnimator.ofFloat(mContent, "translationY",mContent.getTranslationY(),0);
             translationYAnimation.setDuration(200);
             translationYAnimation.start();
         }
-    }
-
-    private void initData() {
-        Observable<GasPriceModel> observable = dataSource.getService(Api.class).getPriceModel(ApiConstants.CONVERT, 2, 1, "USD").flatMap(new Function<BaseReponseBody<PriceModel>, ObservableSource<GasPriceModel>>() {
-            @Override
-            public ObservableSource<GasPriceModel> apply(BaseReponseBody<PriceModel> priceModel) throws Exception {
-                if(priceModel!=null){
-                    mPrice = priceModel.data.get(0).getQuote().getUSD().getPrice();
-                }
-                return dataSource.getService(Api.class).getGasPriceModel(ApiConstants.GAS_PRICE);
-            }
-        });
-        dataSource.execute1(observable, new RequestCallback<GasPriceModel>() {
-            @Override
-            public void onSuccess(GasPriceModel gasPriceModel) {
-                BigDecimal amountGwei = BigDecimal.valueOf(gasPriceModel.fast);
-                BigInteger amountWei = Convert.toWei(amountGwei, Convert.Unit.GWEI).toBigInteger();
-                String amountETH = Convert.fromWei(amountWei.toString(), Convert.Unit.ETHER).toPlainString();
-
-                BigDecimal bg = new BigDecimal(Double.valueOf(amountETH) * mPrice);
-                double realPrice = bg.setScale(3, BigDecimal.ROUND_HALF_UP).doubleValue();
-                mTvGasPrice.setText(getResources().getString(R.string.CNY_price,String.valueOf(realPrice)));
-                mArriveInTimes.setText(getResources().getString(R.string.ARRIVE_IN_MINS,String.valueOf(gasPriceModel.fastWait)));
-            }
-
-            @Override
-            public void OnFailed(Throwable throwable) {
-                Toast.makeText(getContext(),throwable.getMessage(),Toast.LENGTH_LONG).show();
-            }
-        });
     }
 
     public void hideView(){
@@ -175,7 +146,22 @@ public class BottomTapView extends RelativeLayout {
         }
     }
 
+    public void setData(SmartContractMessage smartContractMessage) {
+        mData = smartContractMessage;
+
+        mPrice = mData.priceModel.getQuote().getUSD().getPrice();
+
+        BigInteger result = mData.gasLimit.multiply(mData.gasPrice);
+        String amountETH = Convert.fromWei(result.toString(), Convert.Unit.ETHER).toPlainString();
+        BigDecimal bg = new BigDecimal(Double.valueOf(amountETH) * mPrice);
+        double realPrice = bg.setScale(3, BigDecimal.ROUND_HALF_UP).doubleValue();
+
+        mTvGasPrice.setText(getResources().getString(R.string.USD_price,String.valueOf(realPrice)));
+        mArriveInTimes.setText(getResources().getString(R.string.ARRIVE_IN_MINS,String.valueOf(mData.gasPriceModel.fastWait)));
+
+    }
+
     public interface OnClickSendListener{
-        void OnClickSend(String address, String functionName, String value,String[] params, BigInteger gasPrice);
+        void OnClickSend(SmartContractMessage data);
     }
 }
