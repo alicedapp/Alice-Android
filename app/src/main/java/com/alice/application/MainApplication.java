@@ -16,12 +16,10 @@ import com.orhanobut.hawk.Hawk;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import com.microsoft.codepush.react.CodePush;
 import org.reactnative.camera.RNCameraPackage;
-import com.geektime.rnonesignalandroid.ReactNativeOneSignalPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
-import com.mapbox.rctmgl.RCTMGLPackage;
 
 import java.util.Arrays;
 import java.util.List;
@@ -49,8 +47,6 @@ public class MainApplication extends Application implements ReactApplication {
               new RNGestureHandlerPackage(),
               new CodePush(getResources().getString(R.string.reactNativeCodePush_androidDeploymentKey), getApplicationContext(), BuildConfig.DEBUG),
               new RNCameraPackage(),
-              new ReactNativeOneSignalPackage(),
-              new RCTMGLPackage(),
               new CustomToastPackage()
       );
     }
