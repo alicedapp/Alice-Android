@@ -162,19 +162,19 @@ dependencies {
     implementation project(':react-native-gesture-handler')
     implementation project(':react-native-code-push')
     implementation project(':react-native-camera')
-    //implementation project(':react-native-firebase')
+    implementation project(':react-native-firebase')
     implementation fileTree(dir: "libs", include: ["*.jar"])
-    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation "com.facebook.react:react-native:+"  // From node_modules
-    implementation 'com.google.android.gms:play-services-location:15.0.0'
-    implementation 'com.google.android.gms:play-services-maps:15.0.0'
-    implementation 'com.google.android.gms:play-services-base:15.0.0'
-    implementation "com.google.firebase:firebase-core:15.0.0"
-    implementation ("com.google.android.gms:play-services-maps:15.0.0") {
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'com.google.android.gms:play-services-base:17.0.0'
+    implementation "com.google.firebase:firebase-core:17.2.2"
+    implementation ("com.google.android.gms:play-services-maps:17.0.0") {
         force = true
     }
     implementation 'com.android.support:exifinterface:27.+'
-    implementation "com.google.android.gms:play-services-gcm:15.0.0"
+    implementation "com.google.android.gms:play-services-base:17.0.0"
     implementation 'org.web3j:core:4.2.0'
     implementation 'org.web3j:core:4.2.0-android'
     implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'

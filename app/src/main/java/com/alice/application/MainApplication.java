@@ -24,6 +24,8 @@ import com.facebook.soloader.SoLoader;
 import java.util.Arrays;
 import java.util.List;
 
+import io.invertase.firebase.RNFirebasePackage;
+
 public class MainApplication extends Application implements ReactApplication {
 
   private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
@@ -47,6 +49,7 @@ public class MainApplication extends Application implements ReactApplication {
               new RNGestureHandlerPackage(),
               new CodePush(getResources().getString(R.string.reactNativeCodePush_androidDeploymentKey), getApplicationContext(), BuildConfig.DEBUG),
               new RNCameraPackage(),
+              new RNFirebasePackage(),
               new CustomToastPackage()
       );
     }
