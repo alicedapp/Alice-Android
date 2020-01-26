@@ -153,6 +153,28 @@ public class Web3jManager {
         });
     }
 
+
+    public void importWallet(String memorizingWords,BaseListener<Credentials> listener) {
+        checkNull(listener);
+        WorkThreadHandler.getInstance().post(() -> {
+            try {
+                mCredentials = WalletUtils.loadBip39Credentials(psw, memorizingWords);
+                Hawk.put(KEY_ADDRESS, mCredentials.getAddress());
+                Hawk.put(MEMORIZINGWORDS, memorizingWords);
+
+                LogUtil.d("Import success!Address is " + mCredentials.getAddress() + ",memorizingWords:" + memorizingWords);
+                MainHandler.getInstance().post(() -> {
+                    listener.OnSuccess(mCredentials);
+                });
+            } catch (Exception e) {
+                MainHandler.getInstance().post(() -> {
+                    listener.OnFailed(e);
+                });
+            }
+
+        });
+    }
+
     /**
      * check local address balance
      *

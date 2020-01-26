@@ -7,12 +7,14 @@ import android.widget.Toast;
 
 import com.alice.R;
 import com.alice.activity.base.BaseActivity;
+import com.alice.config.Constants;
 import com.alice.customView.BaseDialog;
 import com.alice.customView.BottomTapView;
 import com.alice.customView.TransferDialog;
 import com.alice.model.SmartContractMessage;
 import com.alice.presenter.MainPresenter;
 import com.alice.view.IMainView;
+import com.orhanobut.hawk.Hawk;
 
 import org.web3j.crypto.Credentials;
 
@@ -45,7 +47,7 @@ public class Main1Activity extends BaseActivity<MainPresenter> implements IMainV
 
     @Override
     protected void initView() {
-
+        mTvAddress.setText("address：" + Hawk.get(Constants.KEY_ADDRESS));
     }
 
     @Override

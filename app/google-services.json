@@ -30,6 +30,13 @@
             {
               "client_id": "439884301632-plrgipqlgg55hibjnt20df7dp91otgcu.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "439884301632-9040pimkr4j9qnu61j509d504n54oit3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.alice.dapp.lmcmz"
+              }
             }
           ]
         }

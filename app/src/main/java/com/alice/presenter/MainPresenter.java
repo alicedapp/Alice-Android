@@ -35,12 +35,10 @@ public class MainPresenter extends BasePresenter<IMainView> {
     private int PERMISSIONS;
 
 
-    private Web3jManager manager;
     private BaseDataSource dataSource;
 
     public MainPresenter(Activity context, IMainView view){
         super(context,view);
-        manager = Web3jManager.getInstance();
         dataSource = new BaseDataSource();
     }
 

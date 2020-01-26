@@ -31,7 +31,7 @@ public class ContractModule extends ReactContextBaseJavaModule {
     @ReactMethod
     public void write(String contractAddress, String abi, String functionName, ReadableArray parameters, String value, String data, Promise promise) {
         Toast.makeText(getReactApplicationContext(),"contractAddress:"+ contractAddress,Toast.LENGTH_LONG).show();
-        Web3jManager.getInstance().callSmartContractFunction(contractAddress, abi, functionName, parameters, value, data, new BaseListener<EthCall>() {
+       /* Web3jManager.getInstance().callSmartContractFunction(contractAddress, abi, functionName, parameters, value, data, new BaseListener<EthCall>() {
 
 
             @Override
@@ -43,7 +43,7 @@ public class ContractModule extends ReactContextBaseJavaModule {
             public void OnFailed(Throwable e) {
                 Toast.makeText(getReactApplicationContext(),e.getMessage(),Toast.LENGTH_LONG).show();
             }
-        });
+        });*/
         Log.d("zhhr1122","contractAddress:" + contractAddress + ",functionName:" + functionName+",parameters = " + parameters  + ",value:" + value + ",data:" + data);
     }
 }
