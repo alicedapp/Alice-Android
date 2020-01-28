@@ -213,5 +213,6 @@
     <orderEntry type="module" module-name="react-native-gesture-handler" />
     <orderEntry type="module" module-name="react-native-code-push" />
     <orderEntry type="module" module-name="react-native-camera" />
+    <orderEntry type="module" module-name="react-native-exception-handler" />
   </component>
 </module>

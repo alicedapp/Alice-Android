@@ -1,6 +1,8 @@
 package com.alice.activity;
 
 import com.facebook.react.ReactActivity;
+import com.facebook.react.ReactActivityDelegate;
+import android.os.Bundle;
 
 public class RnActivity extends ReactActivity {
 
@@ -12,4 +14,20 @@ public class RnActivity extends ReactActivity {
     protected String getMainComponentName() {
         return "alice";
     }
+
+    @Override
+    protected ReactActivityDelegate createReactActivityDelegate() {
+        return new ReactActivityDelegate(this, getMainComponentName()) {
+            @Override
+            protected Bundle getLaunchOptions() {
+                Bundle initialProps = new Bundle();
+                initialProps.putString("navigationRoute", "DAOstack");
+                //CryptoKitties
+                //DAOstack
+                //Example
+                return initialProps;
+            }
+        };
+    }
+
 }
