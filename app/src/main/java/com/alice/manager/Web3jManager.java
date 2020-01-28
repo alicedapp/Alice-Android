@@ -16,6 +16,8 @@ import com.alice.net.ApiConstants;
 import com.alice.source.BaseDataSource;
 import com.alice.utils.Hex;
 import com.alice.utils.LogUtil;
+import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
+import com.fasterxml.jackson.databind.ObjectWriter;
 import com.orhanobut.hawk.Hawk;
 
 import org.web3j.abi.FunctionEncoder;
@@ -33,6 +35,8 @@ import org.web3j.crypto.MnemonicUtils;
 import org.web3j.crypto.RawTransaction;
 import org.web3j.crypto.Sign;
 import org.web3j.crypto.TransactionEncoder;
+import org.web3j.crypto.Wallet;
+import org.web3j.crypto.WalletFile;
 import org.web3j.crypto.WalletUtils;
 import org.web3j.protocol.Web3j;
 import org.web3j.protocol.core.DefaultBlockParameter;
@@ -55,7 +59,10 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.math.BigInteger;
-import java.security.SignatureException;
+import java.security.SecureRandom;
+import java.time.ZoneOffset;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -65,6 +72,10 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.core.JsonParser;
+import com.fasterxml.jackson.databind.DeserializationFeature;
 
 import static com.alice.config.Constants.KEY_ADDRESS;
 import static com.alice.config.Constants.KEY_STORE_PATH;
@@ -82,7 +93,17 @@ public class Web3jManager {
     private Web3j web3j;
     private BaseDataSource dataSource;
 
+    private int HARDENED_BIT = 0x80000000;
+
     public  static final String FAILED_SIGNATURE = "00000000000000000000000000000000000000000000000000000000000000000";
+
+    private static final ObjectMapper objectMapper = new ObjectMapper();
+
+
+    static {
+        objectMapper.configure(JsonParser.Feature.ALLOW_UNQUOTED_FIELD_NAMES, true);
+        objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+    }
 
     private Web3jManager() {
         web3j = Web3j.build(new HttpService("https://rinkeby.infura.io/da3717f25f824cc1baa32d812386d93f"));
@@ -101,18 +122,34 @@ public class Web3jManager {
     public void createWallet(BaseListener<String> listener) {
         checkNull(listener);
         WorkThreadHandler.getInstance().post(() -> {
-            File path = Environment.getExternalStorageDirectory();
-            Bip39Wallet wallet;
-            try {
-                wallet = WalletUtils.generateBip39Wallet(psw, path);
-                String memorizingWords = wallet.getMnemonic();
-                String filePath = path + "/" + wallet.getFilename();
+            try{
+
+                byte[] initialEntropy = new byte[16];
+                SecureRandom secureRandom = new SecureRandom();
+                secureRandom.nextBytes(initialEntropy);
+//                String memorizingWords = "type excite slide solid engine off drip crew thing crawl spice easy";
+                String memorizingWords = MnemonicUtils.generateMnemonic(initialEntropy);
+
+                byte[] seed = MnemonicUtils.generateSeed(memorizingWords, "");
+                Bip32ECKeyPair masterKeypair = Bip32ECKeyPair.generateKeyPair(seed);
+                final int[] path = {44 | HARDENED_BIT, 60 | HARDENED_BIT, 0 | HARDENED_BIT, 0, 0};
+                Bip32ECKeyPair childKeypair = Bip32ECKeyPair.deriveKeyPair(masterKeypair, path);
+                mCredentials = Credentials.create(childKeypair);
+
+                File storagePath = Environment.getExternalStorageDirectory();
+                WalletFile walletFile = Wallet.createStandard("", childKeypair);
+                File filePath = new File(storagePath, "/keystore.json");
+
+                ObjectWriter writer = objectMapper.writer(new DefaultPrettyPrinter());
+                writer.writeValue(filePath, walletFile);
+
                 Hawk.put(MEMORIZINGWORDS, memorizingWords);
                 Hawk.put(KEY_STORE_PATH, filePath);
-                LogUtil.d("create success!memorizingWords = " + memorizingWords + ",save path is" + path.getAbsolutePath());
+                LogUtil.d("create success!memorizingWords = " + memorizingWords + ",save path is" + storagePath.getAbsolutePath());
                 MainHandler.getInstance().post(() -> {
                     listener.OnSuccess(memorizingWords);
                 });
+
             } catch (Exception e) {
                 LogUtil.d(e.getMessage());
                 MainHandler.getInstance().post(() -> {
@@ -156,7 +193,6 @@ public class Web3jManager {
         checkNull(listener);
         WorkThreadHandler.getInstance().post(() -> {
             try {
-                int HARDENED_BIT = 0x80000000;
                 byte[] seed = MnemonicUtils.generateSeed(memorizingWords, "");
                 Bip32ECKeyPair masterKeypair = Bip32ECKeyPair.generateKeyPair(seed);
                 final int[] path = {44 | HARDENED_BIT, 60 | HARDENED_BIT, 0 | HARDENED_BIT, 0, 0};
