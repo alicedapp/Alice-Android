@@ -16,7 +16,6 @@ import com.alice.net.ApiConstants;
 import com.alice.source.BaseDataSource;
 import com.alice.utils.Hex;
 import com.alice.utils.LogUtil;
-import com.facebook.react.bridge.ReadableArray;
 import com.orhanobut.hawk.Hawk;
 
 import org.web3j.abi.FunctionEncoder;
@@ -25,7 +24,6 @@ import org.web3j.abi.TypeReference;
 import org.web3j.abi.datatypes.Function;
 import org.web3j.abi.datatypes.Type;
 import org.web3j.abi.datatypes.Utf8String;
-import org.web3j.abi.datatypes.generated.Uint256;
 import org.web3j.crypto.Bip39Wallet;
 import org.web3j.crypto.Credentials;
 import org.web3j.crypto.ECKeyPair;
@@ -58,21 +56,17 @@ import java.math.BigInteger;
 import java.security.SignatureException;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 
-import io.reactivex.Single;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
-import retrofit2.Call;
 
 import static com.alice.config.Constants.KEY_ADDRESS;
 import static com.alice.config.Constants.KEY_STORE_PATH;
 import static com.alice.config.Constants.MEMORIZINGWORDS;
-import static org.web3j.protocol.core.methods.request.Transaction.createEthCallTransaction;
 
 /**
  * create by zhhr on 2019/09/16
@@ -85,6 +79,8 @@ public class Web3jManager {
     private Credentials mCredentials;
     private Web3j web3j;
     private BaseDataSource dataSource;
+
+    public  static final String FAILED_SIGNATURE = "00000000000000000000000000000000000000000000000000000000000000000";
 
     private Web3jManager() {
         web3j = Web3j.build(new HttpService("https://rinkeby.infura.io/da3717f25f824cc1baa32d812386d93f"));
@@ -238,6 +234,25 @@ public class Web3jManager {
         }
     }
 
+    public static byte[] bytesFromSignature(Sign.SignatureData signature)
+    {
+        byte[] sigBytes = new byte[65];
+        Arrays.fill(sigBytes, (byte) 0);
+
+        try
+        {
+            System.arraycopy(signature.getR(), 0, sigBytes, 0, 32);
+            System.arraycopy(signature.getS(), 0, sigBytes, 32, 32);
+            sigBytes[64] = signature.getV();
+        }
+        catch (IndexOutOfBoundsException e)
+        {
+            e.printStackTrace();
+        }
+
+        return sigBytes;
+    }
+
     /**
      * 签名(未完成)
      * @param message
@@ -252,6 +267,15 @@ public class Web3jManager {
         if (mCredentials == null) {
             listener.OnFailed(new IllegalArgumentException("please import key first!"));
         }
+       /* byte[] sigBytes = FAILED_SIGNATURE.getBytes();
+        String signString = Hex.hexToUtf8(message);*/
+        //listener.OnSuccess(signString);
+
+        Sign.SignatureData signatureData = Sign.signMessage(message.getBytes(), mCredentials.getEcKeyPair());
+        byte[] sigBytes = bytesFromSignature(signatureData);
+        String result = Numeric.toHexString(sigBytes);
+        listener.OnSuccess(result);
+
        /* WorkThreadHandler.getInstance().post(() -> {
             try {
                 BigInteger value = Convert.toWei("5", Convert.Unit.ETHER).toBigInteger();
@@ -268,7 +292,7 @@ public class Web3jManager {
                 e.printStackTrace();
             }
         });*/
-        String plainMessage = "Hello world";
+       /* String plainMessage = "Hello world";
         byte[] hexMessage = Hash.sha3(plainMessage.getBytes());
         Sign.SignatureData signMessage = Sign.signMessage(hexMessage, mCredentials.getEcKeyPair());
         try {
@@ -276,7 +300,9 @@ public class Web3jManager {
             Log.d("zhhr1122","pubKey = " + pubKey);
         } catch (SignatureException e) {
             e.printStackTrace();
-        }
+        }*/
+
+
 
     }
 

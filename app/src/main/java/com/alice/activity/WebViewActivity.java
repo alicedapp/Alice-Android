@@ -2,6 +2,7 @@ package com.alice.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
@@ -9,13 +10,22 @@ import android.webkit.WebViewClient;
 import android.widget.Toast;
 
 import com.alice.R;
+import com.alice.async.BaseListener;
+import com.alice.manager.Web3jManager;
+import com.alice.utils.Hex;
 import com.alice.web3.OnSignPersonalMessageListener;
 import com.alice.web3.OnSignTransactionListener;
 import com.alice.web3.Web3View;
+import com.alice.web3.entity.Address;
 import com.alice.web3.entity.Message;
 import com.alice.web3.entity.Web3Transaction;
 import com.orhanobut.hawk.Hawk;
 
+import org.web3j.crypto.Hash;
+import org.web3j.crypto.Sign;
+import org.web3j.utils.Numeric;
+
+import java.security.PrivateKey;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -33,7 +43,7 @@ public class WebViewActivity extends Activity implements OnSignTransactionListen
 
         mWebView =  findViewById(R.id.wv_content);
         mWebView.setActivity(this);
-        mWebView.setWalletAddress(Hawk.get(KEY_ADDRESS));
+        mWebView.setWalletAddress(new Address(Hawk.get(KEY_ADDRESS)));
         mWebView.setWebChromeClient(new WebChromeClient() {
             @Override
             public void onProgressChanged(WebView webview, int newProgress) {
@@ -72,7 +82,20 @@ public class WebViewActivity extends Activity implements OnSignTransactionListen
 
     @Override
     public void onSignPersonalMessage(Message<String> message) {
-        Toast.makeText(this,message.value,Toast.LENGTH_LONG).show();
+        String signString = Hex.hexToUtf8(message.value);
+        Toast.makeText(this,signString,Toast.LENGTH_LONG).show();
+        Web3jManager.getInstance().sign(message.value, new BaseListener<String>() {
+            @Override
+            public void OnSuccess(String signHex) {
+                Toast.makeText(WebViewActivity.this,signHex,Toast.LENGTH_LONG).show();
+                mWebView.onSignPersonalMessageSuccessful(message, signHex);
+            }
+
+            @Override
+            public void OnFailed(Throwable e) {
+
+            }
+        });
     }
 
     @Override

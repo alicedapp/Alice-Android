@@ -21,7 +21,7 @@ public class RnActivity extends ReactActivity {
             @Override
             protected Bundle getLaunchOptions() {
                 Bundle initialProps = new Bundle();
-                initialProps.putString("navigationRoute", "DAOstack");
+                initialProps.putString("navigationRoute", "Example");
                 //CryptoKitties
                 //DAOstack
                 //Example
