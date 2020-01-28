@@ -49,7 +49,7 @@ public class LoginActivity extends BaseActivity<LoginPresenter> implements ILogi
     @Override
     @OnClick(R.id.tv_import)
     public void importWallet() {
-        startActivity(new Intent(this,ImportActivity.class));
+       mPresenter.importWallet();
     }
 
     @Override
@@ -72,6 +72,12 @@ public class LoginActivity extends BaseActivity<LoginPresenter> implements ILogi
                     .create();
         }
         createDialog.show();
+    }
+
+    @Override
+    public void importSuccess() {
+        finish();
+        startActivity(new Intent(this,Main1Activity.class));
     }
 
     @Override
