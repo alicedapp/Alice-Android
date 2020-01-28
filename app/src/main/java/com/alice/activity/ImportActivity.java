@@ -35,7 +35,7 @@ public class ImportActivity extends BaseActivity<ImportPresenter> implements IIm
 
     public void importWallet(View view){
         if(TextUtils.isEmpty(mMnemonic.getText())){
-           showToast("please enter memorizingWords");
+           showToast("Please enter memorizingWords");
            return;
         }
         mPresenter.importWallet(mMnemonic.getText().toString());

@@ -24,10 +24,12 @@ import org.web3j.abi.TypeReference;
 import org.web3j.abi.datatypes.Function;
 import org.web3j.abi.datatypes.Type;
 import org.web3j.abi.datatypes.Utf8String;
+import org.web3j.crypto.Bip32ECKeyPair;
 import org.web3j.crypto.Bip39Wallet;
 import org.web3j.crypto.Credentials;
 import org.web3j.crypto.ECKeyPair;
 import org.web3j.crypto.Hash;
+import org.web3j.crypto.MnemonicUtils;
 import org.web3j.crypto.RawTransaction;
 import org.web3j.crypto.Sign;
 import org.web3j.crypto.TransactionEncoder;
@@ -154,7 +156,13 @@ public class Web3jManager {
         checkNull(listener);
         WorkThreadHandler.getInstance().post(() -> {
             try {
-                mCredentials = WalletUtils.loadBip39Credentials(psw, memorizingWords);
+                int HARDENED_BIT = 0x80000000;
+                byte[] seed = MnemonicUtils.generateSeed(memorizingWords, "");
+                Bip32ECKeyPair masterKeypair = Bip32ECKeyPair.generateKeyPair(seed);
+                final int[] path = {44 | HARDENED_BIT, 60 | HARDENED_BIT, 0 | HARDENED_BIT, 0, 0};
+                Bip32ECKeyPair childKeypair = Bip32ECKeyPair.deriveKeyPair(masterKeypair, path);
+                mCredentials = Credentials.create(childKeypair);
+
                 Hawk.put(KEY_ADDRESS, mCredentials.getAddress());
                 Hawk.put(MEMORIZINGWORDS, memorizingWords);
 
