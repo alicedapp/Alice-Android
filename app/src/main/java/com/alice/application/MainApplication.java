@@ -21,6 +21,9 @@ import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
 
+import  io.invertase.firebase.messaging.RNFirebaseMessagingPackage;
+import com.masteratul.exceptionhandler.ReactNativeExceptionHandlerPackage;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -50,6 +53,8 @@ public class MainApplication extends Application implements ReactApplication {
               new CodePush(getResources().getString(R.string.reactNativeCodePush_androidDeploymentKey), getApplicationContext(), BuildConfig.DEBUG),
               new RNCameraPackage(),
               new RNFirebasePackage(),
+              new RNFirebaseMessagingPackage(),
+              new ReactNativeExceptionHandlerPackage(),
               new CustomToastPackage()
       );
     }
