@@ -1,6 +1,7 @@
 package com.alice.activity.base;
 
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
@@ -12,6 +13,8 @@ import butterknife.ButterKnife;
 
 public abstract class BaseActivity<P extends BasePresenter> extends Activity {
     protected P mPresenter;
+
+    protected ProgressDialog progressDialog;
 
     protected abstract void initPresenter(Intent intent);
     //设置布局
@@ -30,6 +33,8 @@ public abstract class BaseActivity<P extends BasePresenter> extends Activity {
         initPresenter(getIntent());
         checkPresenterIsNull();
         ButterKnife.bind(this);
+
+        progressDialog = new ProgressDialog(this);
         initView();
     }
 

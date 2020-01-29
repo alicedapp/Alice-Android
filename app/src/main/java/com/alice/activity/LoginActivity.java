@@ -1,5 +1,6 @@
 package com.alice.activity;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.widget.TextView;
 
@@ -23,8 +24,6 @@ public class LoginActivity extends BaseActivity<LoginPresenter> implements ILogi
     @BindView(R.id.tv_import)
     TextView mImport;
 
-    private BaseDialog createDialog;
-
     @Override
     protected void initPresenter(Intent intent) {
         mPresenter = new LoginPresenter(this,this);
@@ -40,44 +39,18 @@ public class LoginActivity extends BaseActivity<LoginPresenter> implements ILogi
 
     }
 
-    @Override
     @OnClick(R.id.tv_create)
     public void createWallet() {
-        mPresenter.checkWallet();
+        mPresenter.createWallet();
+        if(progressDialog!=null){
+            progressDialog.setMessage("alice is creating wallet");
+            progressDialog.show();
+        }
     }
 
-    @Override
     @OnClick(R.id.tv_import)
     public void importWallet() {
         startActivity(new Intent(this,ImportActivity.class));
-    }
-
-    @Override
-    public void showCreateDialog() {
-        if(createDialog == null){
-            createDialog = new BaseDialog.Builder(this)
-                    .setTitle("Replace the key")
-                    .setMessage("You created the key already,Do you want to replace it？")
-                    .setPositiveButton("Replace", v -> {
-                        mPresenter.createWallet();
-                        if(createDialog!=null){
-                            createDialog.dismiss();
-                        }
-                    })
-                    .setNegativeButton("Cancel", v -> {
-                        if(createDialog!=null){
-                            createDialog.dismiss();
-                        }
-                    })
-                    .create();
-        }
-        createDialog.show();
-    }
-
-    @Override
-    public void importSuccess() {
-        finish();
-        startActivity(new Intent(this,Main1Activity.class));
     }
 
     @Override
@@ -88,5 +61,19 @@ public class LoginActivity extends BaseActivity<LoginPresenter> implements ILogi
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         mPresenter.onRequestPermissionsResult(requestCode,permissions,grantResults);
+    }
+
+    @Override
+    public void createSuccess() {
+        if(progressDialog!=null){
+            progressDialog.dismiss();
+        }
+        finish();
+        startActivity(new Intent(this,Main1Activity.class));
+    }
+
+    @Override
+    public void createFailed(String message) {
+        toast(message);
     }
 }

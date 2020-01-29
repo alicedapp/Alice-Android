@@ -30,6 +30,11 @@ import java.util.List;
 import io.invertase.firebase.RNFirebasePackage;
 
 public class MainApplication extends Application implements ReactApplication {
+  private static Context context;
+
+  public static Context getAppContext() {
+    return context;
+  }
 
   private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
 
@@ -74,6 +79,7 @@ public class MainApplication extends Application implements ReactApplication {
   public void onCreate() {
     super.onCreate();
     SoLoader.init(this, /* native exopackage */ false);
+    context = getApplicationContext();
     init();
   }
 

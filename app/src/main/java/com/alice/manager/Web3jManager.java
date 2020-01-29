@@ -30,7 +30,6 @@ import org.web3j.crypto.Bip32ECKeyPair;
 import org.web3j.crypto.Bip39Wallet;
 import org.web3j.crypto.Credentials;
 import org.web3j.crypto.ECKeyPair;
-import org.web3j.crypto.Hash;
 import org.web3j.crypto.MnemonicUtils;
 import org.web3j.crypto.RawTransaction;
 import org.web3j.crypto.Sign;
@@ -72,6 +71,11 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
+import wallet.core.jni.CoinType;
+import wallet.core.jni.Curve;
+import wallet.core.jni.HDWallet;
+import wallet.core.jni.Hash;
+import wallet.core.jni.PrivateKey;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.core.JsonParser;
@@ -109,6 +113,7 @@ public class Web3jManager {
         web3j = Web3j.build(new HttpService("https://rinkeby.infura.io/da3717f25f824cc1baa32d812386d93f"));
         this.mCompositeDisposable = new CompositeDisposable();
         dataSource = new BaseDataSource(mCompositeDisposable);
+        System.loadLibrary("TrustWalletCore");
     }
 
     private static class Web3jManagerHolder {
@@ -127,7 +132,6 @@ public class Web3jManager {
                 byte[] initialEntropy = new byte[16];
                 SecureRandom secureRandom = new SecureRandom();
                 secureRandom.nextBytes(initialEntropy);
-//                String memorizingWords = "type excite slide solid engine off drip crew thing crawl spice easy";
                 String memorizingWords = MnemonicUtils.generateMnemonic(initialEntropy);
 
                 byte[] seed = MnemonicUtils.generateSeed(memorizingWords, "");
@@ -144,7 +148,8 @@ public class Web3jManager {
                 writer.writeValue(filePath, walletFile);
 
                 Hawk.put(MEMORIZINGWORDS, memorizingWords);
-                Hawk.put(KEY_STORE_PATH, filePath);
+                Hawk.put(KEY_STORE_PATH, filePath.getAbsolutePath());
+
                 LogUtil.d("create success!memorizingWords = " + memorizingWords + ",save path is" + storagePath.getAbsolutePath());
                 MainHandler.getInstance().post(() -> {
                     listener.OnSuccess(memorizingWords);
@@ -297,8 +302,23 @@ public class Web3jManager {
         return sigBytes;
     }
 
+    static byte[] getEthereumMessage(byte[] message) {
+        byte[] prefix = getEthereumMessagePrefix(message.length);
+
+        byte[] result = new byte[prefix.length + message.length];
+        System.arraycopy(prefix, 0, result, 0, prefix.length);
+        System.arraycopy(message, 0, result, prefix.length, message.length);
+
+        return result;
+    }
+    static byte[] getEthereumMessagePrefix(int messageLength) {
+        return MESSAGE_PREFIX.concat(String.valueOf(messageLength)).getBytes();
+    }
+
+    private static final String MESSAGE_PREFIX = "\u0019Ethereum Signed Message:\n";
+
     /**
-     * 签名(未完成)
+     * 签名
      * @param message
      * @param listener
      */
@@ -308,46 +328,24 @@ public class Web3jManager {
             listener.OnFailed(new IllegalAccessException("message i"));
             return;
         }
-        if (mCredentials == null) {
-            listener.OnFailed(new IllegalArgumentException("please import key first!"));
-        }
        /* byte[] sigBytes = FAILED_SIGNATURE.getBytes();
         String signString = Hex.hexToUtf8(message);*/
         //listener.OnSuccess(signString);
 
-        Sign.SignatureData signatureData = Sign.signMessage(message.getBytes(), mCredentials.getEcKeyPair());
-        byte[] sigBytes = bytesFromSignature(signatureData);
-        String result = Numeric.toHexString(sigBytes);
-        listener.OnSuccess(result);
-
-       /* WorkThreadHandler.getInstance().post(() -> {
-            try {
-                BigInteger value = Convert.toWei("5", Convert.Unit.ETHER).toBigInteger();
-                EthGetTransactionCount ethGetTransactionCount = web3j.ethGetTransactionCount("0x02be5ade098ed915b163f92bd76194877a66783a", DefaultBlockParameterName.LATEST).send();
-                BigInteger nonce = ethGetTransactionCount.getTransactionCount();
-                RawTransaction rawTransaction  = RawTransaction.createEtherTransaction(
-                        nonce, GAS_PRICE, GAS_LIMIT,  "0x02be5ade098ed915b163f92bd76194877a66783a", value);
-                byte[] signedMessage = TransactionEncoder.signMessage(rawTransaction, mCredentials);
-                String hexValue = Numeric.toHexString(signedMessage);
-                System.out.println("hexValue = " + hexValue);
-                EthSendTransaction ethSendTransaction = web3j.ethSendRawTransaction(hexValue).send();
-                System.out.println("ethSendTransaction.getTransactionHash() = "+ethSendTransaction.getTransactionHash());
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        });*/
-       /* String plainMessage = "Hello world";
-        byte[] hexMessage = Hash.sha3(plainMessage.getBytes());
-        Sign.SignatureData signMessage = Sign.signMessage(hexMessage, mCredentials.getEcKeyPair());
-        try {
-            String pubKey = Sign.signedMessageToKey(hexMessage, signMessage).toString(16);
-            Log.d("zhhr1122","pubKey = " + pubKey);
-        } catch (SignatureException e) {
-            e.printStackTrace();
-        }*/
-
-
-
+       /* Sign.SignatureData signatureData = Sign.signMessage(message.getBytes(), mCredentials.getEcKeyPair());
+        byte[] sigBytes = bytesFromSignature(signatureData);*/
+        try{
+            byte[] messageBytes = getEthereumMessage(Numeric.hexStringToByteArray(message));
+            String mnemonic = Hawk.get(MEMORIZINGWORDS);
+            HDWallet newWallet = new HDWallet(mnemonic, "");
+            PrivateKey pk = newWallet.getKeyForCoin(CoinType.ETHEREUM);
+            byte[] digest = Hash.keccak256(messageBytes);
+            byte[] sigBytes = pk.sign(digest, Curve.SECP256K1);
+            String result = Numeric.toHexString(sigBytes);
+            listener.OnSuccess(result);
+        }catch (Exception e){
+            listener.OnFailed(e);
+        }
     }
 
 

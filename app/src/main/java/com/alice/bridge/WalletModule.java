@@ -6,7 +6,9 @@ import android.widget.Toast;
 import com.alice.async.BaseListener;
 import com.alice.customView.TransferDialog;
 import com.alice.manager.Web3jManager;
+import com.alice.utils.Hex;
 import com.alice.utils.LogUtil;
+import com.alice.utils.ToastUtils;
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
@@ -109,5 +111,19 @@ public class WalletModule extends ReactContextBaseJavaModule {
     @ReactMethod
     public void signMessage(String message,Promise promise) {
         Log.d("zhhr1122","message:" + message);
+        String signString = Hex.hexToUtf8(message);
+        ToastUtils.makeText(signString);
+        Web3jManager.getInstance().sign(message,new BaseListener<String>() {
+
+            @Override
+            public void OnSuccess(String s) {
+                promise.resolve(s);
+            }
+
+            @Override
+            public void OnFailed(Throwable e) {
+                promise.reject(e.toString());
+            }
+        });
     }
 }

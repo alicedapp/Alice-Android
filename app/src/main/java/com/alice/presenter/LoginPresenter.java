@@ -20,7 +20,6 @@ import java.io.File;
 public class LoginPresenter extends BasePresenter<ILoginView> {
 
     public final static int CREATE = 0X11;
-    public final static int IMPORT = 0X12;
 
     private int PERMISSIONS;
 
@@ -30,25 +29,6 @@ public class LoginPresenter extends BasePresenter<ILoginView> {
     }
 
 
-    public void checkWallet() {
-        PERMISSIONS = CREATE;
-        if((PermissionUtils.CheckPermission(PermissionUtils.READ_EXTERNAL_STORAGE,mContext)
-                &&PermissionUtils.CheckPermission(PermissionUtils.WRITE_EXTERNAL_STORAGE,mContext))){
-            //if already create key,tip
-            if(!TextUtils.isEmpty(Hawk.get(Constants.KEY_STORE_PATH))){
-                String path = Hawk.get(Constants.KEY_STORE_PATH);
-                File file = new File(path);
-                if(file.exists()){
-                    mView.showCreateDialog();
-                    return;
-                }
-            }
-            createWallet();
-        }else{
-            PermissionUtils.verifyStoragePermissions(mContext);
-        }
-    }
-
     public void createWallet(){
         PERMISSIONS = CREATE;
         if((PermissionUtils.CheckPermission(PermissionUtils.READ_EXTERNAL_STORAGE,mContext)
@@ -57,7 +37,21 @@ public class LoginPresenter extends BasePresenter<ILoginView> {
                 @Override
                 public void OnSuccess(String memorizingWords) {
                     mView.showToast("Create wallet success,the memorizingWords is "+ memorizingWords);
-                    mView.importSuccess();
+                    if(TextUtils.isEmpty(memorizingWords)){
+                        mView.createFailed("create failed");
+                        return;
+                    }
+                    manager.importWallet(memorizingWords, new BaseListener<Credentials>() {
+                        @Override
+                        public void OnSuccess(Credentials credentials) {
+                            mView.createSuccess();
+                        }
+
+                        @Override
+                        public void OnFailed(Throwable e) {
+                            mView.createFailed(e.getMessage());
+                        }
+                    });
                 }
 
                 @Override
@@ -78,32 +72,8 @@ public class LoginPresenter extends BasePresenter<ILoginView> {
                 case CREATE:
                     createWallet();
                     break;
-                case IMPORT:
-                    importWallet();
-                    break;
             }
         }
     }
 
-
-    public void importWallet() {
-        PERMISSIONS = IMPORT;
-        if((PermissionUtils.CheckPermission(PermissionUtils.READ_EXTERNAL_STORAGE,mContext)
-                &&PermissionUtils.CheckPermission(PermissionUtils.WRITE_EXTERNAL_STORAGE,mContext))){
-            manager.importWallet(new BaseListener<Credentials>() {
-                @Override
-                public void OnSuccess(Credentials credentials) {
-                    mView.importSuccess();
-                    mView.showToast("Import wallet success,the address is "+credentials.getAddress());
-                }
-
-                @Override
-                public void OnFailed(Throwable e) {
-                    mView.showToast(e.toString());
-                }
-            });
-        }else{
-            PermissionUtils.verifyStoragePermissions(mContext);
-        }
-    }
 }
