@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/v_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_60_transparent" />
+
+    <LinearLayout
+        android:id="@+id/rl_content"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_dimen_1200"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_corner_24_solid_top_ffffff"
+        android:orientation="vertical"
+        android:translationY="@dimen/view_dimen_1200">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_dimen_190"
+            android:gravity="center"
+            android:text="@string/sign_message"
+            android:textColor="#bebebe"
+            android:textSize="@dimen/view_dimen_60" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_dimen_1"
+            android:background="@color/color_d1d1d1" />
+
+
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_dimen_580"
+            android:layout_marginLeft="@dimen/view_dimen_60"
+            android:layout_marginTop="@dimen/view_dimen_75"
+            android:layout_marginRight="@dimen/view_dimen_60"
+            android:background="@drawable/bg_corner_24_solid_f1f4f5"
+            android:gravity="left|top"
+            android:padding="@dimen/view_dimen_30"
+            android:textColor="@color/color_565656" />
+
+
+        <TextView
+            android:id="@+id/tv_send"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_dimen_210"
+            android:layout_marginLeft="@dimen/view_dimen_90"
+            android:layout_marginTop="@dimen/view_dimen_80"
+            android:layout_marginRight="@dimen/view_dimen_90"
+            android:background="@drawable/bg_corner_100_solid_333333"
+            android:gravity="center"
+            android:text="Hold to Send"
+            android:textColor="@color/white"
+            android:textSize="@dimen/view_dimen_50" />
+
+    </LinearLayout>
+
+</RelativeLayout>

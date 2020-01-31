@@ -166,31 +166,10 @@ public class Web3jManager {
     }
 
     public void importWallet(BaseListener<Credentials> listener) {
-        checkNull(listener);
-        WorkThreadHandler.getInstance().post(() -> {
-            try {
-                String filePath = Hawk.get(KEY_STORE_PATH, "");
-                String memorizingWords = Hawk.get(MEMORIZINGWORDS);
-
-                File file = new File(filePath);
-                mCredentials = WalletUtils.loadCredentials(psw, file);
-                Hawk.put(KEY_ADDRESS, mCredentials.getAddress());
-
-                LogUtil.d("Import success!Address is " + mCredentials.getAddress() + ",memorizingWords:" + memorizingWords);
-                MainHandler.getInstance().post(() -> {
-                    listener.OnSuccess(mCredentials);
-                });
-            } catch (FileNotFoundException e) {
-                MainHandler.getInstance().post(() -> {
-                    listener.OnFailed(new IllegalAccessException("Please create wallet first"));
-                });
-            } catch (Exception e) {
-                MainHandler.getInstance().post(() -> {
-                    listener.OnFailed(e);
-                });
-            }
-
-        });
+        String memorizingWords = Hawk.get(MEMORIZINGWORDS);
+        if(!TextUtils.isEmpty(memorizingWords)){
+            importWallet(memorizingWords,listener);
+        }
     }
 
 
@@ -328,12 +307,6 @@ public class Web3jManager {
             listener.OnFailed(new IllegalAccessException("message i"));
             return;
         }
-       /* byte[] sigBytes = FAILED_SIGNATURE.getBytes();
-        String signString = Hex.hexToUtf8(message);*/
-        //listener.OnSuccess(signString);
-
-       /* Sign.SignatureData signatureData = Sign.signMessage(message.getBytes(), mCredentials.getEcKeyPair());
-        byte[] sigBytes = bytesFromSignature(signatureData);*/
         try{
             byte[] messageBytes = getEthereumMessage(Numeric.hexStringToByteArray(message));
             String mnemonic = Hawk.get(MEMORIZINGWORDS);

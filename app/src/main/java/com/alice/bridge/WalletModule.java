@@ -4,6 +4,10 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.alice.async.BaseListener;
+import com.alice.async.MainHandler;
+import com.alice.async.WorkThreadHandler;
+import com.alice.customView.BaseBottomView;
+import com.alice.customView.SignMessageView;
 import com.alice.customView.TransferDialog;
 import com.alice.manager.Web3jManager;
 import com.alice.utils.Hex;
@@ -26,6 +30,7 @@ import javax.annotation.Nonnull;
 public class WalletModule extends ReactContextBaseJavaModule {
 
     private TransferDialog transformDialog;
+    private SignMessageView signMessageView;
 
     public WalletModule(ReactApplicationContext reactContext) {
         super(reactContext);
@@ -110,20 +115,26 @@ public class WalletModule extends ReactContextBaseJavaModule {
 
     @ReactMethod
     public void signMessage(String message,Promise promise) {
-        Log.d("zhhr1122","message:" + message);
-        String signString = Hex.hexToUtf8(message);
-        ToastUtils.makeText(signString);
-        Web3jManager.getInstance().sign(message,new BaseListener<String>() {
+        MainHandler.getInstance().post(() -> {
+            if(signMessageView ==  null){
+                signMessageView = new SignMessageView(getCurrentActivity());
+                signMessageView.setOnClickSendListener(data -> Web3jManager.getInstance().sign(message,new BaseListener<String>() {
 
-            @Override
-            public void OnSuccess(String s) {
-                promise.resolve(s);
-            }
+                    @Override
+                    public void OnSuccess(String s) {
+                        promise.resolve(s);
+                        signMessageView.hideView();
+                    }
 
-            @Override
-            public void OnFailed(Throwable e) {
-                promise.reject(e.toString());
+                    @Override
+                    public void OnFailed(Throwable e) {
+                        promise.reject(e.toString());
+                        signMessageView.hideView();
+                    }
+                }));
             }
+            signMessageView.setData(message);
+            signMessageView.showView(getCurrentActivity());
         });
     }
 }

@@ -39,6 +39,7 @@
         android:layout_height="@dimen/view_dimen_750"
         android:layout_below="@+id/rl_toolbar"
         android:layout_margin="@dimen/view_dimen_40"
+        android:textColor="@color/color_565656"
         android:background="@drawable/bg_corner_24_solid_f1f4f5"
         android:gravity="left|top"
         android:hint="Mnemonic" />

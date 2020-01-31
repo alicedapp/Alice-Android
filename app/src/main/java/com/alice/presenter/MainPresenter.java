@@ -163,11 +163,12 @@ public class MainPresenter extends BasePresenter<IMainView> {
         }
     }
 
-    public void signMessage() {
-        manager.sign("0x48656c6c6f20576f726c64000000000000000000000000000000000000000000", new BaseListener<String>() {
+    public void signMessage(String message) {
+        manager.sign(message, new BaseListener<String>() {
             @Override
             public void OnSuccess(String s) {
                 mView.showToast(s);
+                mView.onSignSuccess();
             }
 
             @Override

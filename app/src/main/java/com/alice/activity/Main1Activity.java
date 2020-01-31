@@ -8,8 +8,10 @@ import android.widget.Toast;
 import com.alice.R;
 import com.alice.activity.base.BaseActivity;
 import com.alice.config.Constants;
+import com.alice.customView.BaseBottomView;
 import com.alice.customView.BaseDialog;
 import com.alice.customView.BottomTapView;
+import com.alice.customView.SignMessageView;
 import com.alice.customView.TransferDialog;
 import com.alice.model.SmartContractMessage;
 import com.alice.presenter.MainPresenter;
@@ -34,6 +36,8 @@ public class Main1Activity extends BaseActivity<MainPresenter> implements IMainV
     private BaseDialog createDialog;
 
     BottomTapView mBottomTapView;
+
+    SignMessageView mSignMessage;
 
     @Override
     protected void initPresenter(Intent intent) {
@@ -121,8 +125,18 @@ public class Main1Activity extends BaseActivity<MainPresenter> implements IMainV
     }
     @OnClick({R.id.signMessage})
     public void signMessage(){
-       Intent intent = new Intent(this,WebViewActivity.class);
-       startActivity(intent);
+        String signMessage = "0x48656c6c6f20576f726c64000000000000000000000000000000000000000000";
+        if(mSignMessage == null){
+            mSignMessage = new SignMessageView(this);
+            mSignMessage.setOnClickSendListener(new BaseBottomView.OnClickSendListener<String>() {
+                @Override
+                public void OnClickSend(String data) {
+                    mPresenter.signMessage(data);
+                }
+            });
+        }
+        mSignMessage.setData(signMessage);
+        mSignMessage.showView(this);
     }
 
     @Override
@@ -156,6 +170,13 @@ public class Main1Activity extends BaseActivity<MainPresenter> implements IMainV
     @Override
     public void setBottomView(SmartContractMessage smartContractMessage) {
         mBottomTapView.setData(smartContractMessage);
+    }
+
+    @Override
+    public void onSignSuccess() {
+        if(mSignMessage!=null){
+            mSignMessage.hideView();
+        }
     }
 
     @Override
