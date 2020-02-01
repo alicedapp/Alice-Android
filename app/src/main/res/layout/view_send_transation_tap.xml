@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/v_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_60_transparent" />
+
+    <LinearLayout
+        android:id="@+id/rl_content"
+        android:layout_width="match_parent"
+        android:translationY="@dimen/view_dimen_1200"
+        android:layout_height="@dimen/view_dimen_1200"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_corner_24_solid_top_ffffff"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_dimen_190"
+            android:gravity="center"
+            android:text="@string/send_transaction"
+            android:textColor="#bebebe"
+            android:textSize="@dimen/view_dimen_60" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_dimen_1"
+            android:background="@color/color_d1d1d1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/view_dimen_30"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To:"
+                android:textColor="#aaaaaa"
+                android:textSize="@dimen/view_dimen_48" />
+
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/view_dimen_20"
+                android:ellipsize="middle"
+                android:singleLine="true"
+                android:textColor="#80b2f9" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_dimen_270"
+            android:layout_marginLeft="@dimen/view_dimen_30"
+            android:layout_marginTop="@dimen/view_dimen_80"
+            android:layout_marginRight="@dimen/view_dimen_30"
+            android:background="@drawable/bg_corner_24_solid_ebebeb"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_eth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/view_dimen_42"
+                android:src="@mipmap/icon_eth_big" />
+
+            <TextView
+                android:id="@+id/tv_eth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/iv_eth"
+                android:layout_marginLeft="@dimen/view_dimen_75"
+                android:layout_toRightOf="@+id/iv_eth"
+                android:text="ETH"
+                android:textColor="@color/color_565656"
+                android:textSize="@dimen/text_font_size_60"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_eth"
+                android:layout_marginLeft="@dimen/view_dimen_75"
+                android:layout_marginTop="@dimen/view_dimen_10"
+                android:layout_toRightOf="@+id/iv_eth"
+                android:text="Ethereum Coin"
+                android:textColor="@color/color_aeafaf"
+                android:textSize="@dimen/text_font_size_30" />
+
+            <TextView
+                android:id="@+id/tv_eth_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/iv_eth"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/view_dimen_40"
+                android:text="0.001"
+                android:textColor="@color/color_565656"
+                android:textSize="@dimen/text_font_size_60"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_real_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_eth_price"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/view_dimen_10"
+                android:layout_marginRight="@dimen/view_dimen_40"
+                android:text="@string/USD_price"
+                android:textColor="@color/color_aeafaf"
+                android:textSize="@dimen/text_font_size_30" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_send"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_dimen_210"
+            android:layout_marginLeft="@dimen/view_dimen_90"
+            android:layout_marginTop="@dimen/view_dimen_80"
+            android:layout_marginRight="@dimen/view_dimen_90"
+            android:background="@drawable/bg_corner_100_solid_333333"
+            android:gravity="center"
+            android:text="Hold to Send"
+            android:textColor="@color/white"
+            android:textSize="@dimen/view_dimen_50" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/view_dimen_100"
+            android:layout_marginTop="@dimen/view_dimen_50"
+            android:layout_marginRight="@dimen/view_dimen_100">
+
+            <TextView
+                android:id="@+id/tv_gas_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/CNY_price"
+                android:textColor="#565656" />
+
+            <TextView
+                android:id="@+id/tv_arrive_times"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="@string/ARRIVE_IN_MINS"
+                android:textColor="#565656"
+                android:textSize="@dimen/view_dimen_42" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

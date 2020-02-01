@@ -2,7 +2,6 @@ package com.alice.manager;
 
 import android.os.Environment;
 import android.text.TextUtils;
-import android.util.Log;
 
 import com.alice.async.BaseListener;
 import com.alice.async.MainHandler;
@@ -14,9 +13,11 @@ import com.alice.model.SmartContractMessage;
 import com.alice.net.Api;
 import com.alice.net.ApiConstants;
 import com.alice.source.BaseDataSource;
-import com.alice.utils.Hex;
 import com.alice.utils.LogUtil;
+import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
+import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import com.orhanobut.hawk.Hawk;
 
@@ -27,7 +28,6 @@ import org.web3j.abi.datatypes.Function;
 import org.web3j.abi.datatypes.Type;
 import org.web3j.abi.datatypes.Utf8String;
 import org.web3j.crypto.Bip32ECKeyPair;
-import org.web3j.crypto.Bip39Wallet;
 import org.web3j.crypto.Credentials;
 import org.web3j.crypto.ECKeyPair;
 import org.web3j.crypto.MnemonicUtils;
@@ -54,14 +54,10 @@ import org.web3j.utils.Convert;
 import org.web3j.utils.Numeric;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.security.SecureRandom;
-import java.time.ZoneOffset;
-import java.time.ZonedDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -76,10 +72,6 @@ import wallet.core.jni.Curve;
 import wallet.core.jni.HDWallet;
 import wallet.core.jni.Hash;
 import wallet.core.jni.PrivateKey;
-
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.core.JsonParser;
-import com.fasterxml.jackson.databind.DeserializationFeature;
 
 import static com.alice.config.Constants.KEY_ADDRESS;
 import static com.alice.config.Constants.KEY_STORE_PATH;
@@ -197,6 +189,23 @@ public class Web3jManager {
             }
 
         });
+       /* WorkThreadHandler.getInstance().post(() -> {
+            try {
+                mCredentials = WalletUtils.loadBip39Credentials(psw, memorizingWords);
+                Hawk.put(KEY_ADDRESS, mCredentials.getAddress());
+                Hawk.put(MEMORIZINGWORDS, memorizingWords);
+
+                LogUtil.d("Import success!Address is " + mCredentials.getAddress() + ",memorizingWords:" + memorizingWords);
+                MainHandler.getInstance().post(() -> {
+                    listener.OnSuccess(mCredentials);
+                });
+            } catch (Exception e) {
+                MainHandler.getInstance().post(() -> {
+                    listener.OnFailed(e);
+                });
+            }
+
+        });*/
     }
 
     /**
@@ -401,10 +410,9 @@ public class Web3jManager {
      * @param contractAddr
      * @param functionName
      * @param value
-     * @param params
      * @param listener
      */
-    public void loadSmartContractSet(String contractAddr, String functionName, String value, String[] params,BaseListener<SmartContractMessage> listener) {
+    public void loadSmartContractSet(String contractAddr, String functionName, String value, List<Type> inputArgs,List<TypeReference<?>> outputArgs,BaseListener<SmartContractMessage> listener) {
         checkNull(listener);
         WorkThreadHandler.getInstance().post(new Runnable() {
             @Override
@@ -414,13 +422,7 @@ public class Web3jManager {
                     BigInteger nonce = getNonce(web3j, fromAddr);
                     // 构建方法调用信息
                     String method = functionName;
-                    // 构建输入参数
-                    List<Type> inputArgs = new ArrayList<>();
-                    for(String param:params){
-                        inputArgs.add(new Utf8String(param));
-                    }
                     // 合约返回值容器
-                    List<TypeReference<?>> outputArgs = new ArrayList<>();
                     String funcABI = FunctionEncoder.encode(new Function(method, inputArgs, outputArgs));
 
                     //调用接口拿到gasPrice信息
@@ -479,6 +481,7 @@ public class Web3jManager {
             }
         });
     }
+
 
     /**
      * 获取gaslimit
@@ -585,9 +588,75 @@ public class Web3jManager {
         }
     }
 
+
+    public void loadTransferInfo(String toAddr,String amount,BaseListener<SmartContractMessage> listener) {
+        checkNull(listener);
+        WorkThreadHandler.getInstance().post(new Runnable() {
+            @Override
+            public void run() {
+                try{
+                    String fromAddr = Hawk.get(KEY_ADDRESS);
+                    // 获得nonce
+                    BigInteger nonce = getNonce(web3j, fromAddr);
+                    //调用接口拿到gasPrice信息
+                    // value 转换
+                    BigInteger value = Convert.toWei(amount, Convert.Unit.ETHER).toBigInteger();
+
+                    GasPriceModel gasPriceModel = dataSource.executeSync(dataSource.getService(Api.class).getGasPriceModelSync(ApiConstants.GAS_PRICE));
+                    //调用接口拿到美元换算信息
+                    BaseReponseBody<PriceModel> baseReponseBody = dataSource.executeSync(dataSource.getService(Api.class).getPriceModelSync(ApiConstants.CONVERT, 2, 1, "USD"));
+                    PriceModel priceModel = baseReponseBody.data.get(0);
+                    //设置gasPrice
+                    BigInteger gasPrice = Convert.toWei("1", Convert.Unit.GWEI).toBigInteger();
+                    if(gasPriceModel!=null){
+                        BigDecimal amountGwei = BigDecimal.valueOf(gasPriceModel.average);
+                        gasPrice = Convert.toWei(amountGwei, Convert.Unit.GWEI).toBigInteger();
+                    }
+                    // 构建交易
+                    Transaction transaction = Transaction.createEtherTransaction(fromAddr, nonce, gasPrice, null, toAddr, value);
+
+                    BigInteger gasLimit = getTransactionGasLimit(web3j, transaction);
+                    //设置参数
+                    SmartContractMessage smartContractMessage = new SmartContractMessage();
+                    smartContractMessage.nonce = getNonce(web3j, fromAddr);
+                    smartContractMessage.gasLimit = gasLimit;
+                    smartContractMessage.gasPrice = gasPrice;
+                    smartContractMessage.priceModel = priceModel;
+                    smartContractMessage.gasPriceModel = gasPriceModel;
+                    smartContractMessage.contractAddr = toAddr;
+
+                    MainHandler.getInstance().post(() -> listener.OnSuccess(smartContractMessage));
+                }catch (Exception e){
+                    MainHandler.getInstance().post(() -> listener.OnFailed(e));
+                }
+            }
+        });
+    }
+
+    public void transferContract(SmartContractMessage smartContractMessage, String amount,BaseListener<String> listener) {
+        checkNull(listener);
+        WorkThreadHandler.getInstance().post(() -> {
+            try{
+                BigInteger value = Convert.toWei(amount, Convert.Unit.ETHER).toBigInteger();
+                String resultHashCode =  signAndSend(web3j, smartContractMessage.nonce, smartContractMessage.gasPrice, smartContractMessage.gasLimit, smartContractMessage.contractAddr, value, "", ChainId.RINKEBY, mCredentials.getEcKeyPair().getPrivateKey().toString(16));
+                MainHandler.getInstance().post(() -> listener.OnSuccess(resultHashCode));
+            }catch (Exception e){
+                MainHandler.getInstance().post(() -> listener.OnFailed(e));
+            }
+        });
+    }
+
     public void clear() {
         if (!mCompositeDisposable.isDisposed()) {
             mCompositeDisposable.dispose();
+        }
+    }
+
+    public boolean isImport(){
+        if(mCredentials!=null){
+            return true;
+        }else{
+            return false;
         }
     }
 

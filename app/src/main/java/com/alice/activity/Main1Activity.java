@@ -11,16 +11,26 @@ import com.alice.config.Constants;
 import com.alice.customView.BaseBottomView;
 import com.alice.customView.BaseDialog;
 import com.alice.customView.BottomTapView;
+import com.alice.customView.SendTransactionView;
 import com.alice.customView.SignMessageView;
 import com.alice.customView.TransferDialog;
+import com.alice.manager.Web3jManager;
 import com.alice.model.SmartContractMessage;
 import com.alice.presenter.MainPresenter;
 import com.alice.view.IMainView;
 import com.orhanobut.hawk.Hawk;
 
+import org.web3j.abi.TypeReference;
+import org.web3j.abi.datatypes.Address;
+import org.web3j.abi.datatypes.Type;
+import org.web3j.abi.datatypes.Utf8String;
+import org.web3j.abi.datatypes.generated.Uint256;
 import org.web3j.crypto.Credentials;
 
+import java.math.BigDecimal;
 import java.math.BigInteger;
+import java.util.ArrayList;
+import java.util.List;
 
 import butterknife.BindView;
 import butterknife.OnClick;
@@ -35,9 +45,11 @@ public class Main1Activity extends BaseActivity<MainPresenter> implements IMainV
     private TransferDialog transformDialog;
     private BaseDialog createDialog;
 
-    BottomTapView mBottomTapView;
+    private BottomTapView mBottomTapView;
 
-    SignMessageView mSignMessage;
+    private SignMessageView mSignMessage;
+
+    private SendTransactionView mSendTransactionView;
 
     @Override
     protected void initPresenter(Intent intent) {
@@ -51,7 +63,11 @@ public class Main1Activity extends BaseActivity<MainPresenter> implements IMainV
 
     @Override
     protected void initView() {
-        mTvAddress.setText("address：" + Hawk.get(Constants.KEY_ADDRESS));
+        if(Web3jManager.getInstance().isImport()){
+            mTvAddress.setText("address：" + Hawk.get(Constants.KEY_ADDRESS));
+        }else{
+            mPresenter.importWallet();
+        }
     }
 
     @Override
@@ -89,7 +105,10 @@ public class Main1Activity extends BaseActivity<MainPresenter> implements IMainV
     public void smartContractSet() {
         mBottomTapView = new BottomTapView(this);
         mBottomTapView.showView(this,"0x2f21957c7147c3eE49235903D6471159a16c9ccd","setMessage","0",new String[]{"set new message"});
-        mPresenter.loadSmartContractSet("0x2f21957c7147c3eE49235903D6471159a16c9ccd","setMessage","0",new String[]{"test test test!"});
+        List<Type> inputArgs = new ArrayList<>();
+        inputArgs.add(new Utf8String("test : " + System.currentTimeMillis()));
+        List<TypeReference<?>> outputArgs = new ArrayList<>();
+        mPresenter.loadSmartContractSet("0x2f21957c7147c3eE49235903D6471159a16c9ccd","setMessage","0",inputArgs,outputArgs);
         mBottomTapView.setOnClickSendListener(new BottomTapView.OnClickSendListener() {
             @Override
             public void OnClickSend(SmartContractMessage data) {
@@ -107,7 +126,7 @@ public class Main1Activity extends BaseActivity<MainPresenter> implements IMainV
             transformDialog.setOnClickConfirmListener(new TransferDialog.OnClickConfirmListener() {
                 @Override
                 public void onClickConfirm(String address, String value) {
-                    mPresenter.transfer(address,value);
+                    mPresenter.loadGasPrice(address,value);
                 }
 
                 @Override

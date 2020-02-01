@@ -17,6 +17,8 @@ import com.alice.utils.PermissionUtils;
 import com.alice.view.IMainView;
 import com.orhanobut.hawk.Hawk;
 
+import org.web3j.abi.TypeReference;
+import org.web3j.abi.datatypes.Type;
 import org.web3j.crypto.Credentials;
 import org.web3j.protocol.core.methods.response.EthCall;
 import org.web3j.protocol.core.methods.response.EthGetBalance;
@@ -24,7 +26,9 @@ import org.web3j.protocol.core.methods.response.TransactionReceipt;
 import org.web3j.utils.Convert;
 
 import java.io.File;
+import java.math.BigDecimal;
 import java.math.BigInteger;
+import java.util.List;
 
 public class MainPresenter extends BasePresenter<IMainView> {
 
@@ -187,8 +191,8 @@ public class MainPresenter extends BasePresenter<IMainView> {
         });
     }
 
-    public void loadSmartContractSet(String address, String function, String value, String[] params) {
-      manager.loadSmartContractSet(address,function,value,params,new BaseListener<SmartContractMessage>(){
+    public void loadSmartContractSet(String address, String function, String value, List<Type> params,List<TypeReference<?>> outputArgs) {
+      manager.loadSmartContractSet(address,function,value,params,outputArgs,new BaseListener<SmartContractMessage>(){
 
           @Override
           public void OnSuccess(SmartContractMessage s) {
@@ -213,6 +217,37 @@ public class MainPresenter extends BasePresenter<IMainView> {
             @Override
             public void OnFailed(Throwable e) {
                 mView.showToast(e.getMessage());
+            }
+        });
+    }
+
+    public void loadGasPrice(String address,String value) {
+        manager.loadTransferInfo(address, value, new BaseListener<SmartContractMessage>() {
+            @Override
+            public void OnSuccess(SmartContractMessage data) {
+
+                double mPrice = data.priceModel.getQuote().getUSD().getPrice();
+                BigInteger result = data.gasLimit.multiply(data.gasPrice);
+                String amountETH = Convert.fromWei(result.toString(), Convert.Unit.ETHER).toPlainString();
+                BigDecimal bg = new BigDecimal(Double.valueOf(amountETH) * mPrice);
+                double realPrice = bg.setScale(3, BigDecimal.ROUND_HALF_UP).doubleValue();
+                mView.showToast(realPrice + "");
+                manager.transferContract(data,value, new BaseListener<String>() {
+                    @Override
+                    public void OnSuccess(String s) {
+                        mView.showToast(s);
+                    }
+
+                    @Override
+                    public void OnFailed(Throwable e) {
+                        mView.showToast(e.toString());
+                    }
+                });
+            }
+
+            @Override
+            public void OnFailed(Throwable e) {
+
             }
         });
     }

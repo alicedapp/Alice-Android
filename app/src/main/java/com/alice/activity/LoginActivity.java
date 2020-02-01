@@ -2,13 +2,16 @@ package com.alice.activity;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.text.TextUtils;
 import android.widget.TextView;
 
 import com.alice.R;
 import com.alice.activity.base.BaseActivity;
+import com.alice.config.Constants;
 import com.alice.customView.BaseDialog;
 import com.alice.presenter.LoginPresenter;
 import com.alice.view.ILoginView;
+import com.orhanobut.hawk.Hawk;
 
 import butterknife.BindView;
 import butterknife.OnClick;
@@ -36,7 +39,10 @@ public class LoginActivity extends BaseActivity<LoginPresenter> implements ILogi
 
     @Override
     protected void initView() {
-
+        if(!TextUtils.isEmpty(Hawk.get(Constants.MEMORIZINGWORDS))){
+            finish();
+            startActivity(new Intent(this,Main1Activity.class));
+        }
     }
 
     @OnClick(R.id.tv_create)

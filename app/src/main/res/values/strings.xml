@@ -1,8 +1,9 @@
 <resources>
 	<string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">Q1ON7Z6vTppq15_sZwxzj_IFgfj7Syugq2-Zr</string>
-    <string name="app_name">alice</string>
+    <string name="app_name">DAOstack</string>
     <string name="confirm">Confirm</string>
     <string name="call_smart_contract">Call Smart Contract</string>
+    <string name="send_transaction">Send Transaction</string>
     <string name="sign_message">Sign Message</string>
     <string name="cancel">Cancel</string>
     <string name="CNY_price">CNY ¥ %1$s</string>
