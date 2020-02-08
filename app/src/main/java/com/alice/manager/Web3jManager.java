@@ -334,34 +334,28 @@ public class Web3jManager {
     /**
      * 查询智能合约
      */
-    public String getMessageName(String contractAddr) {
-        String address = Hawk.get(KEY_ADDRESS);
-        String methodName = "getMessage";
-        List<Type> inputParameters = new ArrayList<>();
-        List<TypeReference<?>> outputParameters = new ArrayList<>();
-
-        TypeReference<Utf8String> typeReference = new TypeReference<Utf8String>() {
-        };
-        outputParameters.add(typeReference);
-
-        Function function = new Function(methodName, inputParameters, outputParameters);
-
-        String data = FunctionEncoder.encode(function);
-        Transaction transaction = Transaction.createEthCallTransaction(address, contractAddr, data);
-
-        EthCall ethCall = null;
-        try {
-            ethCall = web3j.ethCall(transaction, DefaultBlockParameterName.LATEST).sendAsync().get();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (ExecutionException e) {
-            e.printStackTrace();
-        }
-        List<Type> results = FunctionReturnDecoder.decode(ethCall.getValue(), function.getOutputParameters());
-        if (null == results || results.size() <= 0) {
-            return "";
-        }
-        return results.get(0).getValue().toString();
+    public void readFromContract(String contractAddr,String functionName,List<Type> inputParameters,List<TypeReference<?>> outputParameters,BaseListener<String> listener) {
+        checkNull(listener);
+        WorkThreadHandler.getInstance().post(new Runnable() {
+            @Override
+            public void run() {
+                try{
+                    String address = Hawk.get(KEY_ADDRESS);
+                    Function function = new Function(functionName, inputParameters, outputParameters);
+                    String data = FunctionEncoder.encode(function);
+                    Transaction transaction = Transaction.createEthCallTransaction(address, contractAddr, data);
+                    EthCall ethCall = web3j.ethCall(transaction, DefaultBlockParameterName.LATEST).sendAsync().get();
+                    List<Type> results = FunctionReturnDecoder.decode(ethCall.getValue(), function.getOutputParameters());
+                    if (null != results && results.size() > 0) {
+                        MainHandler.getInstance().post(() -> listener.OnSuccess( results.get(0).getValue().toString()));
+                    }else{
+                        MainHandler.getInstance().post(() -> listener.OnFailed(new IllegalArgumentException("Hashcode is null")));
+                    }
+                }catch (Exception e){
+                    MainHandler.getInstance().post(() -> listener.OnFailed(e));
+                }
+            }
+        });
     }
 
     /**

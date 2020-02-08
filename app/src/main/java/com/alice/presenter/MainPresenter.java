@@ -19,6 +19,7 @@ import com.orhanobut.hawk.Hawk;
 
 import org.web3j.abi.TypeReference;
 import org.web3j.abi.datatypes.Type;
+import org.web3j.abi.datatypes.Utf8String;
 import org.web3j.crypto.Credentials;
 import org.web3j.protocol.core.methods.response.EthCall;
 import org.web3j.protocol.core.methods.response.EthGetBalance;
@@ -28,6 +29,7 @@ import org.web3j.utils.Convert;
 import java.io.File;
 import java.math.BigDecimal;
 import java.math.BigInteger;
+import java.util.ArrayList;
 import java.util.List;
 
 public class MainPresenter extends BasePresenter<IMainView> {
@@ -139,11 +141,19 @@ public class MainPresenter extends BasePresenter<IMainView> {
     }
 
     public void smartContract() {
-        WorkThreadHandler.getInstance().post(new Runnable() {
+        List<Type> inputParameters = new ArrayList<>();
+        List<TypeReference<?>> outputParameters = new ArrayList<>();
+        TypeReference<Utf8String> typeReference = new TypeReference<Utf8String>() {};
+        outputParameters.add(typeReference);
+        manager.readFromContract("0x2f21957c7147c3eE49235903D6471159a16c9ccd", "getMessage", inputParameters, outputParameters, new BaseListener<String>() {
             @Override
-            public void run() {
-                String message = manager.getMessageName("0x2f21957c7147c3eE49235903D6471159a16c9ccd");
-                mView.showToast(message);
+            public void OnSuccess(String s) {
+                mView.showToast(s);
+            }
+
+            @Override
+            public void OnFailed(Throwable e) {
+                mView.showToast(e.getMessage());
             }
         });
     }

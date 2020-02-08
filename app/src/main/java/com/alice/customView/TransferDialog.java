@@ -14,6 +14,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.alice.R;
+import com.alice.async.MainHandler;
 import com.alice.model.PriceModel;
 import com.alice.net.Api;
 import com.alice.net.ApiConstants;
@@ -135,18 +136,23 @@ public class TransferDialog extends Dialog {
         btnNegative.setOnClickListener(v -> dismiss());
         if (onClickConfirmListener!=null) {
             btnPositive.setOnClickListener(v -> {
-                String address = etAddress.getText().toString();
-                String value = etValue.getText().toString();
-                if(TextUtils.isEmpty(address)){
-                    onClickConfirmListener.onAddressError("address is null");
-                    return;
-                }
-                if(TextUtils.isEmpty(value)){
-                    onClickConfirmListener.onValueError("value is null");
-                    return;
-                }
-                onClickConfirmListener.onClickConfirm(address,value);
-                dismiss();
+                MainHandler.getInstance().post(new Runnable() {
+                    @Override
+                    public void run() {
+                        String address = etAddress.getText().toString();
+                        String value = etValue.getText().toString();
+                        if(TextUtils.isEmpty(address)){
+                            onClickConfirmListener.onAddressError("address is null");
+                            return;
+                        }
+                        if(TextUtils.isEmpty(value)){
+                            onClickConfirmListener.onValueError("value is null");
+                            return;
+                        }
+                        onClickConfirmListener.onClickConfirm(address,value);
+                        dismiss();
+                    }
+                });
             });
         }
         dataSource.execute(dataSource.getService(Api.class).getPriceModel(ApiConstants.CONVERT, 2, 1, "USD"), new RequestCallback<PriceModel>() {
