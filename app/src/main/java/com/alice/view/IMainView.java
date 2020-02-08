@@ -15,5 +15,6 @@ public interface IMainView extends IBaseView{
     void showContent(Credentials credentials);
     void showCreateDialog();
     void setBottomView(SmartContractMessage smartContractMessage);
+    void setShowSendTransaction(SmartContractMessage smartContractMessage);
     void onSignSuccess();
 }

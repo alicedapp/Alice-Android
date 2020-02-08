@@ -167,7 +167,7 @@ public class Web3jManager {
 
     public void importWallet(String memorizingWords,BaseListener<Credentials> listener) {
         checkNull(listener);
-        WorkThreadHandler.getInstance().post(() -> {
+       /* WorkThreadHandler.getInstance().post(() -> {
             try {
                 byte[] seed = MnemonicUtils.generateSeed(memorizingWords, "");
                 Bip32ECKeyPair masterKeypair = Bip32ECKeyPair.generateKeyPair(seed);
@@ -188,8 +188,8 @@ public class Web3jManager {
                 });
             }
 
-        });
-       /* WorkThreadHandler.getInstance().post(() -> {
+        });*/
+        WorkThreadHandler.getInstance().post(() -> {
             try {
                 mCredentials = WalletUtils.loadBip39Credentials(psw, memorizingWords);
                 Hawk.put(KEY_ADDRESS, mCredentials.getAddress());
@@ -205,7 +205,7 @@ public class Web3jManager {
                 });
             }
 
-        });*/
+        });
     }
 
     /**
@@ -624,6 +624,7 @@ public class Web3jManager {
                     smartContractMessage.priceModel = priceModel;
                     smartContractMessage.gasPriceModel = gasPriceModel;
                     smartContractMessage.contractAddr = toAddr;
+                    smartContractMessage.value = amount;
 
                     MainHandler.getInstance().post(() -> listener.OnSuccess(smartContractMessage));
                 }catch (Exception e){

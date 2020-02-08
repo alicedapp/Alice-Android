@@ -25,6 +25,8 @@ public class SmartContractMessage {
 
     public String fromAddr;
 
+    public String value;
+
     @Override
     public String toString() {
         return "SmartContractMessage{" +

@@ -12,8 +12,8 @@
     <LinearLayout
         android:id="@+id/rl_content"
         android:layout_width="match_parent"
-        android:translationY="@dimen/view_dimen_1200"
-        android:layout_height="@dimen/view_dimen_1200"
+        android:translationY="@dimen/view_dimen_1080"
+        android:layout_height="@dimen/view_dimen_1080"
         android:layout_alignParentBottom="true"
         android:background="@drawable/bg_corner_24_solid_top_ffffff"
         android:orientation="vertical">

@@ -67,6 +67,11 @@ public class BottomTapView extends RelativeLayout {
 
     private SmartContractMessage mData;
 
+    private boolean isShow;
+
+    public boolean isShow() {
+        return isShow;
+    }
 
     public void setOnClickSendListener(OnClickSendListener onClickSendListener) {
         this.onClickSendListener = onClickSendListener;
@@ -128,6 +133,7 @@ public class BottomTapView extends RelativeLayout {
             ObjectAnimator translationYAnimation = ObjectAnimator.ofFloat(mContent, "translationY",mContent.getTranslationY(),0);
             translationYAnimation.setDuration(200);
             translationYAnimation.start();
+            isShow = true;
         }
     }
 
@@ -140,6 +146,7 @@ public class BottomTapView extends RelativeLayout {
                 @Override
                 public void onAnimationEnd(Animator animation) {
                     mParentView.removeView(BottomTapView.this);
+                    isShow = false;
                     super.onAnimationEnd(animation);
                 }
             });

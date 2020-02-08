@@ -225,29 +225,26 @@ public class MainPresenter extends BasePresenter<IMainView> {
         manager.loadTransferInfo(address, value, new BaseListener<SmartContractMessage>() {
             @Override
             public void OnSuccess(SmartContractMessage data) {
-
-                double mPrice = data.priceModel.getQuote().getUSD().getPrice();
-                BigInteger result = data.gasLimit.multiply(data.gasPrice);
-                String amountETH = Convert.fromWei(result.toString(), Convert.Unit.ETHER).toPlainString();
-                BigDecimal bg = new BigDecimal(Double.valueOf(amountETH) * mPrice);
-                double realPrice = bg.setScale(3, BigDecimal.ROUND_HALF_UP).doubleValue();
-                mView.showToast(realPrice + "");
-                manager.transferContract(data,value, new BaseListener<String>() {
-                    @Override
-                    public void OnSuccess(String s) {
-                        mView.showToast(s);
-                    }
-
-                    @Override
-                    public void OnFailed(Throwable e) {
-                        mView.showToast(e.toString());
-                    }
-                });
+                mView.setShowSendTransaction(data);
             }
 
             @Override
             public void OnFailed(Throwable e) {
+                mView.showToast(e.getMessage());
+            }
+        });
+    }
 
+    public void transferContract(SmartContractMessage data){
+        manager.transferContract(data,data.value, new BaseListener<String>() {
+            @Override
+            public void OnSuccess(String s) {
+                mView.showToast(s);
+            }
+
+            @Override
+            public void OnFailed(Throwable e) {
+                mView.showToast(e.toString());
             }
         });
     }

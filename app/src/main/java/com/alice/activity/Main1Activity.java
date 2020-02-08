@@ -1,9 +1,7 @@
 package com.alice.activity;
 
 import android.content.Intent;
-import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.alice.R;
 import com.alice.activity.base.BaseActivity;
@@ -21,14 +19,10 @@ import com.alice.view.IMainView;
 import com.orhanobut.hawk.Hawk;
 
 import org.web3j.abi.TypeReference;
-import org.web3j.abi.datatypes.Address;
 import org.web3j.abi.datatypes.Type;
 import org.web3j.abi.datatypes.Utf8String;
-import org.web3j.abi.datatypes.generated.Uint256;
 import org.web3j.crypto.Credentials;
 
-import java.math.BigDecimal;
-import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -127,6 +121,8 @@ public class Main1Activity extends BaseActivity<MainPresenter> implements IMainV
                 @Override
                 public void onClickConfirm(String address, String value) {
                     mPresenter.loadGasPrice(address,value);
+                    progressDialog.setMessage("Loading");
+                    progressDialog.show();
                 }
 
                 @Override
@@ -188,7 +184,24 @@ public class Main1Activity extends BaseActivity<MainPresenter> implements IMainV
 
     @Override
     public void setBottomView(SmartContractMessage smartContractMessage) {
-        mBottomTapView.setData(smartContractMessage);
+        if(mBottomTapView!=null){
+            mBottomTapView.setData(smartContractMessage);
+        }
+    }
+
+    @Override
+    public void setShowSendTransaction(SmartContractMessage smartContractMessage) {
+        mSendTransactionView = new SendTransactionView(Main1Activity.this);
+        mSendTransactionView.setData(smartContractMessage);
+        mSendTransactionView.setOnClickSendListener(new BaseBottomView.OnClickSendListener<SmartContractMessage>() {
+            @Override
+            public void OnClickSend(SmartContractMessage data) {
+                mSendTransactionView.hideView();
+                mPresenter.transferContract(data);
+            }
+        });
+        mSendTransactionView.showView(Main1Activity.this);
+        progressDialog.dismiss();
     }
 
     @Override
@@ -206,5 +219,23 @@ public class Main1Activity extends BaseActivity<MainPresenter> implements IMainV
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         mPresenter.onRequestPermissionsResult(requestCode,permissions,grantResults);
+    }
+
+    @Override
+    public void onBackPressed() {
+        if(mBottomTapView!=null &&mBottomTapView.isShow()){
+            mBottomTapView.hideView();
+            return;
+        }
+        if(mSendTransactionView!=null &&mSendTransactionView.isShow()){
+            mSendTransactionView.hideView();
+            return;
+        }
+        if(mSignMessage!=null&&mSignMessage.isShow()){
+            mSignMessage.hideView();
+            return;
+        }
+        super.onBackPressed();
+
     }
 }

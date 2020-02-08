@@ -18,6 +18,7 @@ import android.widget.Toast;
 import com.alice.R;
 import com.alice.model.SmartContractMessage;
 import com.alice.source.BaseDataSource;
+import com.alice.utils.ToastUtils;
 
 import org.web3j.utils.Convert;
 
@@ -36,6 +37,11 @@ public abstract class BaseBottomView<T> extends RelativeLayout {
     protected ViewGroup mParentView;
     protected TextView mSend;
     protected T mData;
+    private boolean isShow;
+
+    public boolean isShow() {
+        return isShow;
+    }
 
     private OnClickSendListener onClickSendListener;
 
@@ -43,7 +49,7 @@ public abstract class BaseBottomView<T> extends RelativeLayout {
         this(context,null);
     }
 
-    public void setOnClickSendListener(OnClickSendListener onClickSendListener) {
+    public void setOnClickSendListener(OnClickSendListener<T> onClickSendListener) {
         this.onClickSendListener = onClickSendListener;
     }
 
@@ -57,6 +63,10 @@ public abstract class BaseBottomView<T> extends RelativeLayout {
         bg.setOnClickListener(v -> hideView());
         mSend.setOnClickListener(v -> {
             if(onClickSendListener!=null){
+                if(mData == null){
+                    ToastUtils.makeText("please wait data to load");
+                    return;
+                }
                 onClickSendListener.OnClickSend(mData);
             }
         });
@@ -76,6 +86,7 @@ public abstract class BaseBottomView<T> extends RelativeLayout {
             ObjectAnimator translationYAnimation = ObjectAnimator.ofFloat(mContent, "translationY",mContent.getTranslationY(),0);
             translationYAnimation.setDuration(200);
             translationYAnimation.start();
+            isShow = true;
         }
     }
 
@@ -88,6 +99,7 @@ public abstract class BaseBottomView<T> extends RelativeLayout {
                 @Override
                 public void onAnimationEnd(Animator animation) {
                     mParentView.removeView(BaseBottomView.this);
+                    isShow = false;
                     super.onAnimationEnd(animation);
                 }
             });
